@@ -1,0 +1,275 @@
+{
+  "projeto": "Mene Tekel",
+  "versao_metodologia": "1.0.0",
+  "atualizado_em": "2026-11-04",
+  "ano": 2026,
+  "selos": 3.0,
+  "selo_atual": 4,
+  "fracao_selo_atual": 0.0,
+  "total": 4.29,
+  "tendencia_pontos_ano": 0.129,
+  "situacao": "piora",
+  "ano_setimo_selo": 2071,
+  "momento_historico": {
+    "tipo": "desde",
+    "ano": 1990
+  },
+  "cavaleiros": {
+    "conquista": {
+      "nota": 6.17,
+      "cobertura": 0.67,
+      "indicadores": [
+        "conquista.compute",
+        "conquista.cves",
+        "conquista.democracia"
+      ]
+    },
+    "guerra": {
+      "nota": 3.79,
+      "cobertura": 0.25,
+      "indicadores": [
+        "guerra.conflitos",
+        "guerra.gasto_militar",
+        "guerra.mortes_conflito",
+        "guerra.ogivas"
+      ]
+    },
+    "fome": {
+      "nota": 2.64,
+      "cobertura": 0.33,
+      "indicadores": [
+        "fome.fpi",
+        "fome.pobreza",
+        "fome.subnutricao"
+      ]
+    },
+    "morte": {
+      "nota": 6.31,
+      "cobertura": 0.4,
+      "indicadores": [
+        "morte.ambiente.biodiversidade",
+        "morte.ambiente.temperatura",
+        "morte.peste.emergencias",
+        "morte.peste.mortes_infecciosas",
+        "morte.peste.vacinacao"
+      ]
+    }
+  },
+  "indicadores": [
+    {
+      "id": "conquista.compute",
+      "cavaleiro": "conquista",
+      "subindice": null,
+      "nome": "Fronteira da IA — maior computação de treino já usada até o ano (petaFLOP)",
+      "fonte": "Epoch AI (via Our World in Data)",
+      "fonte_url": "https://epoch.ai/data/notable-ai-models",
+      "licenca": "CC-BY 4.0",
+      "peso": 0.5,
+      "nota": 8.1,
+      "estimado": false,
+      "ultimo_dado": "2026-01-01",
+      "valor": 500000000000.0
+    },
+    {
+      "id": "conquista.cves",
+      "cavaleiro": "conquista",
+      "subindice": null,
+      "nome": "Vulnerabilidades (CVEs) publicadas por mês, sem as rejeitadas",
+      "fonte": "NVD (NIST)",
+      "fonte_url": "https://nvd.nist.gov",
+      "licenca": "Domínio público (governo dos EUA)",
+      "peso": 0.5,
+      "nota": 9.62,
+      "estimado": false,
+      "ultimo_dado": "2026-10-01",
+      "valor": 107827.2
+    },
+    {
+      "id": "conquista.democracia",
+      "cavaleiro": "conquista",
+      "subindice": null,
+      "nome": "Índice de democracia liberal, média global (média simples entre países)",
+      "fonte": "V-Dem (via Our World in Data)",
+      "fonte_url": "https://v-dem.net",
+      "licenca": "CC-BY 4.0",
+      "peso": 1.0,
+      "nota": 3.47,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "valor": 0.371754
+    },
+    {
+      "id": "fome.fpi",
+      "cavaleiro": "fome",
+      "subindice": null,
+      "nome": "FAO Food Price Index real, mensal (2014-2016 = 100)",
+      "fonte": "FAO",
+      "fonte_url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+      "licenca": "CC-BY-NC-SA 3.0 IGO",
+      "peso": 1.0,
+      "nota": 6.43,
+      "estimado": false,
+      "ultimo_dado": "2026-09-01"
+    },
+    {
+      "id": "fome.pobreza",
+      "cavaleiro": "fome",
+      "subindice": null,
+      "nome": "Pobreza extrema (% da população mundial)",
+      "fonte": "Banco Mundial PIP (via WDI)",
+      "fonte_url": "https://data.worldbank.org/indicator/SI.POV.DDAY",
+      "licenca": "CC-BY 4.0",
+      "peso": 1.0,
+      "nota": 0.0,
+      "estimado": true,
+      "ultimo_dado": "2024-01-01",
+      "valor": 10.1
+    },
+    {
+      "id": "fome.subnutricao",
+      "cavaleiro": "fome",
+      "subindice": null,
+      "nome": "Prevalência de subnutrição (% da população)",
+      "fonte": "FAO SOFI (via Our World in Data)",
+      "fonte_url": "https://www.fao.org/publications/sofi",
+      "licenca": "CC-BY 4.0 (OWID)",
+      "peso": 1.0,
+      "nota": 1.49,
+      "estimado": true,
+      "ultimo_dado": "2024-01-01",
+      "valor": 8.2
+    },
+    {
+      "id": "guerra.conflitos",
+      "cavaleiro": "guerra",
+      "subindice": null,
+      "nome": "Conflitos estatais ativos",
+      "fonte": "UCDP/PRIO (via Our World in Data)",
+      "fonte_url": "https://ucdp.uu.se",
+      "licenca": "CC-BY 4.0 (OWID)",
+      "peso": 1.0,
+      "nota": 8.0,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "valor": 65.0
+    },
+    {
+      "id": "guerra.gasto_militar",
+      "cavaleiro": "guerra",
+      "subindice": null,
+      "nome": "Gasto militar mundial (% do PIB)",
+      "fonte": "SIPRI (via Banco Mundial, WDI)",
+      "fonte_url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS",
+      "licenca": "CC-BY 4.0",
+      "peso": 1.0,
+      "nota": 2.46,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "valor": 2.47893
+    },
+    {
+      "id": "guerra.mortes_conflito",
+      "cavaleiro": "guerra",
+      "subindice": null,
+      "nome": "Mortes em conflitos armados por 100 mil habitantes",
+      "fonte": "UCDP (via Our World in Data); ACLED para o ano corrente",
+      "fonte_url": "https://ucdp.uu.se",
+      "licenca": "CC-BY 4.0 (OWID)",
+      "peso": 1.0,
+      "nota": 4.7,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "valor": 2.979519
+    },
+    {
+      "id": "guerra.ogivas",
+      "cavaleiro": "guerra",
+      "subindice": null,
+      "nome": "Estoque mundial de ogivas nucleares",
+      "fonte": "Federation of American Scientists (via Our World in Data)",
+      "fonte_url": "https://fas.org/initiative/status-world-nuclear-forces/",
+      "licenca": "CC-BY 4.0 (OWID)",
+      "peso": 1.0,
+      "nota": 0.01,
+      "estimado": false,
+      "ultimo_dado": "2026-01-01",
+      "valor": 12187.0
+    },
+    {
+      "id": "morte.ambiente.biodiversidade",
+      "cavaleiro": "morte",
+      "subindice": "ambiente",
+      "nome": "Red List Index (1 = nenhuma espécie ameaçada)",
+      "fonte": "IUCN (via Our World in Data / ODS 15.5.1)",
+      "fonte_url": "https://www.iucnredlist.org",
+      "licenca": "CC-BY 4.0 (OWID)",
+      "peso": 1.0,
+      "nota": 8.0,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "valor": 0.74
+    },
+    {
+      "id": "morte.ambiente.temperatura",
+      "cavaleiro": "morte",
+      "subindice": "ambiente",
+      "nome": "Anomalia de temperatura global, mensal (°C, relativa a 1951–1980)",
+      "fonte": "NASA GISTEMP v4",
+      "fonte_url": "https://data.giss.nasa.gov/gistemp/",
+      "licenca": "Domínio público (governo dos EUA)",
+      "peso": 1.0,
+      "nota": 7.67,
+      "estimado": false,
+      "ultimo_dado": "2026-09-01",
+      "valor": 1.234444
+    },
+    {
+      "id": "morte.peste.emergencias",
+      "cavaleiro": "morte",
+      "subindice": "peste",
+      "nome": "Emergências de saúde pública internacionais (PHEIC) ativas por dia, média do mês",
+      "fonte": "OMS (cronologia curada em app/data/pheic.yaml)",
+      "fonte_url": "https://www.who.int/emergencies/ihr-emergency-committees",
+      "licenca": "Fato público",
+      "peso": 1.0,
+      "nota": 5.21,
+      "estimado": false,
+      "ultimo_dado": "2026-11-01",
+      "valor": 1.589443
+    },
+    {
+      "id": "morte.peste.mortes_infecciosas",
+      "cavaleiro": "morte",
+      "subindice": "peste",
+      "nome": "Mortes por doenças transmissíveis, maternas, perinatais e nutricionais (% do total de mortes)",
+      "fonte": "OMS Global Health Estimates (via Banco Mundial, WDI)",
+      "fonte_url": "https://data.worldbank.org/indicator/SH.DTH.COMM.ZS",
+      "licenca": "CC-BY 4.0",
+      "peso": 1.0,
+      "nota": 5.13,
+      "estimado": true,
+      "ultimo_dado": "2021-01-01",
+      "valor": 27.366087
+    },
+    {
+      "id": "morte.peste.vacinacao",
+      "cavaleiro": "morte",
+      "subindice": "peste",
+      "nome": "Cobertura vacinal DTP3 global (%)",
+      "fonte": "WHO/UNICEF WUENIC (via Our World in Data)",
+      "fonte_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/immunization-coverage/who-unicef-estimates-of-national-immunization-coverage",
+      "licenca": "CC-BY 4.0 (OWID)",
+      "peso": 1.0,
+      "nota": 4.0,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "valor": 85.0
+    }
+  ],
+  "sem_dados": [
+    "conquista.incidentes",
+    "morte.peste.surtos",
+    "morte.ambiente.desastres"
+  ],
+  "licenca": "CC BY 4.0"
+}

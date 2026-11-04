@@ -1,0 +1,376 @@
+{
+  "versao_metodologia": "1.0.0",
+  "atualizado_em": "2026-11-04",
+  "anos": [
+    {
+      "ano": 1990,
+      "selos": 3.07,
+      "total": 4.38,
+      "conquista": 4.0,
+      "guerra": 5.97,
+      "fome": 5.64,
+      "morte": 3.54,
+      "estimado": false
+    },
+    {
+      "ano": 1991,
+      "selos": 2.93,
+      "total": 4.18,
+      "conquista": 3.41,
+      "guerra": 5.53,
+      "fome": 5.59,
+      "morte": 3.82,
+      "estimado": false
+    },
+    {
+      "ano": 1992,
+      "selos": 2.71,
+      "total": 3.87,
+      "conquista": 2.86,
+      "guerra": 4.97,
+      "fome": 5.58,
+      "morte": 3.65,
+      "estimado": false
+    },
+    {
+      "ano": 1993,
+      "selos": 2.4,
+      "total": 3.43,
+      "conquista": 2.16,
+      "guerra": 4.11,
+      "fome": 5.32,
+      "morte": 3.66,
+      "estimado": false
+    },
+    {
+      "ano": 1994,
+      "selos": 2.61,
+      "total": 3.73,
+      "conquista": 1.96,
+      "guerra": 5.27,
+      "fome": 5.6,
+      "morte": 3.63,
+      "estimado": false
+    },
+    {
+      "ano": 1995,
+      "selos": 2.24,
+      "total": 3.2,
+      "conquista": 1.74,
+      "guerra": 2.88,
+      "fome": 5.65,
+      "morte": 4.08,
+      "estimado": false
+    },
+    {
+      "ano": 1996,
+      "selos": 2.19,
+      "total": 3.13,
+      "conquista": 1.63,
+      "guerra": 2.81,
+      "fome": 5.68,
+      "morte": 3.94,
+      "estimado": false
+    },
+    {
+      "ano": 1997,
+      "selos": 2.11,
+      "total": 3.02,
+      "conquista": 1.51,
+      "guerra": 2.43,
+      "fome": 5.46,
+      "morte": 4.18,
+      "estimado": false
+    },
+    {
+      "ano": 1998,
+      "selos": 2.08,
+      "total": 2.98,
+      "conquista": 1.44,
+      "guerra": 2.32,
+      "fome": 5.31,
+      "morte": 4.35,
+      "estimado": false
+    },
+    {
+      "ano": 1999,
+      "selos": 1.98,
+      "total": 2.82,
+      "conquista": 1.43,
+      "guerra": 2.48,
+      "fome": 4.77,
+      "morte": 4.07,
+      "estimado": false
+    },
+    {
+      "ano": 2000,
+      "selos": 1.9,
+      "total": 2.72,
+      "conquista": 1.26,
+      "guerra": 2.38,
+      "fome": 4.62,
+      "morte": 4.02,
+      "estimado": false
+    },
+    {
+      "ano": 2001,
+      "selos": 1.87,
+      "total": 2.67,
+      "conquista": 1.39,
+      "guerra": 1.8,
+      "fome": 4.83,
+      "morte": 4.12,
+      "estimado": false
+    },
+    {
+      "ano": 2002,
+      "selos": 1.86,
+      "total": 2.65,
+      "conquista": 1.21,
+      "guerra": 1.67,
+      "fome": 4.71,
+      "morte": 4.45,
+      "estimado": false
+    },
+    {
+      "ano": 2003,
+      "selos": 1.75,
+      "total": 2.5,
+      "conquista": 0.86,
+      "guerra": 1.71,
+      "fome": 4.57,
+      "morte": 4.22,
+      "estimado": false
+    },
+    {
+      "ano": 2004,
+      "selos": 1.71,
+      "total": 2.44,
+      "conquista": 1.02,
+      "guerra": 1.59,
+      "fome": 4.59,
+      "morte": 3.91,
+      "estimado": false
+    },
+    {
+      "ano": 2005,
+      "selos": 1.62,
+      "total": 2.31,
+      "conquista": 1.26,
+      "guerra": 1.24,
+      "fome": 4.14,
+      "morte": 3.95,
+      "estimado": false
+    },
+    {
+      "ano": 2006,
+      "selos": 1.54,
+      "total": 2.2,
+      "conquista": 1.29,
+      "guerra": 1.27,
+      "fome": 3.77,
+      "morte": 3.77,
+      "estimado": false
+    },
+    {
+      "ano": 2007,
+      "selos": 1.59,
+      "total": 2.27,
+      "conquista": 1.36,
+      "guerra": 1.27,
+      "fome": 4.05,
+      "morte": 3.72,
+      "estimado": false
+    },
+    {
+      "ano": 2008,
+      "selos": 1.66,
+      "total": 2.38,
+      "conquista": 1.19,
+      "guerra": 1.7,
+      "fome": 4.37,
+      "morte": 3.58,
+      "estimado": false
+    },
+    {
+      "ano": 2009,
+      "selos": 1.58,
+      "total": 2.26,
+      "conquista": 1.13,
+      "guerra": 2.04,
+      "fome": 3.27,
+      "morte": 3.89,
+      "estimado": false
+    },
+    {
+      "ano": 2010,
+      "selos": 1.45,
+      "total": 2.08,
+      "conquista": 0.95,
+      "guerra": 1.25,
+      "fome": 3.49,
+      "morte": 3.85,
+      "estimado": false
+    },
+    {
+      "ano": 2011,
+      "selos": 1.4,
+      "total": 2.01,
+      "conquista": 0.82,
+      "guerra": 1.48,
+      "fome": 3.68,
+      "morte": 3.24,
+      "estimado": false
+    },
+    {
+      "ano": 2012,
+      "selos": 1.39,
+      "total": 1.98,
+      "conquista": 0.89,
+      "guerra": 1.53,
+      "fome": 3.18,
+      "morte": 3.51,
+      "estimado": false
+    },
+    {
+      "ano": 2013,
+      "selos": 1.42,
+      "total": 2.02,
+      "conquista": 1.17,
+      "guerra": 1.83,
+      "fome": 2.81,
+      "morte": 3.47,
+      "estimado": false
+    },
+    {
+      "ano": 2014,
+      "selos": 1.62,
+      "total": 2.31,
+      "conquista": 1.85,
+      "guerra": 2.24,
+      "fome": 2.39,
+      "morte": 4.07,
+      "estimado": false
+    },
+    {
+      "ano": 2015,
+      "selos": 1.67,
+      "total": 2.39,
+      "conquista": 1.79,
+      "guerra": 2.6,
+      "fome": 1.86,
+      "morte": 4.64,
+      "estimado": false
+    },
+    {
+      "ano": 2016,
+      "selos": 1.71,
+      "total": 2.45,
+      "conquista": 2.16,
+      "guerra": 2.43,
+      "fome": 1.88,
+      "morte": 4.68,
+      "estimado": false
+    },
+    {
+      "ano": 2017,
+      "selos": 1.67,
+      "total": 2.38,
+      "conquista": 2.62,
+      "guerra": 2.3,
+      "fome": 1.73,
+      "morte": 4.21,
+      "estimado": false
+    },
+    {
+      "ano": 2018,
+      "selos": 1.57,
+      "total": 2.24,
+      "conquista": 2.75,
+      "guerra": 2.01,
+      "fome": 1.44,
+      "morte": 4.07,
+      "estimado": false
+    },
+    {
+      "ano": 2019,
+      "selos": 1.75,
+      "total": 2.5,
+      "conquista": 3.09,
+      "guerra": 2.27,
+      "fome": 1.62,
+      "morte": 4.42,
+      "estimado": false
+    },
+    {
+      "ano": 2020,
+      "selos": 2.17,
+      "total": 3.1,
+      "conquista": 3.44,
+      "guerra": 2.63,
+      "fome": 2.31,
+      "morte": 5.6,
+      "estimado": false
+    },
+    {
+      "ano": 2021,
+      "selos": 2.48,
+      "total": 3.54,
+      "conquista": 4.02,
+      "guerra": 2.62,
+      "fome": 3.14,
+      "morte": 6.03,
+      "estimado": false
+    },
+    {
+      "ano": 2022,
+      "selos": 2.65,
+      "total": 3.78,
+      "conquista": 4.35,
+      "guerra": 2.95,
+      "fome": 3.45,
+      "morte": 6.06,
+      "estimado": false
+    },
+    {
+      "ano": 2023,
+      "selos": 2.6,
+      "total": 3.71,
+      "conquista": 4.87,
+      "guerra": 2.93,
+      "fome": 2.66,
+      "morte": 6.07,
+      "estimado": false
+    },
+    {
+      "ano": 2024,
+      "selos": 2.67,
+      "total": 3.81,
+      "conquista": 5.35,
+      "guerra": 3.23,
+      "fome": 2.35,
+      "morte": 6.04,
+      "estimado": false
+    },
+    {
+      "ano": 2025,
+      "selos": 2.91,
+      "total": 4.16,
+      "conquista": 5.76,
+      "guerra": 3.79,
+      "fome": 2.52,
+      "morte": 6.3,
+      "estimado": false
+    },
+    {
+      "ano": 2026,
+      "selos": 3.0,
+      "total": 4.29,
+      "conquista": 6.17,
+      "guerra": 3.79,
+      "fome": 2.64,
+      "morte": 6.31,
+      "estimado": false
+    }
+  ]
+}

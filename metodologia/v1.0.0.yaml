@@ -1,0 +1,106 @@
+# Mene Tekel · Metodologia v1.0.0
+#
+# Publicada em 04/11/2026. Âncoras congeladas a partir da versão provisória 1.0.0-rc4
+# (calculada com os dados de 1990–2025). Qualquer mudança em âncora, peso, indicador
+# ou regra gera nova versão e o recálculo de toda a série.
+#
+# Histórico das versões provisórias:
+#   rc1  primeira leitura com dados reais (15 de 18 indicadores)
+#   rc2  mortes em conflitos em escala log; computação de IA pela fronteira (recorde
+#        acumulado); momento histórico vira ranking quando o "desde" é muito recente
+#   rc3  CVEs críticas → total de CVEs publicadas (a contagem de críticas caiu 31% em
+#        2024 pelo atraso de análise do NVD)
+#   rc4  total de CVEs com meio peso e escala log (viés de reporte)
+#
+# Ainda sem dados (entram numa versão futura, com âncoras próprias):
+#   conquista.incidentes, morte.peste.surtos, morte.ambiente.desastres
+# Pendente: Guerra além da contagem de ogivas (ver fim do arquivo).
+
+versao: 1.0.0
+ano_inicio: 1990
+margem_auto: 0.25        # só usada por indicadores ainda sem âncora congelada
+
+cavaleiros:
+  conquista: 0.25
+  guerra: 0.25
+  fome: 0.25
+  morte: 0.25
+
+subindices:              # dentro de Morte
+  peste: 0.5
+  ambiente: 0.5
+
+minimo_indicadores: 2    # um cavaleiro precisa de pelo menos 2 indicadores com dado
+
+interacoes:
+  - [guerra, fome, 0.05]       # bloqueios, destruição agrícola, choque de preços
+  - [guerra, conquista, 0.05]  # IA militar, armas autônomas, ciberguerra
+  - [fome, morte, 0.04]        # clima e seca na produção; desnutrição e doenças
+  - [guerra, morte, 0.03]      # colapso de saúde pública em guerra; escassez gerando conflito
+  - [conquista, morte, 0.03]   # biossegurança e desinformação em pandemias
+
+projecao:
+  janela_anos: 5            # tendência = Theil-Sen dos últimos 5 anos
+  limiar_estavel: 0.02      # |tendência| abaixo disso = estável (pontos/ano)
+  horizonte_max: 100        # além disso: "mais de um século"
+  momento_min_anos: 5       # "o nível mais alto desde X" só se X for ≥ 5 anos atrás;
+                            # senão: "o Nº ano mais crítico desde 1990"
+
+# anual:     valor (série anual) | media (dos meses) | soma (dos meses; ano corrente
+#            anualizado com ≥ 3 meses)
+# acumulado: max = recorde até o ano (fronteira)
+# direcao:   1 = valor maior é pior; -1 = valor maior é melhor (proteção)
+# piso:      valor com nota 0     teto: valor com nota 10   (na unidade original)
+# Origem das âncoras: [lim] limiar científico ou de política pública;
+#                     [hist] faixa histórica 1990–2025 (melhor → 0; pior + 25% → 10)
+indicadores:
+
+  # ⚪ Conquista
+  conquista.compute:        # [regra] 0 = fronteira de 2010; 10 = recorde de 2025 × 100 (petaFLOP)
+    {anual: valor, acumulado: max, direcao: 1, escala_log: true, peso: 0.5,
+     piso: 1449.4465, teto: 5.0e13}
+  conquista.cves:           # [hist, log] CVEs publicadas por ano; meio peso (viés de reporte)
+    {anual: soma, direcao: 1, escala_log: true, peso: 0.5, piso: 894, teto: 130443.4447}
+  conquista.democracia:     # [hist] V-Dem, média global
+    {anual: valor, direcao: -1, piso: 0.41185474, teto: 0.29645199}
+  conquista.incidentes:     {anual: valor, direcao: 1, escala_log: true, piso: auto, teto: auto}
+
+  # 🔴 Guerra
+  guerra.ogivas:            # [hist]
+    {anual: valor, direcao: 1, piso: 12121, teto: 73506}
+  guerra.mortes_conflito:   # [hist, log] mortes por 100 mil hab.
+    {anual: valor, direcao: 1, escala_log: true, piso: 0.31129915, teto: 38.05052598}
+  guerra.conflitos:         # [hist]
+    {anual: valor, direcao: 1, piso: 31, teto: 73.5}
+  guerra.gasto_militar:     # [hist] % do PIB mundial
+    {anual: valor, direcao: 1, piso: 2.10542540055738, teto: 3.62460952161719}
+
+  # ⚫ Fome
+  fome.fpi:                 # [hist] índice real FAO (média anual)
+    {anual: media, direcao: 1, piso: 67.4772048496002, teto: 137.005597124127}
+  fome.subnutricao:         # [hist] % da população
+    {anual: valor, direcao: 1, piso: 7.1, teto: 14.475}
+  fome.pobreza:             # [hist] % da população
+    {anual: valor, direcao: 1, piso: 10.1, teto: 51.725}
+
+  # 🟢 Morte · Peste
+  morte.peste.mortes_infecciosas:   # [hist] % do total de mortes
+    {anual: valor, direcao: 1, piso: 18.2908295889405, teto: 35.970171089774}
+  morte.peste.surtos:       {anual: valor, direcao: 1, piso: auto, teto: auto}
+  morte.peste.emergencias:  # [hist] emergências PHEIC ativas por dia (média anual)
+    {anual: media, direcao: 1, piso: 0, teto: 3.0510753125}
+  morte.peste.vacinacao:    # [lim] 0 = meta de 95% da OMS; 10 = 70%
+    {anual: valor, direcao: -1, piso: 95, teto: 70}
+
+  # 🟢 Morte · Ambiente
+  morte.ambiente.temperatura:   # [lim] 0 = pré-industrial (−0,3 °C na base 1951–1980); 10 = +2 °C
+    {anual: media, direcao: 1, piso: -0.3, teto: 1.7}
+  morte.ambiente.desastres: {anual: valor, direcao: 1, piso: auto, teto: auto}
+  morte.ambiente.biodiversidade:  # [hist] Red List Index
+    {anual: valor, direcao: -1, piso: 0.81, teto: 0.7225}
+
+# ── Pendente: Guerra além das ogivas ─────────────────────────────────────
+# A contagem de ogivas caiu ~80% desde 1990 e puxa Guerra para baixo, embora o risco
+# militar tenha mudado de forma (drones, mísseis, ciberataques entre Estados).
+# Candidatos: ACLED "explosões/violência remota", SIPRI transferências de armas (TIV),
+# FAS ogivas prontas para uso, CSIS incidentes cibernéticos significativos.

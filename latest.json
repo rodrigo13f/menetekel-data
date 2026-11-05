@@ -1,7 +1,7 @@
 {
   "projeto": "Mene Tekel",
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-04",
+  "atualizado_em": "2026-11-05",
   "ano": 2026,
   "selos": 3.0,
   "selo_atual": 4,
@@ -82,7 +82,7 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
-      "valor": 107827.2
+      "valor": 107822.4
     },
     {
       "id": "conquista.democracia",

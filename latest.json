@@ -1,15 +1,15 @@
 {
   "projeto": "Mene Tekel",
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-05",
+  "atualizado_em": "2026-11-07",
   "ano": 2026,
-  "selos": 3.0,
+  "selos": 3.01,
   "selo_atual": 4,
-  "fracao_selo_atual": 0.0,
+  "fracao_selo_atual": 0.01,
   "total": 4.29,
-  "tendencia_pontos_ano": 0.129,
+  "tendencia_pontos_ano": 0.131,
   "situacao": "piora",
-  "ano_setimo_selo": 2071,
+  "ano_setimo_selo": 2070,
   "momento_historico": {
     "tipo": "desde",
     "ano": 1990
@@ -19,9 +19,9 @@
       "id": "atual",
       "de": 2022,
       "ate": 2026,
-      "tendencia_pontos_ano": 0.129,
+      "tendencia_pontos_ano": 0.131,
       "situacao": "piora",
-      "ano_setimo_selo": 2071
+      "ano_setimo_selo": 2070
     },
     {
       "id": "decada_2010",
@@ -61,7 +61,7 @@
       ]
     },
     "fome": {
-      "nota": 2.64,
+      "nota": 2.66,
       "cobertura": 0.33,
       "indicadores": [
         "fome.fpi",
@@ -125,7 +125,7 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
-      "valor": 107822.4,
+      "valor": 107815.2,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -200,9 +200,9 @@
       "fonte_url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
       "licenca": "CC-BY-NC-SA 3.0 IGO",
       "peso": 1.0,
-      "nota": 6.43,
+      "nota": 6.47,
       "estimado": false,
-      "ultimo_dado": "2026-09-01",
+      "ultimo_dado": "2026-10-01",
       "ancora": {
         "tipo": "historica",
         "direcao": 1,

@@ -1,6 +1,6 @@
 {
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-05",
+  "atualizado_em": "2026-11-07",
   "anos": [
     {
       "ano": 1990,
@@ -364,11 +364,11 @@
     },
     {
       "ano": 2026,
-      "selos": 3.0,
+      "selos": 3.01,
       "total": 4.29,
       "conquista": 6.17,
       "guerra": 3.79,
-      "fome": 2.64,
+      "fome": 2.66,
       "morte": 6.31,
       "estimado": false
     }

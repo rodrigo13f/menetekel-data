@@ -11,6 +11,7 @@ nos dados ou no cálculo, o que mantém o histórico público e auditável.
 | [`latest.json`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/latest.json) | Índice atual: selos, total, tendência, projeção, cavaleiros e indicadores |
 | [`historico.json`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/historico.json) | Série anual desde 1990 |
 | [`indicadores.csv`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/indicadores.csv) | Valor e nota de cada indicador, ano a ano |
+| [`mudancas.json`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/mudancas.json) | Últimas mudanças: dados novos e quanto moveram os selos |
 | `metodologia/` | Metodologia vigente (versão 1.0.0): âncoras, pesos e regras |
 
 Anos sem dado de um indicador são preenchidos (interpolação ou último valor) e

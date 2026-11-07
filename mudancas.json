@@ -1,0 +1,33 @@
+{
+  "atualizado_em": "2026-11-05",
+  "eventos": [
+    {
+      "data": "2026-11-02",
+      "selos_antes": null,
+      "selos_depois": null,
+      "itens": [
+        {
+          "indicador": "morte.peste.emergencias",
+          "novos_periodos": 1,
+          "ultimo_periodo": "2026-11-01",
+          "correcoes": 0
+        }
+      ],
+      "delta_selos": null
+    },
+    {
+      "data": "2026-11-01",
+      "selos_antes": null,
+      "selos_depois": null,
+      "itens": [
+        {
+          "indicador": "conquista.cves",
+          "novos_periodos": 1,
+          "ultimo_periodo": "2026-10-01",
+          "correcoes": 0
+        }
+      ],
+      "delta_selos": null
+    }
+  ]
+}

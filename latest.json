@@ -14,6 +14,32 @@
     "tipo": "desde",
     "ano": 1990
   },
+  "cenarios": [
+    {
+      "id": "atual",
+      "de": 2022,
+      "ate": 2026,
+      "tendencia_pontos_ano": 0.129,
+      "situacao": "piora",
+      "ano_setimo_selo": 2071
+    },
+    {
+      "id": "decada_2010",
+      "de": 2010,
+      "ate": 2019,
+      "tendencia_pontos_ano": 0.059,
+      "situacao": "piora",
+      "ano_setimo_selo": 2124
+    },
+    {
+      "id": "decada_1990",
+      "de": 1990,
+      "ate": 1999,
+      "tendencia_pontos_ano": -0.171,
+      "situacao": "melhora",
+      "ano_setimo_selo": null
+    }
+  ],
   "cavaleiros": {
     "conquista": {
       "nota": 6.17,
@@ -68,7 +94,24 @@
       "nota": 8.1,
       "estimado": false,
       "ultimo_dado": "2026-01-01",
-      "valor": 500000000000.0
+      "valor": 500000000000.0,
+      "ancora": {
+        "tipo": "regra",
+        "direcao": 1,
+        "escala_log": true,
+        "piso": 1449.4465,
+        "teto": 49999999999999.99,
+        "unidade": {
+          "pt": "petaFLOP",
+          "en": "petaFLOP",
+          "es": "petaFLOP"
+        },
+        "explicacao": {
+          "pt": "0 = a maior computação de treino de IA em 2010. 10 = cem vezes o recorde de 2025. Escala logarítmica.",
+          "en": "0 = the largest AI training compute in 2010. 10 = a hundred times the 2025 record. Logarithmic scale.",
+          "es": "0 = la mayor computación de entrenamiento de IA en 2010. 10 = cien veces el récord de 2025. Escala logarítmica."
+        }
+      }
     },
     {
       "id": "conquista.cves",
@@ -82,7 +125,32 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
-      "valor": 107822.4
+      "valor": 107822.4,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": true,
+        "piso": 894.0,
+        "teto": 130443.4447,
+        "unidade": {
+          "pt": "CVEs no ano",
+          "en": "CVEs in the year",
+          "es": "CVE en el año"
+        },
+        "melhor": {
+          "ano": 1999,
+          "valor": 894.0
+        },
+        "pior": {
+          "ano": 2025,
+          "valor": 48150.999994
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 894 CVEs no ano (1999). O pior foi 48.151 CVEs no ano (2025); a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 894 CVEs in the year (1999). The worst was 48,151 CVEs in the year (2025); a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 894 CVE en el año (1999). El peor fue 48.151 CVE en el año (2025); la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "conquista.democracia",
@@ -96,7 +164,32 @@
       "nota": 3.47,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
-      "valor": 0.371754
+      "valor": 0.371754,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": -1,
+        "escala_log": false,
+        "piso": 0.411855,
+        "teto": 0.296452,
+        "unidade": {
+          "pt": "no índice de 0 a 1",
+          "en": "on the 0–1 index",
+          "es": "en el índice de 0 a 1"
+        },
+        "melhor": {
+          "ano": 2012,
+          "valor": 0.411855
+        },
+        "pior": {
+          "ano": 1990,
+          "valor": 0.319533
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 0,412 no índice de 0 a 1 (2012). O pior foi 0,320 no índice de 0 a 1 (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 0.412 on the 0–1 index (2012). The worst was 0.320 on the 0–1 index (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 0,412 en el índice de 0 a 1 (2012). El peor fue 0,320 en el índice de 0 a 1 (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "fome.fpi",
@@ -109,7 +202,23 @@
       "peso": 1.0,
       "nota": 6.43,
       "estimado": false,
-      "ultimo_dado": "2026-09-01"
+      "ultimo_dado": "2026-09-01",
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "melhor": {
+          "ano": 2000
+        },
+        "pior": {
+          "ano": 2022
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990 (2000). O pior foi em 2022; a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990 (2000). The worst was in 2022; a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990 (2000). El peor fue en 2022; la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "fome.pobreza",
@@ -123,7 +232,32 @@
       "nota": 0.0,
       "estimado": true,
       "ultimo_dado": "2024-01-01",
-      "valor": 10.1
+      "valor": 10.1,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 10.1,
+        "teto": 51.725,
+        "unidade": {
+          "pt": "% da população",
+          "en": "% of population",
+          "es": "% de la población"
+        },
+        "melhor": {
+          "ano": 2024,
+          "valor": 10.1
+        },
+        "pior": {
+          "ano": 1990,
+          "valor": 43.4
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 10,1% da população (2024). O pior foi 43,4% da população (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 10.1% of population (2024). The worst was 43.4% of population (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 10,1% de la población (2024). El peor fue 43,4% de la población (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "fome.subnutricao",
@@ -137,7 +271,32 @@
       "nota": 1.49,
       "estimado": true,
       "ultimo_dado": "2024-01-01",
-      "valor": 8.2
+      "valor": 8.2,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 7.1,
+        "teto": 14.475,
+        "unidade": {
+          "pt": "% da população",
+          "en": "% of population",
+          "es": "% de la población"
+        },
+        "melhor": {
+          "ano": 2017,
+          "valor": 7.1
+        },
+        "pior": {
+          "ano": 2002,
+          "valor": 13.0
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 7,1% da população (2017). O pior foi 13,0% da população (2002); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 7.1% of population (2017). The worst was 13.0% of population (2002); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 7,1% de la población (2017). El peor fue 13,0% de la población (2002); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "guerra.conflitos",
@@ -151,7 +310,32 @@
       "nota": 8.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
-      "valor": 65.0
+      "valor": 65.0,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 31.0,
+        "teto": 73.5,
+        "unidade": {
+          "pt": "conflitos",
+          "en": "conflicts",
+          "es": "conflictos"
+        },
+        "melhor": {
+          "ano": 2010,
+          "valor": 31.0
+        },
+        "pior": {
+          "ano": 2025,
+          "valor": 65.0
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 31 conflitos (2010). O pior foi 65 conflitos (2025); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 31 conflicts (2010). The worst was 65 conflicts (2025); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 31 conflictos (2010). El peor fue 65 conflictos (2025); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "guerra.gasto_militar",
@@ -165,7 +349,32 @@
       "nota": 2.46,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
-      "valor": 2.47893
+      "valor": 2.47893,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 2.105425,
+        "teto": 3.62461,
+        "unidade": {
+          "pt": "% do PIB",
+          "en": "% of GDP",
+          "es": "% del PIB"
+        },
+        "melhor": {
+          "ano": 2018,
+          "valor": 2.105425
+        },
+        "pior": {
+          "ano": 1990,
+          "valor": 3.320773
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 2,11% do PIB (2018). O pior foi 3,32% do PIB (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 2.11% of GDP (2018). The worst was 3.32% of GDP (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 2,11% del PIB (2018). El peor fue 3,32% del PIB (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "guerra.mortes_conflito",
@@ -179,7 +388,32 @@
       "nota": 4.7,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
-      "valor": 2.979519
+      "valor": 2.979519,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": true,
+        "piso": 0.311299,
+        "teto": 38.050526,
+        "unidade": {
+          "pt": "mortes por 100 mil habitantes",
+          "en": "deaths per 100,000 people",
+          "es": "muertes por 100 mil habitantes"
+        },
+        "melhor": {
+          "ano": 2005,
+          "valor": 0.311299
+        },
+        "pior": {
+          "ano": 1994,
+          "valor": 14.552048
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 0,31 mortes por 100 mil habitantes (2005). O pior foi 14,55 mortes por 100 mil habitantes (1994); a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 0.31 deaths per 100,000 people (2005). The worst was 14.55 deaths per 100,000 people (1994); a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 0,31 muertes por 100 mil habitantes (2005). El peor fue 14,55 muertes por 100 mil habitantes (1994); la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "guerra.ogivas",
@@ -193,7 +427,32 @@
       "nota": 0.01,
       "estimado": false,
       "ultimo_dado": "2026-01-01",
-      "valor": 12187.0
+      "valor": 12187.0,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 12121.0,
+        "teto": 73506.0,
+        "unidade": {
+          "pt": "ogivas",
+          "en": "warheads",
+          "es": "ojivas"
+        },
+        "melhor": {
+          "ano": 2024,
+          "valor": 12121.0
+        },
+        "pior": {
+          "ano": 1990,
+          "valor": 61229.0
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 12.121 ogivas (2024). O pior foi 61.229 ogivas (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 12,121 warheads (2024). The worst was 61,229 warheads (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 12.121 ojivas (2024). El peor fue 61.229 ojivas (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "morte.ambiente.biodiversidade",
@@ -207,7 +466,32 @@
       "nota": 8.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
-      "valor": 0.74
+      "valor": 0.74,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": -1,
+        "escala_log": false,
+        "piso": 0.81,
+        "teto": 0.7225,
+        "unidade": {
+          "pt": "no Red List Index",
+          "en": "on the Red List Index",
+          "es": "en el Red List Index"
+        },
+        "melhor": {
+          "ano": 1993,
+          "valor": 0.81
+        },
+        "pior": {
+          "ano": 2025,
+          "valor": 0.74
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 0,810 no Red List Index (1993). O pior foi 0,740 no Red List Index (2025); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 0.810 on the Red List Index (1993). The worst was 0.740 on the Red List Index (2025); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 0,810 en el Red List Index (1993). El peor fue 0,740 en el Red List Index (2025); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "morte.ambiente.temperatura",
@@ -221,7 +505,24 @@
       "nota": 7.67,
       "estimado": false,
       "ultimo_dado": "2026-09-01",
-      "valor": 1.234444
+      "valor": 1.234444,
+      "ancora": {
+        "tipo": "limite",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": -0.3,
+        "teto": 1.7,
+        "unidade": {
+          "pt": "°C",
+          "en": "°C",
+          "es": "°C"
+        },
+        "explicacao": {
+          "pt": "0 = o clima pré-industrial. 10 = 2 °C acima dele, o limite máximo do Acordo de Paris.",
+          "en": "0 = the pre-industrial climate. 10 = 2 °C above it, the upper limit of the Paris Agreement.",
+          "es": "0 = el clima preindustrial. 10 = 2 °C por encima, el límite máximo del Acuerdo de París."
+        }
+      }
     },
     {
       "id": "morte.peste.emergencias",
@@ -235,7 +536,32 @@
       "nota": 5.21,
       "estimado": false,
       "ultimo_dado": "2026-11-01",
-      "valor": 1.589443
+      "valor": 1.589443,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 0.0,
+        "teto": 3.051075,
+        "unidade": {
+          "pt": "emergências ativas por dia",
+          "en": "active emergencies per day",
+          "es": "emergencias activas por día"
+        },
+        "melhor": {
+          "ano": 2007,
+          "valor": 0.0
+        },
+        "pior": {
+          "ano": 2022,
+          "valor": 2.44086
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 0,00 emergências ativas por dia (2007). O pior foi 2,44 emergências ativas por dia (2022); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 0.00 active emergencies per day (2007). The worst was 2.44 active emergencies per day (2022); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 0,00 emergencias activas por día (2007). El peor fue 2,44 emergencias activas por día (2022); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "morte.peste.mortes_infecciosas",
@@ -249,7 +575,32 @@
       "nota": 5.13,
       "estimado": true,
       "ultimo_dado": "2021-01-01",
-      "valor": 27.366087
+      "valor": 27.366087,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 18.29083,
+        "teto": 35.970171,
+        "unidade": {
+          "pt": "% das mortes",
+          "en": "% of deaths",
+          "es": "% de las muertes"
+        },
+        "melhor": {
+          "ano": 2019,
+          "valor": 18.29083
+        },
+        "pior": {
+          "ano": 2000,
+          "valor": 32.434303
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 1990: 18,3% das mortes (2019). O pior foi 32,4% das mortes (2000); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 18.3% of deaths (2019). The worst was 32.4% of deaths (2000); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 18,3% de las muertes (2019). El peor fue 32,4% de las muertes (2000); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
     },
     {
       "id": "morte.peste.vacinacao",
@@ -263,7 +614,24 @@
       "nota": 4.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
-      "valor": 85.0
+      "valor": 85.0,
+      "ancora": {
+        "tipo": "limite",
+        "direcao": -1,
+        "escala_log": false,
+        "piso": 95.0,
+        "teto": 70.0,
+        "unidade": {
+          "pt": "% de cobertura",
+          "en": "% coverage",
+          "es": "% de cobertura"
+        },
+        "explicacao": {
+          "pt": "0 = a meta da OMS, 95% das crianças vacinadas. 10 = só 70% vacinadas.",
+          "en": "0 = the WHO target, 95% of children vaccinated. 10 = only 70% vaccinated.",
+          "es": "0 = la meta de la OMS, 95% de los niños vacunados. 10 = solo 70% vacunados."
+        }
+      }
     }
   ],
   "sem_dados": [

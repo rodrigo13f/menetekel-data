@@ -1,7 +1,7 @@
 {
   "projeto": "Mene Tekel",
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-07",
+  "atualizado_em": "2026-11-10",
   "ano": 2026,
   "selos": 3.01,
   "selo_atual": 4,
@@ -125,7 +125,7 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
-      "valor": 107815.2,
+      "valor": 107814.0,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,

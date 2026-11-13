@@ -1,6 +1,20 @@
 {
-  "atualizado_em": "2026-11-10",
+  "atualizado_em": "2026-11-13",
   "eventos": [
+    {
+      "data": "2026-11-13",
+      "selos_antes": 3.01,
+      "selos_depois": 3.01,
+      "itens": [
+        {
+          "indicador": "morte.ambiente.temperatura",
+          "novos_periodos": 1,
+          "ultimo_periodo": "2026-10-01",
+          "correcoes": 224
+        }
+      ],
+      "delta_selos": 0.0
+    },
     {
       "data": "2026-11-07",
       "selos_antes": null,

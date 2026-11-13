@@ -10,7 +10,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1990,guerra.mortes_conflito,guerra,1.7958236,3.6465,0
 1990,guerra.ogivas,guerra,61229.0,8.0000,0
 1990,morte.ambiente.biodiversidade,morte,0.81,0.0000,1
-1990,morte.ambiente.temperatura,morte,0.4483333333333333,3.7417,0
+1990,morte.ambiente.temperatura,morte,0.4475,3.7375,0
 1990,morte.peste.emergencias,morte,0.0,0.0000,1
 1990,morte.peste.mortes_infecciosas,morte,32.4343027896073,8.0000,1
 1990,morte.peste.vacinacao,morte,76.0,7.6000,0
@@ -25,7 +25,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1991,guerra.mortes_conflito,guerra,1.5538937,3.3454,0
 1991,guerra.ogivas,guerra,58326.0,7.5271,0
 1991,morte.ambiente.biodiversidade,morte,0.81,0.0000,1
-1991,morte.ambiente.temperatura,morte,0.4058333333333333,3.5292,0
+1991,morte.ambiente.temperatura,morte,0.4066666666666667,3.5333,0
 1991,morte.peste.emergencias,morte,0.0,0.0000,1
 1991,morte.peste.mortes_infecciosas,morte,32.4343027896073,8.0000,1
 1991,morte.peste.vacinacao,morte,71.0,9.6000,0
@@ -70,7 +70,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1994,guerra.mortes_conflito,guerra,14.552048,8.0000,0
 1994,guerra.ogivas,guerra,45580.0,5.4507,0
 1994,morte.ambiente.biodiversidade,morte,0.81,0.0000,0
-1994,morte.ambiente.temperatura,morte,0.3133333333333333,3.0667,0
+1994,morte.ambiente.temperatura,morte,0.3125,3.0625,0
 1994,morte.peste.emergencias,morte,0.0,0.0000,1
 1994,morte.peste.mortes_infecciosas,morte,32.4343027896073,8.0000,1
 1994,morte.peste.vacinacao,morte,72.0,9.2000,0
@@ -100,7 +100,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1996,guerra.mortes_conflito,guerra,1.5002812,3.2723,0
 1996,guerra.ogivas,guerra,39484.0,4.4576,0
 1996,morte.ambiente.biodiversidade,morte,0.8,1.1429,0
-1996,morte.ambiente.temperatura,morte,0.3333333333333333,3.1667,0
+1996,morte.ambiente.temperatura,morte,0.3325,3.1625,0
 1996,morte.peste.emergencias,morte,0.0,0.0000,1
 1996,morte.peste.mortes_infecciosas,morte,32.4343027896073,8.0000,1
 1996,morte.peste.vacinacao,morte,72.0,9.2000,0
@@ -145,7 +145,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1999,guerra.mortes_conflito,guerra,1.6826177,3.5110,0
 1999,guerra.ogivas,guerra,34677.0,3.6745,0
 1999,morte.ambiente.biodiversidade,morte,0.8,1.1429,0
-1999,morte.ambiente.temperatura,morte,0.3825,3.4125,0
+1999,morte.ambiente.temperatura,morte,0.38166666666666665,3.4083,0
 1999,morte.peste.emergencias,morte,0.0,0.0000,1
 1999,morte.peste.mortes_infecciosas,morte,32.4343027896073,8.0000,1
 1999,morte.peste.vacinacao,morte,71.0,9.6000,0
@@ -160,7 +160,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2000,guerra.mortes_conflito,guerra,1.5376422,3.3235,0
 2000,guerra.ogivas,guerra,34004.0,3.5649,0
 2000,morte.ambiente.biodiversidade,morte,0.8,1.1429,0
-2000,morte.ambiente.temperatura,morte,0.39333333333333337,3.4667,0
+2000,morte.ambiente.temperatura,morte,0.3925,3.4625,0
 2000,morte.peste.emergencias,morte,0.0,0.0000,1
 2000,morte.peste.mortes_infecciosas,morte,32.4343027896073,8.0000,0
 2000,morte.peste.vacinacao,morte,72.0,9.2000,0
@@ -175,7 +175,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2001,guerra.mortes_conflito,guerra,0.6041388,1.3797,0
 2001,guerra.ogivas,guerra,33190.0,3.4323,0
 2001,morte.ambiente.biodiversidade,morte,0.8,1.1429,0
-2001,morte.ambiente.temperatura,morte,0.5333333333333333,4.1667,0
+2001,morte.ambiente.temperatura,morte,0.5316666666666666,4.1583,0
 2001,morte.peste.emergencias,morte,0.0,0.0000,1
 2001,morte.peste.mortes_infecciosas,morte,31.63938881887062,7.5504,1
 2001,morte.peste.vacinacao,morte,72.0,9.2000,0
@@ -190,7 +190,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2002,guerra.mortes_conflito,guerra,0.65511256,1.5482,0
 2002,guerra.ogivas,guerra,31902.0,3.2224,0
 2002,morte.ambiente.biodiversidade,morte,0.79,2.2857,0
-2002,morte.ambiente.temperatura,morte,0.6283333333333333,4.6417,0
+2002,morte.ambiente.temperatura,morte,0.6291666666666667,4.6458,0
 2002,morte.peste.emergencias,morte,0.0,0.0000,1
 2002,morte.peste.mortes_infecciosas,morte,30.84447484813394,7.1007,1
 2002,morte.peste.vacinacao,morte,72.0,9.2000,0
@@ -250,7 +250,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2006,guerra.mortes_conflito,guerra,0.41846368,0.6156,0
 2006,guerra.ogivas,guerra,27061.0,2.4338,0
 2006,morte.ambiente.biodiversidade,morte,0.79,2.2857,0
-2006,morte.ambiente.temperatura,morte,0.6425,4.7125,0
+2006,morte.ambiente.temperatura,morte,0.6416666666666667,4.7083,0
 2006,morte.peste.emergencias,morte,0.0,0.0000,1
 2006,morte.peste.mortes_infecciosas,morte,27.664818965187223,5.3022,1
 2006,morte.peste.vacinacao,morte,78.0,6.8000,0
@@ -265,7 +265,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2007,guerra.mortes_conflito,guerra,0.42452672,0.6455,0
 2007,guerra.ogivas,guerra,25533.0,2.1849,0
 2007,morte.ambiente.biodiversidade,morte,0.79,2.2857,0
-2007,morte.ambiente.temperatura,morte,0.6649999999999999,4.8250,0
+2007,morte.ambiente.temperatura,morte,0.6641666666666667,4.8208,0
 2007,morte.peste.emergencias,morte,0.0,0.0000,0
 2007,morte.peste.mortes_infecciosas,morte,26.869904994450543,4.8526,1
 2007,morte.peste.vacinacao,morte,78.0,6.8000,0
@@ -280,7 +280,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2008,guerra.mortes_conflito,guerra,0.57943475,1.2928,0
 2008,guerra.ogivas,guerra,23855.0,1.9115,0
 2008,morte.ambiente.biodiversidade,morte,0.78,3.4286,0
-2008,morte.ambiente.temperatura,morte,0.5425,4.2125,0
+2008,morte.ambiente.temperatura,morte,0.5433333333333333,4.2167,0
 2008,morte.peste.emergencias,morte,0.0,0.0000,0
 2008,morte.peste.mortes_infecciosas,morte,26.07499102371386,4.4030,1
 2008,morte.peste.vacinacao,morte,81.0,5.6000,0
@@ -295,7 +295,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2009,guerra.mortes_conflito,guerra,0.7457843,1.8179,0
 2009,guerra.ogivas,guerra,22524.0,1.6947,0
 2009,morte.ambiente.biodiversidade,morte,0.78,3.4286,0
-2009,morte.ambiente.temperatura,morte,0.6566666666666666,4.7833,0
+2009,morte.ambiente.temperatura,morte,0.6558333333333334,4.7792,0
 2009,morte.peste.emergencias,morte,0.6833333333333332,2.2396,0
 2009,morte.peste.mortes_infecciosas,morte,25.28007705297718,3.9533,1
 2009,morte.peste.vacinacao,morte,83.0,4.8000,0
@@ -325,7 +325,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2011,guerra.mortes_conflito,guerra,0.5912795,1.3349,0
 2011,guerra.ogivas,guerra,20035.0,1.2892,0
 2011,morte.ambiente.biodiversidade,morte,0.78,3.4286,0
-2011,morte.ambiente.temperatura,morte,0.6075,4.5375,0
+2011,morte.ambiente.temperatura,morte,0.6083333333333333,4.5417,0
 2011,morte.peste.emergencias,morte,0.0,0.0000,0
 2011,morte.peste.mortes_infecciosas,morte,23.75811405565308,3.0925,1
 2011,morte.peste.vacinacao,morte,84.0,4.4000,0
@@ -340,7 +340,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2012,guerra.mortes_conflito,guerra,1.2630086,2.9141,0
 2012,guerra.ogivas,guerra,18855.0,1.0970,0
 2012,morte.ambiente.biodiversidade,morte,0.77,4.5714,0
-2012,morte.ambiente.temperatura,morte,0.6458333333333334,4.7292,0
+2012,morte.ambiente.temperatura,morte,0.645,4.7250,0
 2012,morte.peste.emergencias,morte,0.0,0.0000,0
 2012,morte.peste.mortes_infecciosas,morte,23.03106502906566,2.6812,1
 2012,morte.peste.vacinacao,morte,84.0,4.4000,0
@@ -400,7 +400,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2016,guerra.mortes_conflito,guerra,1.5366498,3.3222,0
 2016,guerra.ogivas,guerra,15228.0,0.5061,0
 2016,morte.ambiente.biodiversidade,morte,0.77,4.5714,0
-2016,morte.ambiente.temperatura,morte,1.01,6.5500,0
+2016,morte.ambiente.temperatura,morte,1.0108333333333335,6.5542,0
 2016,morte.peste.emergencias,morte,2.044623666666667,6.7013,0
 2016,morte.peste.mortes_infecciosas,morte,20.210145859212673,1.0856,1
 2016,morte.peste.vacinacao,morte,86.0,3.6000,0
@@ -475,7 +475,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2021,guerra.mortes_conflito,guerra,2.9469266,4.6771,0
 2021,guerra.ogivas,guerra,13100.0,0.1595,0
 2021,morte.ambiente.biodiversidade,morte,0.75,6.8571,0
-2021,morte.ambiente.temperatura,morte,0.8475,5.7375,0
+2021,morte.ambiente.temperatura,morte,0.8466666666666667,5.7333,0
 2021,morte.peste.emergencias,morte,2.0,6.5551,0
 2021,morte.peste.mortes_infecciosas,morte,27.3660870888546,5.1333,0
 2021,morte.peste.vacinacao,morte,81.0,5.6000,0
@@ -490,7 +490,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2022,guerra.mortes_conflito,guerra,3.9617364,5.2928,0
 2022,guerra.ogivas,guerra,12705.0,0.0951,0
 2022,morte.ambiente.biodiversidade,morte,0.75,6.8571,0
-2022,morte.ambiente.temperatura,morte,0.89,5.9500,0
+2022,morte.ambiente.temperatura,morte,0.8916666666666666,5.9583,0
 2022,morte.peste.emergencias,morte,2.44086025,8.0000,0
 2022,morte.peste.mortes_infecciosas,morte,27.3660870888546,5.1333,1
 2022,morte.peste.vacinacao,morte,85.0,4.0000,0
@@ -505,7 +505,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2023,guerra.mortes_conflito,guerra,2.0993817,3.9714,0
 2023,guerra.ogivas,guerra,12512.0,0.0637,0
 2023,morte.ambiente.biodiversidade,morte,0.75,6.8571,0
-2023,morte.ambiente.temperatura,morte,1.1675,7.3375,0
+2023,morte.ambiente.temperatura,morte,1.1691666666666667,7.3458,0
 2023,morte.peste.emergencias,morte,1.7096774166666666,5.6035,0
 2023,morte.peste.mortes_infecciosas,morte,27.3660870888546,5.1333,1
 2023,morte.peste.vacinacao,morte,84.0,4.4000,0
@@ -535,12 +535,12 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2025,guerra.mortes_conflito,guerra,2.9795194,4.7000,0
 2025,guerra.ogivas,guerra,12241.0,0.0195,0
 2025,morte.ambiente.biodiversidade,morte,0.74,8.0000,0
-2025,morte.ambiente.temperatura,morte,1.185,7.4250,0
+2025,morte.ambiente.temperatura,morte,1.1858333333333333,7.4292,0
 2025,morte.peste.emergencias,morte,1.6805555833333334,5.5081,0
 2025,morte.peste.mortes_infecciosas,morte,27.3660870888546,5.1333,1
 2025,morte.peste.vacinacao,morte,85.0,4.0000,0
 2026,conquista.compute,conquista,500000000000.0,8.1021,0
-2026,conquista.cves,conquista,107814.0,9.6176,0
+2026,conquista.cves,conquista,107812.79999999999,9.6176,0
 2026,conquista.democracia,conquista,0.3717542,3.4748,1
 2026,fome.fpi,fome,,6.4745,0
 2026,fome.pobreza,fome,10.1,0.0000,1
@@ -550,7 +550,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2026,guerra.mortes_conflito,guerra,2.9795194,4.7000,1
 2026,guerra.ogivas,guerra,12187.0,0.0108,0
 2026,morte.ambiente.biodiversidade,morte,0.74,8.0000,1
-2026,morte.ambiente.temperatura,morte,1.2344444444444445,7.6722,0
+2026,morte.ambiente.temperatura,morte,1.268,7.8400,0
 2026,morte.peste.emergencias,morte,1.5894428181818183,5.2095,0
 2026,morte.peste.mortes_infecciosas,morte,27.3660870888546,5.1333,1
 2026,morte.peste.vacinacao,morte,85.0,4.0000,1

@@ -1,15 +1,15 @@
 {
   "projeto": "Mene Tekel",
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-10",
+  "atualizado_em": "2026-11-13",
   "ano": 2026,
   "selos": 3.01,
   "selo_atual": 4,
   "fracao_selo_atual": 0.01,
-  "total": 4.29,
-  "tendencia_pontos_ano": 0.131,
+  "total": 4.3,
+  "tendencia_pontos_ano": 0.137,
   "situacao": "piora",
-  "ano_setimo_selo": 2070,
+  "ano_setimo_selo": 2068,
   "momento_historico": {
     "tipo": "desde",
     "ano": 1990
@@ -19,9 +19,9 @@
       "id": "atual",
       "de": 2022,
       "ate": 2026,
-      "tendencia_pontos_ano": 0.131,
+      "tendencia_pontos_ano": 0.137,
       "situacao": "piora",
-      "ano_setimo_selo": 2070
+      "ano_setimo_selo": 2068
     },
     {
       "id": "decada_2010",
@@ -29,7 +29,7 @@
       "ate": 2019,
       "tendencia_pontos_ano": 0.059,
       "situacao": "piora",
-      "ano_setimo_selo": 2124
+      "ano_setimo_selo": 2123
     },
     {
       "id": "decada_1990",
@@ -70,7 +70,7 @@
       ]
     },
     "morte": {
-      "nota": 6.31,
+      "nota": 6.35,
       "cobertura": 0.4,
       "indicadores": [
         "morte.ambiente.biodiversidade",
@@ -125,7 +125,7 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
-      "valor": 107814.0,
+      "valor": 107812.8,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -502,10 +502,10 @@
       "fonte_url": "https://data.giss.nasa.gov/gistemp/",
       "licenca": "Domínio público (governo dos EUA)",
       "peso": 1.0,
-      "nota": 7.67,
+      "nota": 7.84,
       "estimado": false,
-      "ultimo_dado": "2026-09-01",
-      "valor": 1.234444,
+      "ultimo_dado": "2026-10-01",
+      "valor": 1.268,
       "ancora": {
         "tipo": "limite",
         "direcao": 1,

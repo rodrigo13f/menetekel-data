@@ -1,6 +1,6 @@
 {
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-10",
+  "atualizado_em": "2026-11-13",
   "anos": [
     {
       "ano": 1990,
@@ -9,13 +9,13 @@
       "conquista": 4.0,
       "guerra": 5.97,
       "fome": 5.64,
-      "morte": 3.54,
+      "morte": 3.53,
       "estimado": false
     },
     {
       "ano": 1991,
       "selos": 2.93,
-      "total": 4.18,
+      "total": 4.19,
       "conquista": 3.41,
       "guerra": 5.53,
       "fome": 5.59,
@@ -105,7 +105,7 @@
     {
       "ano": 2000,
       "selos": 1.9,
-      "total": 2.72,
+      "total": 2.71,
       "conquista": 1.26,
       "guerra": 2.38,
       "fome": 4.62,
@@ -199,7 +199,7 @@
       "conquista": 1.13,
       "guerra": 2.04,
       "fome": 3.27,
-      "morte": 3.89,
+      "morte": 3.88,
       "estimado": false
     },
     {
@@ -229,7 +229,7 @@
       "conquista": 0.89,
       "guerra": 1.53,
       "fome": 3.18,
-      "morte": 3.51,
+      "morte": 3.5,
       "estimado": false
     },
     {
@@ -365,11 +365,11 @@
     {
       "ano": 2026,
       "selos": 3.01,
-      "total": 4.29,
+      "total": 4.3,
       "conquista": 6.17,
       "guerra": 3.79,
       "fome": 2.66,
-      "morte": 6.31,
+      "morte": 6.35,
       "estimado": false
     }
   ]

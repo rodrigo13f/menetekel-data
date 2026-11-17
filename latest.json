@@ -1,7 +1,7 @@
 {
   "projeto": "Mene Tekel",
   "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-13",
+  "atualizado_em": "2026-11-17",
   "ano": 2026,
   "selos": 3.01,
   "selo_atual": 4,
@@ -125,7 +125,7 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
-      "valor": 107812.8,
+      "valor": 107811.6,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -146,9 +146,9 @@
           "valor": 48150.999994
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 894 CVEs no ano (1999). O pior foi 48.151 CVEs no ano (2025); a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 894 CVEs in the year (1999). The worst was 48,151 CVEs in the year (2025); a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 894 CVE en el año (1999). El peor fue 48.151 CVE en el año (2025); la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 1999: 894 CVEs no ano (1999). O pior foi 48.151 CVEs no ano (2025); a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1999: 894 CVEs in the year (1999). The worst was 48,151 CVEs in the year (2025); a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1999: 894 CVE en el año (1999). El peor fue 48.151 CVE en el año (2025); la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -292,9 +292,9 @@
           "valor": 13.0
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 7,1% da população (2017). O pior foi 13,0% da população (2002); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 7.1% of population (2017). The worst was 13.0% of population (2002); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 7,1% de la población (2017). El peor fue 13,0% de la población (2002); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 2000: 7,1% da população (2017). O pior foi 13,0% da população (2002); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2000: 7.1% of population (2017). The worst was 13.0% of population (2002); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2000: 7,1% de la población (2017). El peor fue 13,0% de la población (2002); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -487,9 +487,9 @@
           "valor": 0.74
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 0,810 no Red List Index (1993). O pior foi 0,740 no Red List Index (2025); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 0.810 on the Red List Index (1993). The worst was 0.740 on the Red List Index (2025); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 0,810 en el Red List Index (1993). El peor fue 0,740 en el Red List Index (2025); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 1993: 0,810 no Red List Index (1993). O pior foi 0,740 no Red List Index (2025); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1993: 0.810 on the Red List Index (1993). The worst was 0.740 on the Red List Index (2025); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1993: 0,810 en el Red List Index (1993). El peor fue 0,740 en el Red List Index (2025); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -557,9 +557,9 @@
           "valor": 2.44086
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 0,00 emergências ativas por dia (2007). O pior foi 2,44 emergências ativas por dia (2022); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 0.00 active emergencies per day (2007). The worst was 2.44 active emergencies per day (2022); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 0,00 emergencias activas por día (2007). El peor fue 2,44 emergencias activas por día (2022); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 2007: 0,00 emergências ativas por dia (2007). O pior foi 2,44 emergências ativas por dia (2022); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2007: 0.00 active emergencies per day (2007). The worst was 2.44 active emergencies per day (2022); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2007: 0,00 emergencias activas por día (2007). El peor fue 2,44 emergencias activas por día (2022); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -596,9 +596,9 @@
           "valor": 32.434303
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 18,3% das mortes (2019). O pior foi 32,4% das mortes (2000); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 18.3% of deaths (2019). The worst was 32.4% of deaths (2000); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 18,3% de las muertes (2019). El peor fue 32,4% de las muertes (2000); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 2000: 18,3% das mortes (2019). O pior foi 32,4% das mortes (2000); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2000: 18.3% of deaths (2019). The worst was 32.4% of deaths (2000); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2000: 18,3% de las muertes (2019). El peor fue 32,4% de las muertes (2000); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },

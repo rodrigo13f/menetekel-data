@@ -5,6 +5,10 @@
       "data": "2026-11-13",
       "selos_antes": 3.01,
       "selos_depois": 3.01,
+      "ano_setimo_selo_antes": 2070,
+      "ano_setimo_selo_depois": 2068,
+      "tendencia_antes": 0.131,
+      "tendencia_depois": 0.137,
       "itens": [
         {
           "indicador": "morte.ambiente.temperatura",
@@ -19,6 +23,10 @@
       "data": "2026-11-07",
       "selos_antes": null,
       "selos_depois": 3.01,
+      "ano_setimo_selo_antes": null,
+      "ano_setimo_selo_depois": 2070,
+      "tendencia_antes": null,
+      "tendencia_depois": 0.131,
       "itens": [
         {
           "indicador": "fome.fpi",
@@ -33,6 +41,10 @@
       "data": "2026-11-02",
       "selos_antes": null,
       "selos_depois": null,
+      "ano_setimo_selo_antes": null,
+      "ano_setimo_selo_depois": null,
+      "tendencia_antes": null,
+      "tendencia_depois": null,
       "itens": [
         {
           "indicador": "morte.peste.emergencias",
@@ -47,6 +59,10 @@
       "data": "2026-11-01",
       "selos_antes": null,
       "selos_depois": null,
+      "ano_setimo_selo_antes": null,
+      "ano_setimo_selo_depois": null,
+      "tendencia_antes": null,
+      "tendencia_depois": null,
       "itens": [
         {
           "indicador": "conquista.cves",

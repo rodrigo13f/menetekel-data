@@ -1,7 +1,20 @@
 {
-  "atualizado_em": "2026-11-17",
+  "atualizado_em": "2026-11-24",
   "eventos": [
     {
+      "tipo": "metodologia",
+      "data": "2026-11-24",
+      "versao_antes": "1.0.0",
+      "versao_depois": "1.1.0",
+      "selos_antes": 3.01,
+      "selos_depois": 3.91,
+      "delta_selos": 0.9,
+      "ano_setimo_selo_antes": 2068,
+      "ano_setimo_selo_depois": 2065,
+      "itens": []
+    },
+    {
+      "tipo": "dados",
       "data": "2026-11-13",
       "selos_antes": 3.01,
       "selos_depois": 3.01,
@@ -20,6 +33,7 @@
       "delta_selos": 0.0
     },
     {
+      "tipo": "dados",
       "data": "2026-11-07",
       "selos_antes": null,
       "selos_depois": 3.01,
@@ -38,6 +52,7 @@
       "delta_selos": null
     },
     {
+      "tipo": "dados",
       "data": "2026-11-02",
       "selos_antes": null,
       "selos_depois": null,
@@ -56,6 +71,7 @@
       "delta_selos": null
     },
     {
+      "tipo": "dados",
       "data": "2026-11-01",
       "selos_antes": null,
       "selos_depois": null,

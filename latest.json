@@ -1,17 +1,17 @@
 {
   "projeto": "Mene Tekel",
-  "versao_metodologia": "1.0.0",
-  "atualizado_em": "2026-11-17",
+  "versao_metodologia": "1.1.0",
+  "atualizado_em": "2026-11-24",
   "ano": 2026,
-  "selos": 3.01,
+  "selos": 3.91,
   "selo_atual": 4,
-  "fracao_selo_atual": 0.01,
-  "total": 4.3,
-  "tendencia_pontos_ano": 0.137,
+  "fracao_selo_atual": 0.91,
+  "total": 5.59,
+  "tendencia_pontos_ano": 0.116,
   "situacao": "piora",
-  "ano_setimo_selo": 2068,
+  "ano_setimo_selo": 2065,
   "momento_historico": {
-    "tipo": "desde",
+    "tipo": "desde_inicio",
     "ano": 1990
   },
   "cenarios": [
@@ -19,39 +19,40 @@
       "id": "atual",
       "de": 2022,
       "ate": 2026,
-      "tendencia_pontos_ano": 0.137,
+      "tendencia_pontos_ano": 0.116,
       "situacao": "piora",
-      "ano_setimo_selo": 2068
+      "ano_setimo_selo": 2065
     },
     {
       "id": "decada_2010",
       "de": 2010,
       "ate": 2019,
-      "tendencia_pontos_ano": 0.059,
-      "situacao": "piora",
-      "ano_setimo_selo": 2123
+      "tendencia_pontos_ano": 0.036,
+      "situacao": "piora_lenta",
+      "ano_setimo_selo": null
     },
     {
       "id": "decada_1990",
       "de": 1990,
       "ate": 1999,
-      "tendencia_pontos_ano": -0.171,
+      "tendencia_pontos_ano": -0.109,
       "situacao": "melhora",
       "ano_setimo_selo": null
     }
   ],
   "cavaleiros": {
     "conquista": {
-      "nota": 6.17,
-      "cobertura": 0.67,
+      "nota": 8.55,
+      "cobertura": 0.5,
       "indicadores": [
         "conquista.compute",
         "conquista.cves",
-        "conquista.democracia"
+        "conquista.democracia",
+        "conquista.incidentes"
       ]
     },
     "guerra": {
-      "nota": 3.79,
+      "nota": 4.67,
       "cobertura": 0.25,
       "indicadores": [
         "guerra.conflitos",
@@ -61,7 +62,7 @@
       ]
     },
     "fome": {
-      "nota": 2.66,
+      "nota": 4.23,
       "cobertura": 0.33,
       "indicadores": [
         "fome.fpi",
@@ -70,10 +71,11 @@
       ]
     },
     "morte": {
-      "nota": 6.35,
+      "nota": 6.69,
       "cobertura": 0.4,
       "indicadores": [
         "morte.ambiente.biodiversidade",
+        "morte.ambiente.desastres",
         "morte.ambiente.temperatura",
         "morte.peste.emergencias",
         "morte.peste.mortes_infecciosas",
@@ -91,6 +93,7 @@
       "fonte_url": "https://epoch.ai/data/notable-ai-models",
       "licenca": "CC-BY 4.0",
       "peso": 0.5,
+      "informativo": false,
       "nota": 8.1,
       "estimado": false,
       "ultimo_dado": "2026-01-01",
@@ -122,6 +125,7 @@
       "fonte_url": "https://nvd.nist.gov",
       "licenca": "Domínio público (governo dos EUA)",
       "peso": 0.5,
+      "informativo": false,
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
@@ -161,33 +165,56 @@
       "fonte_url": "https://v-dem.net",
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
-      "nota": 3.47,
+      "informativo": false,
+      "nota": 8.5,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 0.371754,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": -1,
         "escala_log": false,
-        "piso": 0.411855,
+        "piso": 0.8,
         "teto": 0.296452,
         "unidade": {
           "pt": "no índice de 0 a 1",
           "en": "on the 0–1 index",
           "es": "en el índice de 0 a 1"
         },
+        "explicacao": {
+          "pt": "0 = o mundo inteiro com democracia liberal plena (0,8 no índice V-Dem, nível dos países nórdicos). 10 = um pouco além do pior nível desde 1990.",
+          "en": "0 = the whole world as a full liberal democracy (0.8 on the V-Dem index, the Nordic level). 10 = a little beyond the worst level since 1990.",
+          "es": "0 = el mundo entero con democracia liberal plena (0,8 en el índice V-Dem, nivel de los países nórdicos). 10 = un poco más allá del peor nivel desde 1990."
+        }
+      }
+    },
+    {
+      "id": "conquista.incidentes",
+      "cavaleiro": "conquista",
+      "subindice": null,
+      "nome": "Incidentes com IA reportados por ano (danos ou quase-danos causados por sistemas de IA)",
+      "fonte": "AI Incident Database, via AI Index (Stanford HAI) e Our World in Data",
+      "fonte_url": "https://incidentdatabase.ai",
+      "licenca": "CC BY-ND 4.0 (AI Index)",
+      "peso": 0.5,
+      "informativo": false,
+      "nota": 8.0,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": true,
         "melhor": {
-          "ano": 2012,
-          "valor": 0.411855
+          "ano": 2013
         },
         "pior": {
-          "ano": 1990,
-          "valor": 0.319533
+          "ano": 2025
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 0,412 no índice de 0 a 1 (2012). O pior foi 0,320 no índice de 0 a 1 (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 0.412 on the 0–1 index (2012). The worst was 0.320 on the 0–1 index (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 0,412 en el índice de 0 a 1 (2012). El peor fue 0,320 en el índice de 0 a 1 (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 2012 (2013). O pior foi em 2025; a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2012 (2013). The worst was in 2025; a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2012 (2013). El peor fue en 2025; la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -200,6 +227,7 @@
       "fonte_url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
       "licenca": "CC-BY-NC-SA 3.0 IGO",
       "peso": 1.0,
+      "informativo": false,
       "nota": 6.47,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
@@ -229,33 +257,26 @@
       "fonte_url": "https://data.worldbank.org/indicator/SI.POV.DDAY",
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
-      "nota": 0.0,
+      "informativo": false,
+      "nota": 1.46,
       "estimado": true,
       "ultimo_dado": "2024-01-01",
       "valor": 10.1,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": 1,
         "escala_log": false,
-        "piso": 10.1,
+        "piso": 3.0,
         "teto": 51.725,
         "unidade": {
           "pt": "% da população",
           "en": "% of population",
           "es": "% de la población"
         },
-        "melhor": {
-          "ano": 2024,
-          "valor": 10.1
-        },
-        "pior": {
-          "ano": 1990,
-          "valor": 43.4
-        },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 10,1% da população (2024). O pior foi 43,4% da população (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 10.1% of population (2024). The worst was 43.4% of population (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 10,1% de la población (2024). El peor fue 43,4% de la población (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = pobreza extrema erradicada: menos de 3% da população, a meta do Banco Mundial. 10 = um pouco além do pior nível desde 1990.",
+          "en": "0 = extreme poverty eradicated: under 3% of people, the World Bank target. 10 = a little beyond the worst level since 1990.",
+          "es": "0 = pobreza extrema erradicada: menos del 3% de la población, la meta del Banco Mundial. 10 = un poco más allá del peor nivel desde 1990."
         }
       }
     },
@@ -268,33 +289,26 @@
       "fonte_url": "https://www.fao.org/publications/sofi",
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
-      "nota": 1.49,
+      "informativo": false,
+      "nota": 4.76,
       "estimado": true,
       "ultimo_dado": "2024-01-01",
       "valor": 8.2,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": 1,
         "escala_log": false,
-        "piso": 7.1,
+        "piso": 2.5,
         "teto": 14.475,
         "unidade": {
           "pt": "% da população",
           "en": "% of population",
           "es": "% de la población"
         },
-        "melhor": {
-          "ano": 2017,
-          "valor": 7.1
-        },
-        "pior": {
-          "ano": 2002,
-          "valor": 13.0
-        },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 2000: 7,1% da população (2017). O pior foi 13,0% da população (2002); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 2000: 7.1% of population (2017). The worst was 13.0% of population (2002); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 2000: 7,1% de la población (2017). El peor fue 13,0% de la población (2002); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = fome erradicada: menos de 2,5% da população subnutrida, o limiar que a FAO considera desprezível. 10 = um pouco além do pior nível da série.",
+          "en": "0 = hunger eradicated: under 2.5% of people undernourished, the level FAO treats as negligible. 10 = a little beyond the worst level on record.",
+          "es": "0 = hambre erradicada: menos del 2,5% de la población subalimentada, el umbral que la FAO considera despreciable. 10 = un poco más allá del peor nivel de la serie."
         }
       }
     },
@@ -307,33 +321,26 @@
       "fonte_url": "https://ucdp.uu.se",
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
-      "nota": 8.0,
+      "informativo": false,
+      "nota": 8.84,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 65.0,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": 1,
         "escala_log": false,
-        "piso": 31.0,
+        "piso": 0.0,
         "teto": 73.5,
         "unidade": {
           "pt": "conflitos",
           "en": "conflicts",
           "es": "conflictos"
         },
-        "melhor": {
-          "ano": 2010,
-          "valor": 31.0
-        },
-        "pior": {
-          "ano": 2025,
-          "valor": 65.0
-        },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 31 conflitos (2010). O pior foi 65 conflitos (2025); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 31 conflicts (2010). The worst was 65 conflicts (2025); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 31 conflictos (2010). El peor fue 65 conflictos (2025); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = nenhum conflito armado envolvendo Estados. 10 = um pouco além do maior número desde 1990.",
+          "en": "0 = no armed conflict involving states. 10 = a little beyond the highest number since 1990.",
+          "es": "0 = ningún conflicto armado con participación de Estados. 10 = un poco más allá del mayor número desde 1990."
         }
       }
     },
@@ -346,6 +353,7 @@
       "fonte_url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS",
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
+      "informativo": false,
       "nota": 2.46,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
@@ -385,33 +393,26 @@
       "fonte_url": "https://ucdp.uu.se",
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
-      "nota": 4.7,
+      "informativo": false,
+      "nota": 5.71,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 2.979519,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": 1,
         "escala_log": true,
-        "piso": 0.311299,
+        "piso": 0.1,
         "teto": 38.050526,
         "unidade": {
           "pt": "mortes por 100 mil habitantes",
           "en": "deaths per 100,000 people",
           "es": "muertes por 100 mil habitantes"
         },
-        "melhor": {
-          "ano": 2005,
-          "valor": 0.311299
-        },
-        "pior": {
-          "ano": 1994,
-          "valor": 14.552048
-        },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 0,31 mortes por 100 mil habitantes (2005). O pior foi 14,55 mortes por 100 mil habitantes (1994); a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 0.31 deaths per 100,000 people (2005). The worst was 14.55 deaths per 100,000 people (1994); a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 0,31 muertes por 100 mil habitantes (2005). El peor fue 14,55 muertes por 100 mil habitantes (1994); la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = praticamente nenhuma morte em guerras (0,1 por 100 mil habitantes). 10 = um pouco além do pior ano desde 1990. Escala logarítmica.",
+          "en": "0 = virtually no war deaths (0.1 per 100,000 people). 10 = a little beyond the worst year since 1990. Logarithmic scale.",
+          "es": "0 = prácticamente ninguna muerte en guerras (0,1 por 100 mil habitantes). 10 = un poco más allá del peor año desde 1990. Escala logarítmica."
         }
       }
     },
@@ -424,33 +425,26 @@
       "fonte_url": "https://fas.org/initiative/status-world-nuclear-forces/",
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
-      "nota": 0.01,
+      "informativo": false,
+      "nota": 1.66,
       "estimado": false,
       "ultimo_dado": "2026-01-01",
       "valor": 12187.0,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": 1,
         "escala_log": false,
-        "piso": 12121.0,
+        "piso": 0.0,
         "teto": 73506.0,
         "unidade": {
           "pt": "ogivas",
           "en": "warheads",
           "es": "ojivas"
         },
-        "melhor": {
-          "ano": 2024,
-          "valor": 12121.0
-        },
-        "pior": {
-          "ano": 1990,
-          "valor": 61229.0
-        },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 12.121 ogivas (2024). O pior foi 61.229 ogivas (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 12,121 warheads (2024). The worst was 61,229 warheads (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 12.121 ojivas (2024). El peor fue 61.229 ojivas (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = nenhuma ogiva nuclear, como pede o Tratado de Proibição de Armas Nucleares da ONU. 10 = um pouco além do maior estoque desde 1990.",
+          "en": "0 = no nuclear warheads, as the UN Treaty on the Prohibition of Nuclear Weapons calls for. 10 = a little beyond the largest stockpile since 1990.",
+          "es": "0 = ninguna ojiva nuclear, como pide el Tratado de la ONU sobre la Prohibición de las Armas Nucleares. 10 = un poco más allá del mayor arsenal desde 1990."
         }
       }
     },
@@ -463,33 +457,56 @@
       "fonte_url": "https://www.iucnredlist.org",
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
-      "nota": 8.0,
+      "informativo": false,
+      "nota": 9.37,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 0.74,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": -1,
         "escala_log": false,
-        "piso": 0.81,
+        "piso": 1.0,
         "teto": 0.7225,
         "unidade": {
           "pt": "no Red List Index",
           "en": "on the Red List Index",
           "es": "en el Red List Index"
         },
+        "explicacao": {
+          "pt": "0 = nenhuma espécie ameaçada de extinção (Red List Index = 1). 10 = um pouco além do pior nível registrado.",
+          "en": "0 = no species threatened with extinction (Red List Index = 1). 10 = a little beyond the worst level on record.",
+          "es": "0 = ninguna especie amenazada de extinción (Red List Index = 1). 10 = un poco más allá del peor nivel registrado."
+        }
+      }
+    },
+    {
+      "id": "morte.ambiente.desastres",
+      "cavaleiro": "morte",
+      "subindice": "ambiente",
+      "nome": "Pessoas afetadas por desastres naturais por ano (média móvel de 5 anos)",
+      "fonte": "EM-DAT (CRED/UCLouvain), via Our World in Data",
+      "fonte_url": "https://www.emdat.be",
+      "licenca": "Uso não comercial; sem redistribuição (EM-DAT)",
+      "peso": 0.0,
+      "informativo": true,
+      "nota": 1.59,
+      "estimado": true,
+      "ultimo_dado": "2025-01-01",
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
         "melhor": {
-          "ano": 1993,
-          "valor": 0.81
+          "ano": null
         },
         "pior": {
-          "ano": 2025,
-          "valor": 0.74
+          "ano": null
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1993: 0,810 no Red List Index (1993). O pior foi 0,740 no Red List Index (2025); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1993: 0.810 on the Red List Index (1993). The worst was 0.740 on the Red List Index (2025); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1993: 0,810 en el Red List Index (1993). El peor fue 0,740 en el Red List Index (2025); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 1990. 10 = um pouco além do pior nível desde então. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990. 10 = a little beyond the worst level since then. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990. 10 = un poco más allá del peor nivel desde entonces. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -502,6 +519,7 @@
       "fonte_url": "https://data.giss.nasa.gov/gistemp/",
       "licenca": "Domínio público (governo dos EUA)",
       "peso": 1.0,
+      "informativo": false,
       "nota": 7.84,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
@@ -533,12 +551,13 @@
       "fonte_url": "https://www.who.int/emergencies/ihr-emergency-committees",
       "licenca": "Fato público",
       "peso": 1.0,
+      "informativo": false,
       "nota": 5.21,
       "estimado": false,
       "ultimo_dado": "2026-11-01",
       "valor": 1.589443,
       "ancora": {
-        "tipo": "historica",
+        "tipo": "meta",
         "direcao": 1,
         "escala_log": false,
         "piso": 0.0,
@@ -548,18 +567,10 @@
           "en": "active emergencies per day",
           "es": "emergencias activas por día"
         },
-        "melhor": {
-          "ano": 2007,
-          "valor": 0.0
-        },
-        "pior": {
-          "ano": 2022,
-          "valor": 2.44086
-        },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 2007: 0,00 emergências ativas por dia (2007). O pior foi 2,44 emergências ativas por dia (2022); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 2007: 0.00 active emergencies per day (2007). The worst was 2.44 active emergencies per day (2022); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 2007: 0,00 emergencias activas por día (2007). El peor fue 2,44 emergencias activas por día (2022); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = nenhuma emergência de saúde pública internacional ativa. 10 = um pouco além do pior ano desde 1990.",
+          "en": "0 = no public health emergency of international concern in force. 10 = a little beyond the worst year since 1990.",
+          "es": "0 = ninguna emergencia de salud pública internacional activa. 10 = un poco más allá del peor año desde 1990."
         }
       }
     },
@@ -572,6 +583,7 @@
       "fonte_url": "https://data.worldbank.org/indicator/SH.DTH.COMM.ZS",
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
+      "informativo": false,
       "nota": 5.13,
       "estimado": true,
       "ultimo_dado": "2021-01-01",
@@ -611,6 +623,7 @@
       "fonte_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/immunization-coverage/who-unicef-estimates-of-national-immunization-coverage",
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
+      "informativo": false,
       "nota": 4.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
@@ -634,10 +647,6 @@
       }
     }
   ],
-  "sem_dados": [
-    "conquista.incidentes",
-    "morte.peste.surtos",
-    "morte.ambiente.desastres"
-  ],
+  "sem_dados": [],
   "licenca": "CC BY 4.0"
 }

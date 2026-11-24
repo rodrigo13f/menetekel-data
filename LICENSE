@@ -15,7 +15,7 @@ Fontes:
 - Fronteira da IA — maior computação de treino já usada até o ano (petaFLOP): Epoch AI (via Our World in Data) (CC-BY 4.0)
 - Vulnerabilidades (CVEs) publicadas por mês, sem as rejeitadas: NVD (NIST) (Domínio público (governo dos EUA))
 - Índice de democracia liberal, média global (média simples entre países): V-Dem (via Our World in Data) (CC-BY 4.0)
-- Incidentes com IA reportados por ano: AI Incident Database (CC-BY-SA 4.0)
+- Incidentes com IA reportados por ano (danos ou quase-danos causados por sistemas de IA): AI Incident Database, via AI Index (Stanford HAI) e Our World in Data (CC BY-ND 4.0 (AI Index)) — só a nota é publicada
 - FAO Food Price Index real, mensal (2014-2016 = 100): FAO (CC-BY-NC-SA 3.0 IGO) — só a nota é publicada
 - Pobreza extrema (% da população mundial): Banco Mundial PIP (via WDI) (CC-BY 4.0)
 - Prevalência de subnutrição (% da população): FAO SOFI (via Our World in Data) (CC-BY 4.0 (OWID))
@@ -24,9 +24,8 @@ Fontes:
 - Mortes em conflitos armados por 100 mil habitantes: UCDP (via Our World in Data); ACLED para o ano corrente (CC-BY 4.0 (OWID))
 - Estoque mundial de ogivas nucleares: Federation of American Scientists (via Our World in Data) (CC-BY 4.0 (OWID))
 - Red List Index (1 = nenhuma espécie ameaçada): IUCN (via Our World in Data / ODS 15.5.1) (CC-BY 4.0 (OWID))
-- Pessoas afetadas por desastres (média móvel 5 anos): EM-DAT (CRED/UCLouvain) (Uso não comercial; sem redistribuição) — só a nota é publicada
+- Pessoas afetadas por desastres naturais por ano (média móvel de 5 anos): EM-DAT (CRED/UCLouvain), via Our World in Data (Uso não comercial; sem redistribuição (EM-DAT)) — só a nota é publicada
 - Anomalia de temperatura global, mensal (°C, relativa a 1951–1980): NASA GISTEMP v4 (Domínio público (governo dos EUA))
 - Emergências de saúde pública internacionais (PHEIC) ativas por dia, média do mês: OMS (cronologia curada em app/data/pheic.yaml) (Fato público)
 - Mortes por doenças transmissíveis, maternas, perinatais e nutricionais (% do total de mortes): OMS Global Health Estimates (via Banco Mundial, WDI) (CC-BY 4.0)
-- Alertas de surto publicados por ano: WHO Disease Outbreak News (CC-BY-NC-SA 3.0 IGO)
 - Cobertura vacinal DTP3 global (%): WHO/UNICEF WUENIC (via Our World in Data) (CC-BY 4.0 (OWID))

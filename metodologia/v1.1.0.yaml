@@ -1,0 +1,124 @@
+# Mene Tekel · Metodologia v1.1.0
+#
+# Publicada em 24/11/2026. Âncoras congeladas a partir da versão provisória 1.1.0-rc3.
+#
+# O que mudou da 1.0.0 para a 1.1.0:
+#   1. O 0 passa a ser o mundo sem o problema [meta] sempre que isso existe: pobreza
+#      extrema erradicada (3%), fome erradicada (2,5%), nenhuma ogiva, nenhum conflito,
+#      praticamente nenhuma morte em guerras, democracia liberal plena em todo o mundo,
+#      nenhuma espécie ameaçada. Na 1.0.0 o 0 era o melhor nível já registrado, o que
+#      tratava como "resolvido" um mundo com 10% de pobreza extrema e 12 mil ogivas.
+#   2. Indicadores novos: incidentes com IA (meio peso, escala log, viés de reporte) e
+#      pessoas afetadas por desastres (informativo, peso 0: o número cai com alertas e
+#      defesa civil mesmo com o clima piorando; mede adaptação, não perigo).
+#   3. Surtos da OMS (Disease Outbreak News) descartados: datas inconsistentes na API
+#      da OMS (nenhum alerta em 2020, 1.088 em 2021) e contagem sujeita à política editorial.
+#   Efeito em 2026: 3,01 → 3,91 selos. O mundo não piorou de um dia para o outro: a régua
+#   ficou mais exigente. A série inteira desde 1990 é recalculada com a régua nova.
+#
+# Histórico das versões provisórias da 1.1:
+#   rc1  três indicadores novos com âncoras auto
+#   rc2  desastres pelo total (rc1 somava os tipos e o total); surtos descartados
+#   rc3  o 0 vira o mundo sem o problema; desastres informativos
+#
+# Pendentes para a 1.2: Guerra além das ogivas (ver fim do arquivo) e um indicador de
+# perigo climático físico (nível do mar, CO₂, calor extremo).
+
+versao: 1.1.0
+ano_inicio: 1990
+margem_auto: 0.25        # só usada por indicadores ainda sem âncora congelada
+
+cavaleiros:
+  conquista: 0.25
+  guerra: 0.25
+  fome: 0.25
+  morte: 0.25
+
+subindices:              # dentro de Morte
+  peste: 0.5
+  ambiente: 0.5
+
+minimo_indicadores: 2    # um cavaleiro precisa de pelo menos 2 indicadores com dado
+
+interacoes:
+  - [guerra, fome, 0.05]       # bloqueios, destruição agrícola, choque de preços
+  - [guerra, conquista, 0.05]  # IA militar, armas autônomas, ciberguerra
+  - [fome, morte, 0.04]        # clima e seca na produção; desnutrição e doenças
+  - [guerra, morte, 0.03]      # colapso de saúde pública em guerra; escassez gerando conflito
+  - [conquista, morte, 0.03]   # biossegurança e desinformação em pandemias
+
+projecao:
+  janela_anos: 5            # tendência = Theil-Sen dos últimos 5 anos
+  limiar_estavel: 0.02      # |tendência| abaixo disso = estável (pontos/ano)
+  horizonte_max: 100        # além disso: "mais de um século"
+  momento_min_anos: 5       # "o nível mais alto desde X" só se X for ≥ 5 anos atrás;
+                            # senão: "o Nº ano mais crítico desde 1990"
+
+# anual:     valor (série anual) | media (dos meses) | soma (dos meses; ano corrente
+#            anualizado com ≥ 3 meses)
+# acumulado: max = recorde até o ano (fronteira)
+# direcao:   1 = valor maior é pior; -1 = valor maior é melhor (proteção)
+# piso:      valor com nota 0     teto: valor com nota 10   (na unidade original)
+# Origem das âncoras: [meta] o 0 é o mundo sem o problema (erradicação ou meta internacional);
+#                     [lim] limiar científico ou de política pública;
+#                     [hist] sem um "zero" que faça sentido: faixa histórica 1990–2025
+#                            (melhor → 0; pior + 25% → 10)
+# O teto (nota 10) continua sendo um pouco além do pior nível registrado desde 1990.
+# peso 0 = informativo: tem nota e aparece no site, mas não entra na conta.
+indicadores:
+
+  # ⚪ Conquista
+  conquista.compute:        # [regra] 0 = fronteira de 2010; 10 = recorde de 2025 × 100 (petaFLOP)
+    {anual: valor, acumulado: max, direcao: 1, escala_log: true, peso: 0.5,
+     piso: 1449.4465, teto: 5.0e13}
+  conquista.cves:           # [hist, log] CVEs publicadas por ano; meio peso (viés de reporte)
+    {anual: soma, direcao: 1, escala_log: true, peso: 0.5, piso: 894, teto: 130443.4447}
+  conquista.democracia:     # [meta] 0 = mundo todo com democracia liberal plena (0,8, nível nórdico)
+    {anual: valor, direcao: -1, piso: 0.8, teto: 0.29645199}
+  conquista.incidentes:     # [hist, log] incidentes com IA reportados no ano (AIID via AI Index);
+                            # meio peso pelo mesmo viés de reporte das CVEs; 6 em 2012 → 0
+    {anual: valor, direcao: 1, escala_log: true, peso: 0.5, piso: 6, teto: 1008.8994855}
+
+  # 🔴 Guerra
+  guerra.ogivas:            # [meta] 0 = nenhuma ogiva (Tratado de Proibição de Armas Nucleares)
+    {anual: valor, direcao: 1, piso: 0, teto: 73506}
+  guerra.mortes_conflito:   # [meta, log] 0 = praticamente sem mortes em guerras (0,1 por 100 mil hab.)
+    {anual: valor, direcao: 1, escala_log: true, piso: 0.1, teto: 38.05052598}
+  guerra.conflitos:         # [meta] 0 = nenhum conflito armado envolvendo Estados
+    {anual: valor, direcao: 1, piso: 0, teto: 73.5}
+  guerra.gasto_militar:     # [hist] % do PIB mundial
+    {anual: valor, direcao: 1, piso: 2.10542540055738, teto: 3.62460952161719}
+
+  # ⚫ Fome
+  fome.fpi:                 # [hist] índice real FAO (média anual)
+    {anual: media, direcao: 1, piso: 67.4772048496002, teto: 137.005597124127}
+  fome.subnutricao:         # [meta] 0 = fome erradicada (< 2,5%, limiar de prevalência desprezível da FAO)
+    {anual: valor, direcao: 1, piso: 2.5, teto: 14.475}
+  fome.pobreza:             # [meta] 0 = pobreza extrema erradicada (< 3%, meta do Banco Mundial)
+    {anual: valor, direcao: 1, piso: 3, teto: 51.725}
+
+  # 🟢 Morte · Peste
+  morte.peste.mortes_infecciosas:   # [hist] % do total de mortes
+    {anual: valor, direcao: 1, piso: 18.2908295889405, teto: 35.970171089774}
+  morte.peste.emergencias:  # [meta] 0 = nenhuma emergência PHEIC ativa (média de ativas por dia)
+    {anual: media, direcao: 1, piso: 0, teto: 3.0510753125}
+  morte.peste.vacinacao:    # [lim] 0 = meta de 95% da OMS; 10 = 70%
+    {anual: valor, direcao: -1, piso: 95, teto: 70}
+
+  # 🟢 Morte · Ambiente
+  morte.ambiente.temperatura:   # [lim] 0 = pré-industrial (−0,3 °C na base 1951–1980); 10 = +2 °C
+    {anual: media, direcao: 1, piso: -0.3, teto: 1.7}
+  morte.ambiente.desastres: # [hist] pessoas afetadas por desastres naturais, média móvel de 5 anos;
+                            # o ano em curso (parcial no EM-DAT) fica de fora
+    # informativo: o número de afetados cai com alertas e defesa civil, mesmo com o clima
+    # piorando; mede adaptação, não perigo. Aparece no site, fora da conta.
+    {anual: valor, ignorar_ano_corrente: true, media_movel: 5, direcao: 1, peso: 0,
+     piso: 9.933e7, teto: 3.664e8}
+  morte.ambiente.biodiversidade:  # [meta] 0 = nenhuma espécie ameaçada (Red List Index = 1)
+    {anual: valor, direcao: -1, piso: 1.0, teto: 0.7225}
+
+# ── Pendente: Guerra além das ogivas ─────────────────────────────────────
+# A contagem de ogivas caiu ~80% desde 1990 e puxa Guerra para baixo, embora o risco
+# militar tenha mudado de forma (drones, mísseis, ciberataques entre Estados).
+# Candidatos: ACLED "explosões/violência remota", SIPRI transferências de armas (TIV),
+# FAS ogivas prontas para uso, CSIS incidentes cibernéticos significativos.

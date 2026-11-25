@@ -36,7 +36,12 @@
       "ate": 2026,
       "tendencia_pontos_ano": 0.116,
       "situacao": "piora",
-      "ano_setimo_selo": 2065
+      "ano_setimo_selo": 2065,
+      "ritmo": {
+        "pt": "um novo selo se rompe a cada 12 anos",
+        "en": "a new seal breaks every 12 years",
+        "es": "un nuevo sello se rompe cada 12 años"
+      }
     },
     {
       "id": "decada_2010",
@@ -44,7 +49,12 @@
       "ate": 2019,
       "tendencia_pontos_ano": 0.036,
       "situacao": "piora_lenta",
-      "ano_setimo_selo": null
+      "ano_setimo_selo": null,
+      "ritmo": {
+        "pt": "um novo selo se rompe a cada 40 anos",
+        "en": "a new seal breaks every 40 years",
+        "es": "un nuevo sello se rompe cada 40 años"
+      }
     },
     {
       "id": "decada_1990",
@@ -52,7 +62,12 @@
       "ate": 1999,
       "tendencia_pontos_ano": -0.109,
       "situacao": "melhora",
-      "ano_setimo_selo": null
+      "ano_setimo_selo": null,
+      "ritmo": {
+        "pt": "um selo volta a se fechar a cada 13 anos",
+        "en": "a seal closes again every 13 years",
+        "es": "un sello vuelve a cerrarse cada 13 años"
+      }
     }
   ],
   "cavaleiros": {
@@ -188,6 +203,11 @@
       "nota": 8.1,
       "estimado": false,
       "ultimo_dado": "2026-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2026",
+        "en": "2026",
+        "es": "2026"
+      },
       "valor": 500000000000.0,
       "valor_formatado": {
         "pt": "500 bilhões de petaFLOP",
@@ -231,6 +251,11 @@
       "nota": 9.62,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
+      "ultimo_dado_texto": {
+        "pt": "outubro de 2026",
+        "en": "October 2026",
+        "es": "octubre de 2026"
+      },
       "valor": 107811.6,
       "valor_formatado": {
         "pt": "107.812 CVEs no ano",
@@ -287,6 +312,11 @@
       "nota": 8.5,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "valor": 0.371754,
       "valor_formatado": {
         "pt": "0,372 no índice de 0 a 1",
@@ -329,6 +359,11 @@
       "nota": 8.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "etiquetas": [
         "meio_peso",
         "estimado",
@@ -366,6 +401,11 @@
       "nota": 6.47,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
+      "ultimo_dado_texto": {
+        "pt": "outubro de 2026",
+        "en": "October 2026",
+        "es": "octubre de 2026"
+      },
       "valor_parcial": {
         "pt": "média de jan a out",
         "en": "average from Jan to Oct",
@@ -405,6 +445,11 @@
       "nota": 1.46,
       "estimado": true,
       "ultimo_dado": "2024-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2024",
+        "en": "2024",
+        "es": "2024"
+      },
       "valor": 10.1,
       "valor_formatado": {
         "pt": "10,1% da população",
@@ -447,6 +492,11 @@
       "nota": 4.76,
       "estimado": true,
       "ultimo_dado": "2024-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2024",
+        "en": "2024",
+        "es": "2024"
+      },
       "valor": 8.2,
       "valor_formatado": {
         "pt": "8,2% da população",
@@ -489,6 +539,11 @@
       "nota": 8.84,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "valor": 65.0,
       "valor_formatado": {
         "pt": "65 conflitos",
@@ -531,6 +586,11 @@
       "nota": 2.46,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "valor": 2.47893,
       "valor_formatado": {
         "pt": "2,48% do PIB",
@@ -581,6 +641,11 @@
       "nota": 5.71,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "valor": 2.979519,
       "valor_formatado": {
         "pt": "2,98 mortes por 100 mil habitantes",
@@ -624,6 +689,11 @@
       "nota": 1.66,
       "estimado": false,
       "ultimo_dado": "2026-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2026",
+        "en": "2026",
+        "es": "2026"
+      },
       "valor": 12187.0,
       "valor_formatado": {
         "pt": "12.187 ogivas",
@@ -665,6 +735,11 @@
       "nota": 9.37,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "valor": 0.74,
       "valor_formatado": {
         "pt": "0,740 no Red List Index",
@@ -707,6 +782,11 @@
       "nota": 1.59,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "etiquetas": [
         "informativo",
         "estimado",
@@ -743,6 +823,11 @@
       "nota": 7.84,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
+      "ultimo_dado_texto": {
+        "pt": "outubro de 2026",
+        "en": "October 2026",
+        "es": "octubre de 2026"
+      },
       "valor": 1.268,
       "valor_formatado": {
         "pt": "1,27 °C",
@@ -789,6 +874,11 @@
       "nota": 5.21,
       "estimado": false,
       "ultimo_dado": "2026-11-01",
+      "ultimo_dado_texto": {
+        "pt": "novembro de 2026",
+        "en": "November 2026",
+        "es": "noviembre de 2026"
+      },
       "valor": 1.589443,
       "valor_formatado": {
         "pt": "1,59 emergências ativas por dia",
@@ -835,6 +925,11 @@
       "nota": 5.13,
       "estimado": true,
       "ultimo_dado": "2021-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2021",
+        "en": "2021",
+        "es": "2021"
+      },
       "valor": 27.366087,
       "valor_formatado": {
         "pt": "27,4% das mortes",
@@ -885,6 +980,11 @@
       "nota": 4.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
+      },
       "valor": 85.0,
       "valor_formatado": {
         "pt": "85% de cobertura",

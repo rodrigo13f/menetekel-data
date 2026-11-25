@@ -15,9 +15,9 @@
     "ano": 1990
   },
   "resumo": {
-    "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia. No ritmo atual, um novo selo se rompe a cada 12 anos.",
-    "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding. At the current pace, a new seal breaks every 12 years.",
-    "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia. Al ritmo actual, un nuevo sello se rompe cada 12 años."
+    "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia. Mas não está escrito: se o mundo voltasse ao ritmo de 1990–1999, os selos começariam a se fechar.",
+    "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding. But it is not written: if the world returned to the pace of 1990–1999, the seals would begin to close.",
+    "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia. Pero no está escrito: si el mundo volviera al ritmo de 1990–1999, los sellos empezarían a cerrarse."
   },
   "ritmo": {
     "tendencia_pontos_ano": 0.116,

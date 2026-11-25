@@ -27,7 +27,8 @@
           "indicador": "morte.ambiente.temperatura",
           "novos_periodos": 1,
           "ultimo_periodo": "2026-10-01",
-          "correcoes": 224
+          "correcoes": 224,
+          "cavaleiro": "morte"
         }
       ],
       "delta_selos": 0.0
@@ -46,7 +47,8 @@
           "indicador": "fome.fpi",
           "novos_periodos": 1,
           "ultimo_periodo": "2026-10-01",
-          "correcoes": 4
+          "correcoes": 4,
+          "cavaleiro": "fome"
         }
       ],
       "delta_selos": null
@@ -65,7 +67,8 @@
           "indicador": "morte.peste.emergencias",
           "novos_periodos": 1,
           "ultimo_periodo": "2026-11-01",
-          "correcoes": 0
+          "correcoes": 0,
+          "cavaleiro": "morte"
         }
       ],
       "delta_selos": null
@@ -84,7 +87,8 @@
           "indicador": "conquista.cves",
           "novos_periodos": 1,
           "ultimo_periodo": "2026-10-01",
-          "correcoes": 0
+          "correcoes": 0,
+          "cavaleiro": "conquista"
         }
       ],
       "delta_selos": null

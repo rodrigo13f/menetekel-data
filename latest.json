@@ -14,6 +14,21 @@
     "tipo": "desde_inicio",
     "ano": 1990
   },
+  "resumo": {
+    "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia. No ritmo atual, um novo selo se rompe a cada 12 anos.",
+    "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding. At the current pace, a new seal breaks every 12 years.",
+    "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia. Al ritmo actual, un nuevo sello se rompe cada 12 años."
+  },
+  "ritmo": {
+    "tendencia_pontos_ano": 0.116,
+    "anos_por_selo": 12.4,
+    "comparacao_desde": 2024,
+    "frase": {
+      "pt": "No ritmo atual, um novo selo se rompe a cada 12 anos.",
+      "en": "At the current pace, a new seal breaks every 12 years.",
+      "es": "Al ritmo actual, un nuevo sello se rompe cada 12 años."
+    }
+  },
   "cenarios": [
     {
       "id": "atual",
@@ -44,6 +59,25 @@
     "conquista": {
       "nota": 8.55,
       "cobertura": 0.5,
+      "nome": {
+        "pt": "Conquista",
+        "en": "Conquest",
+        "es": "Conquista"
+      },
+      "descricao_curta": {
+        "pt": "Inteligência artificial, cibersegurança e o recuo da democracia.",
+        "en": "Artificial intelligence, cybersecurity and democratic backsliding.",
+        "es": "Inteligencia artificial, ciberseguridad y el retroceso de la democracia."
+      },
+      "descricao": {
+        "pt": "O cavaleiro branco \"saiu vencendo, e para vencer\". Aqui ele representa o poder que se concentra e escapa ao controle. Medimos a fronteira da IA (a maior computação já usada para treinar um modelo), os incidentes em que sistemas de IA causaram ou quase causaram dano, as vulnerabilidades de software registradas e a qualidade da democracia liberal no mundo. A nota é a média ponderada desses indicadores. Incidentes e vulnerabilidades contam pela metade, porque crescem também com o próprio registro.",
+        "en": "The white rider \"went forth conquering, and to conquer\". Here he stands for power that concentrates and slips out of control. We measure the AI frontier (the largest compute ever used to train a model), incidents in which AI systems caused or nearly caused harm, recorded software vulnerabilities and the quality of liberal democracy worldwide. The score is the weighted average of these indicators. Incidents and vulnerabilities count half, because they also grow with reporting itself.",
+        "es": "El jinete blanco \"salió victorioso, y para vencer\". Aquí representa el poder que se concentra y escapa al control. Medimos la frontera de la IA (la mayor computación usada para entrenar un modelo), los incidentes en que sistemas de IA causaron o casi causaron daño, las vulnerabilidades de software registradas y la calidad de la democracia liberal en el mundo. La nota es el promedio ponderado de estos indicadores. Incidentes y vulnerabilidades cuentan la mitad, porque también crecen con el propio registro."
+      },
+      "mais_pesa": {
+        "indicador": "conquista.democracia",
+        "nota": 8.5
+      },
       "indicadores": [
         "conquista.compute",
         "conquista.cves",
@@ -54,6 +88,25 @@
     "guerra": {
       "nota": 4.67,
       "cobertura": 0.25,
+      "nome": {
+        "pt": "Guerra",
+        "en": "War",
+        "es": "Guerra"
+      },
+      "descricao_curta": {
+        "pt": "Conflitos armados, mortes em guerras, armas nucleares e gasto militar.",
+        "en": "Armed conflicts, war deaths, nuclear weapons and military spending.",
+        "es": "Conflictos armados, muertes en guerras, armas nucleares y gasto militar."
+      },
+      "descricao": {
+        "pt": "Ao cavaleiro vermelho \"foi dado que tirasse a paz da terra\". Medimos quantos conflitos armados envolvem Estados, quantas pessoas morrem neles (por 100 mil habitantes), o estoque mundial de ogivas nucleares e quanto o mundo gasta com forças armadas (% do PIB). A nota é a média desses quatro indicadores. Drones, mísseis e ciberataques entre Estados ainda não entram na conta; ficam para uma versão futura.",
+        "en": "The red rider was given power \"to take peace from the earth\". We measure how many armed conflicts involve states, how many people die in them (per 100,000 people), the world's stockpile of nuclear warheads and how much the world spends on armed forces (% of GDP). The score is the average of these four indicators. Drones, missiles and cyberattacks between states are not counted yet; they come in a future version.",
+        "es": "Al jinete rojo le fue dado \"quitar la paz de la tierra\". Medimos cuántos conflictos armados involucran a Estados, cuántas personas mueren en ellos (por 100 mil habitantes), el arsenal mundial de ojivas nucleares y cuánto gasta el mundo en fuerzas armadas (% del PIB). La nota es el promedio de estos cuatro indicadores. Drones, misiles y ciberataques entre Estados aún no entran en el cálculo; llegarán en una versión futura."
+      },
+      "mais_pesa": {
+        "indicador": "guerra.conflitos",
+        "nota": 8.84
+      },
       "indicadores": [
         "guerra.conflitos",
         "guerra.gasto_militar",
@@ -64,6 +117,25 @@
     "fome": {
       "nota": 4.23,
       "cobertura": 0.33,
+      "nome": {
+        "pt": "Fome",
+        "en": "Famine",
+        "es": "Hambre"
+      },
+      "descricao_curta": {
+        "pt": "Fome, pobreza extrema e o preço dos alimentos.",
+        "en": "Hunger, extreme poverty and food prices.",
+        "es": "Hambre, pobreza extrema y el precio de los alimentos."
+      },
+      "descricao": {
+        "pt": "O cavaleiro preto traz a balança: \"uma medida de trigo por um dinheiro\". Medimos a parcela da população subnutrida (FAO), a pobreza extrema (Banco Mundial) e o preço real dos alimentos no mundo (índice da FAO, descontada a inflação). A nota é a média dos três: fome crônica, pobreza e choques de preço.",
+        "en": "The black rider holds the balances: \"a measure of wheat for a penny\". We measure the share of people who are undernourished (FAO), extreme poverty (World Bank) and the real price of food worldwide (FAO index, adjusted for inflation). The score is the average of the three: chronic hunger, poverty and price shocks.",
+        "es": "El jinete negro trae la balanza: \"un cheniz de trigo por un denario\". Medimos la parte de la población subalimentada (FAO), la pobreza extrema (Banco Mundial) y el precio real de los alimentos en el mundo (índice de la FAO, descontada la inflación). La nota es el promedio de los tres: hambre crónica, pobreza y choques de precios."
+      },
+      "mais_pesa": {
+        "indicador": "fome.fpi",
+        "nota": 6.47
+      },
       "indicadores": [
         "fome.fpi",
         "fome.pobreza",
@@ -73,6 +145,25 @@
     "morte": {
       "nota": 6.69,
       "cobertura": 0.4,
+      "nome": {
+        "pt": "Morte",
+        "en": "Death",
+        "es": "Muerte"
+      },
+      "descricao_curta": {
+        "pt": "Doenças e emergências de saúde, clima e perda de biodiversidade.",
+        "en": "Disease and health emergencies, climate and biodiversity loss.",
+        "es": "Enfermedades y emergencias sanitarias, clima y pérdida de biodiversidad."
+      },
+      "descricao": {
+        "pt": "O cavaleiro pálido vem \"para matar com a espada, e com a fome, e com a peste, e com as feras da terra\". Ele tem duas metades de peso igual. Peste: mortes por doenças infecciosas, emergências de saúde pública internacionais e cobertura vacinal infantil. Ambiente: aquecimento global e espécies ameaçadas de extinção. Pessoas afetadas por desastres aparecem só como informação: o número cai com alertas e defesa civil, mesmo com o clima piorando.",
+        "en": "The pale rider comes \"to kill with sword, and with hunger, and with death, and with the beasts of the earth\". He has two halves of equal weight. Plague: deaths from infectious diseases, international public health emergencies and childhood vaccination. Environment: global warming and species threatened with extinction. People affected by disasters are shown for information only: the number falls with warnings and civil defense, even as the climate gets worse.",
+        "es": "El jinete pálido viene \"para matar con espada, con hambre, con mortandad, y con las bestias de la tierra\". Tiene dos mitades de igual peso. Peste: muertes por enfermedades infecciosas, emergencias de salud pública internacionales y vacunación infantil. Ambiente: calentamiento global y especies amenazadas de extinción. Las personas afectadas por desastres se muestran solo como información: el número baja con alertas y defensa civil, aunque el clima empeore."
+      },
+      "mais_pesa": {
+        "indicador": "morte.ambiente.biodiversidade",
+        "nota": 9.37
+      },
       "indicadores": [
         "morte.ambiente.biodiversidade",
         "morte.ambiente.desastres",
@@ -98,6 +189,17 @@
       "estimado": false,
       "ultimo_dado": "2026-01-01",
       "valor": 500000000000.0,
+      "valor_formatado": {
+        "pt": "500 bilhões de petaFLOP",
+        "en": "500 billion petaFLOP",
+        "es": "500 mil millones de petaFLOP"
+      },
+      "etiquetas": [
+        "meio_peso",
+        "regra",
+        "escala_log"
+      ],
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "regra",
         "direcao": 1,
@@ -110,9 +212,9 @@
           "es": "petaFLOP"
         },
         "explicacao": {
-          "pt": "0 = a maior computação de treino de IA em 2010. 10 = cem vezes o recorde de 2025. Escala logarítmica.",
-          "en": "0 = the largest AI training compute in 2010. 10 = a hundred times the 2025 record. Logarithmic scale.",
-          "es": "0 = la mayor computación de entrenamiento de IA en 2010. 10 = cien veces el récord de 2025. Escala logarítmica."
+          "pt": "0 = o maior treino de IA de 2010, início da era atual. 10 = cem vezes o maior treino já feito (2025). Como essa fronteira tem crescido várias vezes a cada ano, o 10 marca onde a IA chegaria em poucos anos se nada frear. Escala logarítmica.",
+          "en": "0 = the largest AI training run of 2010, the start of the current era. 10 = a hundred times the largest training run ever (2025). Since this frontier has grown several times over each year, 10 marks where AI would be within a few years if nothing slows it. Logarithmic scale.",
+          "es": "0 = el mayor entrenamiento de IA de 2010, inicio de la era actual. 10 = cien veces el mayor entrenamiento jamás hecho (2025). Como esa frontera ha crecido varias veces cada año, el 10 marca dónde estaría la IA en pocos años si nada la frena. Escala logarítmica."
         }
       }
     },
@@ -130,6 +232,22 @@
       "estimado": false,
       "ultimo_dado": "2026-10-01",
       "valor": 107811.6,
+      "valor_formatado": {
+        "pt": "107.812 CVEs no ano",
+        "en": "107,812 CVEs in the year",
+        "es": "107.812 CVE en el año"
+      },
+      "valor_parcial": {
+        "pt": "projeção para o ano inteiro, com dados de jan a out",
+        "en": "full-year projection, with data from Jan to Oct",
+        "es": "proyección para el año completo, con datos de ene a oct"
+      },
+      "etiquetas": [
+        "meio_peso",
+        "historica",
+        "escala_log"
+      ],
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -150,9 +268,9 @@
           "valor": 48150.999994
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1999: 894 CVEs no ano (1999). O pior foi 48.151 CVEs no ano (2025); a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1999: 894 CVEs in the year (1999). The worst was 48,151 CVEs in the year (2025); a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1999: 894 CVE en el año (1999). El peor fue 48.151 CVE en el año (2025); la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 1999: 894 CVEs no ano (1999). Até 2025, o pior foi 48.151 CVEs no ano (2025); a nota 10 fica um pouco além dele. Escala logarítmica. Hoje já passou desse nível. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1999: 894 CVEs in the year (1999). Up to 2025, the worst was 48,151 CVEs in the year (2025); a score of 10 sits a little beyond it. Logarithmic scale. Today it is already beyond that level. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1999: 894 CVE en el año (1999). Hasta 2025, el peor fue 48.151 CVE en el año (2025); la nota 10 queda un poco más allá. Escala logarítmica. Hoy ya superó ese nivel. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -170,6 +288,16 @@
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 0.371754,
+      "valor_formatado": {
+        "pt": "0,372 no índice de 0 a 1",
+        "en": "0.372 on the 0–1 index",
+        "es": "0,372 en el índice de 0 a 1"
+      },
+      "etiquetas": [
+        "estimado",
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.4,
       "ancora": {
         "tipo": "meta",
         "direcao": -1,
@@ -201,6 +329,13 @@
       "nota": 8.0,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "etiquetas": [
+        "meio_peso",
+        "estimado",
+        "historica",
+        "escala_log"
+      ],
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -212,9 +347,9 @@
           "ano": 2025
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 2012 (2013). O pior foi em 2025; a nota 10 fica um pouco além dele. Escala logarítmica. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 2012 (2013). The worst was in 2025; a score of 10 sits a little beyond it. Logarithmic scale. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 2012 (2013). El peor fue en 2025; la nota 10 queda un poco más allá. Escala logarítmica. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 2012, alcançado em 2013. Até 2025, o pior foi em 2025; a nota 10 fica um pouco além dele. Escala logarítmica. Hoje já passou desse nível. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2012, reached in 2013. Up to 2025, the worst was in 2025; a score of 10 sits a little beyond it. Logarithmic scale. Today it is already beyond that level. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2012, alcanzado en 2013. Hasta 2025, el peor fue en 2025; la nota 10 queda un poco más allá. Escala logarítmica. Hoy ya superó ese nivel. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -231,6 +366,15 @@
       "nota": 6.47,
       "estimado": false,
       "ultimo_dado": "2026-10-01",
+      "valor_parcial": {
+        "pt": "média de jan a out",
+        "en": "average from Jan to Oct",
+        "es": "promedio de ene a oct"
+      },
+      "etiquetas": [
+        "historica"
+      ],
+      "peso_no_cavaleiro": 0.333,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -242,9 +386,9 @@
           "ano": 2022
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990 (2000). O pior foi em 2022; a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990 (2000). The worst was in 2022; a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990 (2000). El peor fue en 2022; la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 1990, alcançado em 2000. Até 2025, o pior foi em 2022; a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990, reached in 2000. Up to 2025, the worst was in 2022; a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990, alcanzado en 2000. Hasta 2025, el peor fue en 2022; la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -262,6 +406,16 @@
       "estimado": true,
       "ultimo_dado": "2024-01-01",
       "valor": 10.1,
+      "valor_formatado": {
+        "pt": "10,1% da população",
+        "en": "10.1% of population",
+        "es": "10,1% de la población"
+      },
+      "etiquetas": [
+        "estimado",
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.333,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -294,6 +448,16 @@
       "estimado": true,
       "ultimo_dado": "2024-01-01",
       "valor": 8.2,
+      "valor_formatado": {
+        "pt": "8,2% da população",
+        "en": "8.2% of population",
+        "es": "8,2% de la población"
+      },
+      "etiquetas": [
+        "estimado",
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.333,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -326,6 +490,16 @@
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 65.0,
+      "valor_formatado": {
+        "pt": "65 conflitos",
+        "en": "65 conflicts",
+        "es": "65 conflictos"
+      },
+      "etiquetas": [
+        "estimado",
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.25,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -358,6 +532,16 @@
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 2.47893,
+      "valor_formatado": {
+        "pt": "2,48% do PIB",
+        "en": "2.48% of GDP",
+        "es": "2,48% del PIB"
+      },
+      "etiquetas": [
+        "estimado",
+        "historica"
+      ],
+      "peso_no_cavaleiro": 0.25,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -378,9 +562,9 @@
           "valor": 3.320773
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 1990: 2,11% do PIB (2018). O pior foi 3,32% do PIB (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 1990: 2.11% of GDP (2018). The worst was 3.32% of GDP (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 1990: 2,11% del PIB (2018). El peor fue 3,32% del PIB (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 1990: 2,11% do PIB (2018). Até 2025, o pior foi 3,32% do PIB (1990); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 1990: 2.11% of GDP (2018). Up to 2025, the worst was 3.32% of GDP (1990); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 1990: 2,11% del PIB (2018). Hasta 2025, el peor fue 3,32% del PIB (1990); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -398,6 +582,17 @@
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 2.979519,
+      "valor_formatado": {
+        "pt": "2,98 mortes por 100 mil habitantes",
+        "en": "2.98 deaths per 100,000 people",
+        "es": "2,98 muertes por 100 mil habitantes"
+      },
+      "etiquetas": [
+        "estimado",
+        "meta",
+        "escala_log"
+      ],
+      "peso_no_cavaleiro": 0.25,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -430,6 +625,15 @@
       "estimado": false,
       "ultimo_dado": "2026-01-01",
       "valor": 12187.0,
+      "valor_formatado": {
+        "pt": "12.187 ogivas",
+        "en": "12,187 warheads",
+        "es": "12.187 ojivas"
+      },
+      "etiquetas": [
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.25,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -462,6 +666,16 @@
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 0.74,
+      "valor_formatado": {
+        "pt": "0,740 no Red List Index",
+        "en": "0.740 on the Red List Index",
+        "es": "0,740 en el Red List Index"
+      },
+      "etiquetas": [
+        "estimado",
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.25,
       "ancora": {
         "tipo": "meta",
         "direcao": -1,
@@ -493,6 +707,12 @@
       "nota": 1.59,
       "estimado": true,
       "ultimo_dado": "2025-01-01",
+      "etiquetas": [
+        "informativo",
+        "estimado",
+        "historica"
+      ],
+      "peso_no_cavaleiro": 0.0,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -524,6 +744,20 @@
       "estimado": false,
       "ultimo_dado": "2026-10-01",
       "valor": 1.268,
+      "valor_formatado": {
+        "pt": "1,27 °C",
+        "en": "1.27 °C",
+        "es": "1,27 °C"
+      },
+      "valor_parcial": {
+        "pt": "média de jan a out",
+        "en": "average from Jan to Oct",
+        "es": "promedio de ene a oct"
+      },
+      "etiquetas": [
+        "limite"
+      ],
+      "peso_no_cavaleiro": 0.25,
       "ancora": {
         "tipo": "limite",
         "direcao": 1,
@@ -556,6 +790,20 @@
       "estimado": false,
       "ultimo_dado": "2026-11-01",
       "valor": 1.589443,
+      "valor_formatado": {
+        "pt": "1,59 emergências ativas por dia",
+        "en": "1.59 active emergencies per day",
+        "es": "1,59 emergencias activas por día"
+      },
+      "valor_parcial": {
+        "pt": "média de jan a nov",
+        "en": "average from Jan to Nov",
+        "es": "promedio de ene a nov"
+      },
+      "etiquetas": [
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.167,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -588,6 +836,16 @@
       "estimado": true,
       "ultimo_dado": "2021-01-01",
       "valor": 27.366087,
+      "valor_formatado": {
+        "pt": "27,4% das mortes",
+        "en": "27.4% of deaths",
+        "es": "27,4% de las muertes"
+      },
+      "etiquetas": [
+        "estimado",
+        "historica"
+      ],
+      "peso_no_cavaleiro": 0.167,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -608,9 +866,9 @@
           "valor": 32.434303
         },
         "explicacao": {
-          "pt": "0 = o melhor nível desde 2000: 18,3% das mortes (2019). O pior foi 32,4% das mortes (2000); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
-          "en": "0 = the best level since 2000: 18.3% of deaths (2019). The worst was 32.4% of deaths (2000); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
-          "es": "0 = el mejor nivel desde 2000: 18,3% de las muertes (2019). El peor fue 32,4% de las muertes (2000); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+          "pt": "0 = o melhor nível desde 2000: 18,3% das mortes (2019). Até 2025, o pior foi 32,4% das mortes (2000); a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2000: 18.3% of deaths (2019). Up to 2025, the worst was 32.4% of deaths (2000); a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2000: 18,3% de las muertes (2019). Hasta 2025, el peor fue 32,4% de las muertes (2000); la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
         }
       }
     },
@@ -628,6 +886,16 @@
       "estimado": true,
       "ultimo_dado": "2025-01-01",
       "valor": 85.0,
+      "valor_formatado": {
+        "pt": "85% de cobertura",
+        "en": "85% coverage",
+        "es": "85% de cobertura"
+      },
+      "etiquetas": [
+        "estimado",
+        "limite"
+      ],
+      "peso_no_cavaleiro": 0.167,
       "ancora": {
         "tipo": "limite",
         "direcao": -1,
@@ -648,5 +916,103 @@
     }
   ],
   "sem_dados": [],
+  "glossario": {
+    "estimado": {
+      "titulo": {
+        "pt": "Estimado",
+        "en": "Estimated",
+        "es": "Estimado"
+      },
+      "texto": {
+        "pt": "A fonte ainda não publicou o dado deste ano. Repetimos o último valor oficial, ou interpolamos entre dois valores oficiais. Nenhum valor é inventado.",
+        "en": "The source has not yet published this year's figure. We carry forward the last official value, or interpolate between two official values. No value is made up.",
+        "es": "La fuente aún no publicó el dato de este año. Repetimos el último valor oficial, o interpolamos entre dos valores oficiales. Ningún valor es inventado."
+      }
+    },
+    "meio_peso": {
+      "titulo": {
+        "pt": "Meio peso",
+        "en": "Half weight",
+        "es": "Medio peso"
+      },
+      "texto": {
+        "pt": "Este número cresce também porque se registra mais (mais gente procurando, mais organizações reportando). Por isso conta pela metade na nota do cavaleiro.",
+        "en": "This number also grows because more gets recorded (more people looking, more organizations reporting). So it counts half in the rider's score.",
+        "es": "Este número también crece porque se registra más (más gente buscando, más organizaciones reportando). Por eso cuenta la mitad en la nota del jinete."
+      }
+    },
+    "informativo": {
+      "titulo": {
+        "pt": "Informativo",
+        "en": "Informational",
+        "es": "Informativo"
+      },
+      "texto": {
+        "pt": "Tem nota e aparece aqui, mas não entra na conta. Mede adaptação, não perigo, e puxaria o índice na direção errada.",
+        "en": "It has a score and is shown here, but it is not counted. It measures adaptation, not danger, and would pull the index the wrong way.",
+        "es": "Tiene nota y aparece aquí, pero no entra en el cálculo. Mide adaptación, no peligro, y empujaría el índice en la dirección equivocada."
+      }
+    },
+    "meta": {
+      "titulo": {
+        "pt": "Comparado a um mundo sem o problema",
+        "en": "Compared with a world without the problem",
+        "es": "Comparado con un mundo sin el problema"
+      },
+      "texto": {
+        "pt": "O 0 é o problema resolvido (fome erradicada, nenhuma ogiva, nenhum conflito). O 10 fica um pouco além do pior nível desde 1990.",
+        "en": "0 is the problem solved (hunger eradicated, no warheads, no conflicts). 10 sits a little beyond the worst level since 1990.",
+        "es": "El 0 es el problema resuelto (hambre erradicada, ninguna ojiva, ningún conflicto). El 10 queda un poco más allá del peor nivel desde 1990."
+      }
+    },
+    "historica": {
+      "titulo": {
+        "pt": "Comparado a 1990–2025",
+        "en": "Compared with 1990–2025",
+        "es": "Comparado con 1990–2025"
+      },
+      "texto": {
+        "pt": "Aqui não existe um zero que faça sentido. O 0 é o melhor nível registrado desde 1990, e o 10 fica um pouco além do pior. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+        "en": "There is no meaningful zero here. 0 is the best level recorded since 1990, and 10 sits a little beyond the worst. A low score means the best we have been, not a solved problem.",
+        "es": "Aquí no existe un cero con sentido. El 0 es el mejor nivel registrado desde 1990, y el 10 queda un poco más allá del peor. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+      }
+    },
+    "limite": {
+      "titulo": {
+        "pt": "Comparado a um limite científico",
+        "en": "Compared with a scientific limit",
+        "es": "Comparado con un límite científico"
+      },
+      "texto": {
+        "pt": "A régua vem de uma meta ou de um limite científico, como o clima pré-industrial e o limite do Acordo de Paris, ou a meta de vacinação da OMS.",
+        "en": "The scale comes from a target or scientific limit, such as the pre-industrial climate and the Paris Agreement limit, or the WHO vaccination target.",
+        "es": "La escala viene de una meta o de un límite científico, como el clima preindustrial y el límite del Acuerdo de París, o la meta de vacunación de la OMS."
+      }
+    },
+    "regra": {
+      "titulo": {
+        "pt": "Régua própria",
+        "en": "Own scale",
+        "es": "Escala propia"
+      },
+      "texto": {
+        "pt": "Uma régua definida por nós, explicada no próprio indicador.",
+        "en": "A scale we defined, explained in the indicator itself.",
+        "es": "Una escala definida por nosotros, explicada en el propio indicador."
+      }
+    },
+    "escala_log": {
+      "titulo": {
+        "pt": "Escala logarítmica",
+        "en": "Logarithmic scale",
+        "es": "Escala logarítmica"
+      },
+      "texto": {
+        "pt": "Para números que crescem multiplicando (10, 100, 1.000…). Cada ponto da nota equivale a multiplicar o valor, e não a somar.",
+        "en": "For numbers that grow by multiplying (10, 100, 1,000…). Each point of the score means multiplying the value, not adding to it.",
+        "es": "Para números que crecen multiplicando (10, 100, 1.000…). Cada punto de la nota equivale a multiplicar el valor, no a sumar."
+      }
+    }
+  },
   "licenca": "CC BY 4.0"
 }

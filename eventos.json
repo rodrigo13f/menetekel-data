@@ -1,0 +1,330 @@
+{
+  "eventos": [
+    {
+      "ano": 1990,
+      "geral": true,
+      "cavaleiros": [
+        "guerra"
+      ],
+      "titulo": {
+        "pt": "Fim da Guerra Fria",
+        "en": "End of the Cold War",
+        "es": "Fin de la Guerra Fría"
+      },
+      "frase": {
+        "pt": "55 mil ogivas nucleares e quase 4 em cada 10 pessoas em pobreza extrema.",
+        "en": "55,000 nuclear warheads and nearly 4 in 10 people in extreme poverty.",
+        "es": "55 mil ojivas nucleares y casi 4 de cada 10 personas en pobreza extrema."
+      }
+    },
+    {
+      "ano": 1994,
+      "geral": true,
+      "cavaleiros": [
+        "guerra"
+      ],
+      "titulo": {
+        "pt": "Ruanda",
+        "en": "Rwanda",
+        "es": "Ruanda"
+      },
+      "frase": {
+        "pt": "Genocídio em Ruanda: o ano com mais mortes em conflitos da série.",
+        "en": "Genocide in Rwanda: the year with the most conflict deaths in the series.",
+        "es": "Genocidio en Ruanda: el año con más muertes en conflictos de la serie."
+      }
+    },
+    {
+      "ano": 2001,
+      "geral": true,
+      "cavaleiros": [],
+      "titulo": {
+        "pt": "11 de Setembro",
+        "en": "9/11",
+        "es": "11 de Septiembre"
+      },
+      "frase": {
+        "pt": "Os ataques mudaram a geopolítica, mas pouco os indicadores globais.",
+        "en": "The attacks changed geopolitics, but barely moved global indicators.",
+        "es": "Los ataques cambiaron la geopolítica, pero poco los indicadores globales."
+      }
+    },
+    {
+      "ano": 2003,
+      "geral": false,
+      "cavaleiros": [
+        "guerra"
+      ],
+      "titulo": {
+        "pt": "Invasão do Iraque",
+        "en": "Invasion of Iraq",
+        "es": "Invasión de Irak"
+      },
+      "frase": {
+        "pt": "Começa uma guerra que dura quase uma década.",
+        "en": "A war that lasts almost a decade begins.",
+        "es": "Comienza una guerra que dura casi una década."
+      }
+    },
+    {
+      "ano": 2003,
+      "geral": false,
+      "cavaleiros": [
+        "morte"
+      ],
+      "titulo": {
+        "pt": "SARS",
+        "en": "SARS",
+        "es": "SARS"
+      },
+      "frase": {
+        "pt": "Primeira epidemia global de um coronavírus novo.",
+        "en": "First global epidemic of a new coronavirus.",
+        "es": "Primera epidemia global de un coronavirus nuevo."
+      }
+    },
+    {
+      "ano": 2008,
+      "geral": true,
+      "cavaleiros": [
+        "fome"
+      ],
+      "titulo": {
+        "pt": "Crise dos alimentos",
+        "en": "Food crisis",
+        "es": "Crisis de los alimentos"
+      },
+      "frase": {
+        "pt": "O preço real dos alimentos dispara junto com a crise financeira.",
+        "en": "Real food prices soar alongside the financial crisis.",
+        "es": "El precio real de los alimentos se dispara junto con la crisis financiera."
+      }
+    },
+    {
+      "ano": 2009,
+      "geral": false,
+      "cavaleiros": [
+        "morte"
+      ],
+      "titulo": {
+        "pt": "Gripe H1N1",
+        "en": "H1N1 flu",
+        "es": "Gripe H1N1"
+      },
+      "frase": {
+        "pt": "A OMS declara sua primeira emergência de saúde pública internacional.",
+        "en": "WHO declares its first public health emergency of international concern.",
+        "es": "La OMS declara su primera emergencia de salud pública internacional."
+      }
+    },
+    {
+      "ano": 2011,
+      "geral": true,
+      "cavaleiros": [
+        "fome",
+        "guerra"
+      ],
+      "titulo": {
+        "pt": "Nova alta dos alimentos",
+        "en": "New food price spike",
+        "es": "Nueva alza de los alimentos"
+      },
+      "frase": {
+        "pt": "Alimentos ainda mais caros, um dos estopins da Primavera Árabe e da guerra na Síria.",
+        "en": "Food even more expensive, one of the sparks of the Arab Spring and the war in Syria.",
+        "es": "Alimentos aún más caros, una de las chispas de la Primavera Árabe y de la guerra en Siria."
+      }
+    },
+    {
+      "ano": 2012,
+      "geral": false,
+      "cavaleiros": [
+        "conquista"
+      ],
+      "titulo": {
+        "pt": "Começa a era do aprendizado profundo",
+        "en": "The deep learning era begins",
+        "es": "Comienza la era del aprendizaje profundo"
+      },
+      "frase": {
+        "pt": "A rede AlexNet inaugura a corrida por modelos de IA cada vez maiores.",
+        "en": "The AlexNet network starts the race for ever larger AI models.",
+        "es": "La red AlexNet inaugura la carrera por modelos de IA cada vez más grandes."
+      }
+    },
+    {
+      "ano": 2014,
+      "geral": false,
+      "cavaleiros": [
+        "guerra",
+        "morte"
+      ],
+      "titulo": {
+        "pt": "Crimeia, Estado Islâmico e Ebola",
+        "en": "Crimea, Islamic State and Ebola",
+        "es": "Crimea, Estado Islámico y ébola"
+      },
+      "frase": {
+        "pt": "Anexação da Crimeia, avanço do Estado Islâmico e epidemia de Ebola na África Ocidental.",
+        "en": "Annexation of Crimea, the rise of the Islamic State and the Ebola epidemic in West Africa.",
+        "es": "Anexión de Crimea, avance del Estado Islámico y epidemia de ébola en África Occidental."
+      }
+    },
+    {
+      "ano": 2016,
+      "geral": false,
+      "cavaleiros": [
+        "morte"
+      ],
+      "titulo": {
+        "pt": "Ano mais quente até então",
+        "en": "Hottest year up to then",
+        "es": "Año más cálido hasta entonces"
+      },
+      "frase": {
+        "pt": "O recorde de temperatura global seria quebrado várias vezes na década seguinte.",
+        "en": "The global temperature record would be broken several times in the following decade.",
+        "es": "El récord de temperatura global se rompería varias veces en la década siguiente."
+      }
+    },
+    {
+      "ano": 2017,
+      "geral": false,
+      "cavaleiros": [
+        "conquista",
+        "fome"
+      ],
+      "titulo": {
+        "pt": "WannaCry e alerta de fome",
+        "en": "WannaCry and famine warning",
+        "es": "WannaCry y alerta de hambruna"
+      },
+      "frase": {
+        "pt": "Um ciberataque paralisa hospitais e empresas no mundo todo; a ONU alerta para risco de fome em quatro países.",
+        "en": "A cyberattack paralyzes hospitals and companies worldwide; the UN warns of famine risk in four countries.",
+        "es": "Un ciberataque paraliza hospitales y empresas en todo el mundo; la ONU alerta de riesgo de hambruna en cuatro países."
+      }
+    },
+    {
+      "ano": 2018,
+      "geral": false,
+      "cavaleiros": [
+        "conquista"
+      ],
+      "titulo": {
+        "pt": "Cambridge Analytica",
+        "en": "Cambridge Analytica",
+        "es": "Cambridge Analytica"
+      },
+      "frase": {
+        "pt": "O escândalo expõe o uso de dados pessoais para manipular eleições.",
+        "en": "The scandal exposes the use of personal data to manipulate elections.",
+        "es": "El escándalo expone el uso de datos personales para manipular elecciones."
+      }
+    },
+    {
+      "ano": 2020,
+      "geral": true,
+      "cavaleiros": [
+        "morte",
+        "fome"
+      ],
+      "titulo": {
+        "pt": "COVID-19",
+        "en": "COVID-19",
+        "es": "COVID-19"
+      },
+      "frase": {
+        "pt": "Pandemia: emergência sanitária global, vacinação infantil em queda e mais gente na pobreza.",
+        "en": "Pandemic: global health emergency, falling childhood vaccination and more people in poverty.",
+        "es": "Pandemia: emergencia sanitaria global, vacunación infantil en caída y más gente en la pobreza."
+      }
+    },
+    {
+      "ano": 2022,
+      "geral": true,
+      "cavaleiros": [
+        "guerra",
+        "fome"
+      ],
+      "titulo": {
+        "pt": "Ucrânia",
+        "en": "Ukraine",
+        "es": "Ucrania"
+      },
+      "frase": {
+        "pt": "Invasão da Ucrânia: guerra na Europa e nova alta dos alimentos.",
+        "en": "Invasion of Ukraine: war in Europe and a new food price spike.",
+        "es": "Invasión de Ucrania: guerra en Europa y nueva alza de los alimentos."
+      }
+    },
+    {
+      "ano": 2022,
+      "geral": false,
+      "cavaleiros": [
+        "conquista"
+      ],
+      "titulo": {
+        "pt": "ChatGPT",
+        "en": "ChatGPT",
+        "es": "ChatGPT"
+      },
+      "frase": {
+        "pt": "A IA generativa chega a centenas de milhões de pessoas em poucos meses.",
+        "en": "Generative AI reaches hundreds of millions of people within months.",
+        "es": "La IA generativa llega a cientos de millones de personas en pocos meses."
+      }
+    },
+    {
+      "ano": 2023,
+      "geral": false,
+      "cavaleiros": [
+        "guerra"
+      ],
+      "titulo": {
+        "pt": "Sudão e Gaza",
+        "en": "Sudan and Gaza",
+        "es": "Sudán y Gaza"
+      },
+      "frase": {
+        "pt": "Guerra civil no Sudão e guerra em Gaza.",
+        "en": "Civil war in Sudan and war in Gaza.",
+        "es": "Guerra civil en Sudán y guerra en Gaza."
+      }
+    },
+    {
+      "ano": 2024,
+      "geral": false,
+      "cavaleiros": [
+        "morte"
+      ],
+      "titulo": {
+        "pt": "Acima de 1,5 °C",
+        "en": "Above 1.5 °C",
+        "es": "Por encima de 1,5 °C"
+      },
+      "frase": {
+        "pt": "Primeiro ano inteiro acima de 1,5 °C de aquecimento em relação à era pré-industrial.",
+        "en": "First full year above 1.5 °C of warming compared with the pre-industrial era.",
+        "es": "Primer año completo por encima de 1,5 °C de calentamiento respecto a la era preindustrial."
+      }
+    },
+    {
+      "ano": 2026,
+      "geral": false,
+      "cavaleiros": [
+        "conquista"
+      ],
+      "titulo": {
+        "pt": "Explosão de vulnerabilidades",
+        "en": "Vulnerability surge",
+        "es": "Explosión de vulnerabilidades"
+      },
+      "frase": {
+        "pt": "O número de vulnerabilidades de software registradas mais que dobra em relação a 2025.",
+        "en": "The number of recorded software vulnerabilities more than doubles compared with 2025.",
+        "es": "El número de vulnerabilidades de software registradas se duplica con creces respecto a 2025."
+      }
+    }
+  ]
+}

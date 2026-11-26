@@ -1,13 +1,13 @@
 {
   "projeto": "Mene Tekel",
-  "versao_metodologia": "1.1.0",
+  "versao_metodologia": "1.2.0",
   "atualizado_em": "2026-11-26",
   "ano": 2026,
-  "selos": 3.9,
-  "selo_atual": 4,
-  "fracao_selo_atual": 0.9,
-  "total": 5.58,
-  "tendencia_pontos_ano": 0.121,
+  "selos": 4.01,
+  "selo_atual": 5,
+  "fracao_selo_atual": 0.01,
+  "total": 5.74,
+  "tendencia_pontos_ano": 0.115,
   "situacao": "piora",
   "ano_setimo_selo": 2063,
   "momento_historico": {
@@ -20,9 +20,9 @@
     "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia. Pero no está escrito: si el mundo volviera al ritmo de 1990–1999, los sellos empezarían a cerrarse."
   },
   "ritmo": {
-    "tendencia_pontos_ano": 0.121,
-    "anos_por_selo": 11.8,
-    "comparacao_desde": 2023,
+    "tendencia_pontos_ano": 0.115,
+    "anos_por_selo": 12.4,
+    "comparacao_desde": 2025,
     "frase": {
       "pt": "No ritmo atual, um novo selo se rompe a cada 12 anos.",
       "en": "At the current pace, a new seal breaks every 12 years.",
@@ -34,7 +34,7 @@
       "id": "atual",
       "de": 2022,
       "ate": 2026,
-      "tendencia_pontos_ano": 0.121,
+      "tendencia_pontos_ano": 0.115,
       "situacao": "piora",
       "ano_setimo_selo": 2063,
       "ritmo": {
@@ -47,26 +47,26 @@
       "id": "decada_2010",
       "de": 2010,
       "ate": 2019,
-      "tendencia_pontos_ano": 0.034,
-      "situacao": "piora_lenta",
-      "ano_setimo_selo": null,
+      "tendencia_pontos_ano": 0.049,
+      "situacao": "piora",
+      "ano_setimo_selo": 2114,
       "ritmo": {
-        "pt": "um novo selo se rompe a cada 42 anos",
-        "en": "a new seal breaks every 42 years",
-        "es": "un nuevo sello se rompe cada 42 años"
+        "pt": "um novo selo se rompe a cada 29 anos",
+        "en": "a new seal breaks every 29 years",
+        "es": "un nuevo sello se rompe cada 29 años"
       }
     },
     {
       "id": "decada_1990",
       "de": 1990,
       "ate": 1999,
-      "tendencia_pontos_ano": -0.109,
+      "tendencia_pontos_ano": -0.095,
       "situacao": "melhora",
       "ano_setimo_selo": null,
       "ritmo": {
-        "pt": "um selo volta a se fechar a cada 13 anos",
-        "en": "a seal closes again every 13 years",
-        "es": "un sello vuelve a cerrarse cada 13 años"
+        "pt": "um selo volta a se fechar a cada 15 anos",
+        "en": "a seal closes again every 15 years",
+        "es": "un sello vuelve a cerrarse cada 15 años"
       }
     }
   ],
@@ -85,9 +85,9 @@
         "es": "Inteligencia artificial, ciberseguridad y el retroceso de la democracia."
       },
       "descricao": {
-        "pt": "O cavaleiro branco \"saiu vencendo, e para vencer\". Aqui ele representa o poder que se concentra e escapa ao controle. Medimos a fronteira da IA (a maior computação já usada para treinar um modelo), os incidentes em que sistemas de IA causaram ou quase causaram dano, as vulnerabilidades de software registradas e a qualidade da democracia liberal no mundo. A nota é a média ponderada desses indicadores. Incidentes e vulnerabilidades contam pela metade, porque crescem também com o próprio registro.",
-        "en": "The white rider \"went forth conquering, and to conquer\". Here he stands for power that concentrates and slips out of control. We measure the AI frontier (the largest compute ever used to train a model), incidents in which AI systems caused or nearly caused harm, recorded software vulnerabilities and the quality of liberal democracy worldwide. The score is the weighted average of these indicators. Incidents and vulnerabilities count half, because they also grow with reporting itself.",
-        "es": "El jinete blanco \"salió victorioso, y para vencer\". Aquí representa el poder que se concentra y escapa al control. Medimos la frontera de la IA (la mayor computación usada para entrenar un modelo), los incidentes en que sistemas de IA causaron o casi causaron daño, las vulnerabilidades de software registradas y la calidad de la democracia liberal en el mundo. La nota es el promedio ponderado de estos indicadores. Incidentes y vulnerabilidades cuentan la mitad, porque también crecen con el propio registro."
+        "pt": "O cavaleiro branco \"saiu vencendo, e para vencer\". Aqui ele representa o poder que se concentra e escapa ao controle. Medimos a fronteira da IA (a maior computação já usada para treinar um modelo), os incidentes em que sistemas de IA causaram ou quase causaram dano, as vulnerabilidades de software registradas e a qualidade da democracia liberal no mundo. A nota é a média ponderada desses indicadores. Incidentes e vulnerabilidades contam pela metade, porque crescem também com o próprio registro. Falhas já exploradas em ataques reais (catálogo KEV da CISA) aparecem só como informação: a série começa em 2022.",
+        "en": "The white rider \"went forth conquering, and to conquer\". Here he stands for power that concentrates and slips out of control. We measure the AI frontier (the largest compute ever used to train a model), incidents in which AI systems caused or nearly caused harm, recorded software vulnerabilities and the quality of liberal democracy worldwide. The score is the weighted average of these indicators. Incidents and vulnerabilities count half, because they also grow with reporting itself. Flaws already exploited in real attacks (CISA's KEV catalog) are shown for information only: the series starts in 2022.",
+        "es": "El jinete blanco \"salió victorioso, y para vencer\". Aquí representa el poder que se concentra y escapa al control. Medimos la frontera de la IA (la mayor computación usada para entrenar un modelo), los incidentes en que sistemas de IA causaron o casi causaron daño, las vulnerabilidades de software registradas y la calidad de la democracia liberal en el mundo. La nota es el promedio ponderado de estos indicadores. Incidentes y vulnerabilidades cuentan la mitad, porque también crecen con el propio registro. Las fallas ya explotadas en ataques reales (catálogo KEV de la CISA) se muestran solo como información: la serie empieza en 2022."
       },
       "mais_pesa": {
         "indicador": "conquista.democracia",
@@ -97,26 +97,27 @@
         "conquista.compute",
         "conquista.cves",
         "conquista.democracia",
-        "conquista.incidentes"
+        "conquista.incidentes",
+        "conquista.kev"
       ]
     },
     "guerra": {
-      "nota": 4.67,
-      "cobertura": 0.25,
+      "nota": 5.35,
+      "cobertura": 0.4,
       "nome": {
         "pt": "Guerra",
         "en": "War",
         "es": "Guerra"
       },
       "descricao_curta": {
-        "pt": "Conflitos armados, mortes em guerras, armas nucleares e gasto militar.",
-        "en": "Armed conflicts, war deaths, nuclear weapons and military spending.",
-        "es": "Conflictos armados, muertes en guerras, armas nucleares y gasto militar."
+        "pt": "Conflitos armados, mortes em guerras, pessoas forçadas a fugir, armas nucleares e gasto militar.",
+        "en": "Armed conflicts, war deaths, people forced to flee, nuclear weapons and military spending.",
+        "es": "Conflictos armados, muertes en guerras, personas obligadas a huir, armas nucleares y gasto militar."
       },
       "descricao": {
-        "pt": "Ao cavaleiro vermelho \"foi dado que tirasse a paz da terra\". Medimos quantos conflitos armados envolvem Estados, quantas pessoas morrem neles (por 100 mil habitantes), o estoque mundial de ogivas nucleares e quanto o mundo gasta com forças armadas (% do PIB). A nota é a média desses quatro indicadores. Drones, mísseis e ciberataques entre Estados ainda não entram na conta; ficam para uma versão futura.",
-        "en": "The red rider was given power \"to take peace from the earth\". We measure how many armed conflicts involve states, how many people die in them (per 100,000 people), the world's stockpile of nuclear warheads and how much the world spends on armed forces (% of GDP). The score is the average of these four indicators. Drones, missiles and cyberattacks between states are not counted yet; they come in a future version.",
-        "es": "Al jinete rojo le fue dado \"quitar la paz de la tierra\". Medimos cuántos conflictos armados involucran a Estados, cuántas personas mueren en ellos (por 100 mil habitantes), el arsenal mundial de ojivas nucleares y cuánto gasta el mundo en fuerzas armadas (% del PIB). La nota es el promedio de estos cuatro indicadores. Drones, misiles y ciberataques entre Estados aún no entran en el cálculo; llegarán en una versión futura."
+        "pt": "Ao cavaleiro vermelho \"foi dado que tirasse a paz da terra\". Medimos quantos conflitos armados envolvem Estados, quantas pessoas morrem neles (por 100 mil habitantes), quantas foram forçadas a fugir de casa por guerra, violência ou perseguição, o estoque mundial de ogivas nucleares e quanto o mundo gasta com forças armadas (% do PIB). A nota é a média desses cinco indicadores. Drones, mísseis e ciberataques entre Estados ainda não entram na conta; ficam para uma versão futura.",
+        "en": "The red rider was given power \"to take peace from the earth\". We measure how many armed conflicts involve states, how many people die in them (per 100,000 people), how many have been forced to flee their homes by war, violence or persecution, the world's stockpile of nuclear warheads and how much the world spends on armed forces (% of GDP). The score is the average of these five indicators. Drones, missiles and cyberattacks between states are not counted yet; they come in a future version.",
+        "es": "Al jinete rojo le fue dado \"quitar la paz de la tierra\". Medimos cuántos conflictos armados involucran a Estados, cuántas personas mueren en ellos (por 100 mil habitantes), cuántas fueron obligadas a huir de sus hogares por guerra, violencia o persecución, el arsenal mundial de ojivas nucleares y cuánto gasta el mundo en fuerzas armadas (% del PIB). La nota es el promedio de estos cinco indicadores. Drones, misiles y ciberataques entre Estados aún no entran en el cálculo; llegarán en una versión futura."
       },
       "mais_pesa": {
         "indicador": "guerra.conflitos",
@@ -124,6 +125,7 @@
       },
       "indicadores": [
         "guerra.conflitos",
+        "guerra.deslocados",
         "guerra.gasto_militar",
         "guerra.mortes_conflito",
         "guerra.ogivas"
@@ -158,8 +160,8 @@
       ]
     },
     "morte": {
-      "nota": 6.69,
-      "cobertura": 0.4,
+      "nota": 6.57,
+      "cobertura": 0.43,
       "nome": {
         "pt": "Morte",
         "en": "Death",
@@ -171,9 +173,9 @@
         "es": "Enfermedades y emergencias sanitarias, clima y pérdida de biodiversidad."
       },
       "descricao": {
-        "pt": "O cavaleiro pálido vem \"para matar com a espada, e com a fome, e com a peste, e com as feras da terra\". Ele tem duas metades de peso igual. Peste: mortes por doenças infecciosas, emergências de saúde pública internacionais e cobertura vacinal infantil. Ambiente: aquecimento global e espécies ameaçadas de extinção. Pessoas afetadas por desastres aparecem só como informação: o número cai com alertas e defesa civil, mesmo com o clima piorando.",
-        "en": "The pale rider comes \"to kill with sword, and with hunger, and with death, and with the beasts of the earth\". He has two halves of equal weight. Plague: deaths from infectious diseases, international public health emergencies and childhood vaccination. Environment: global warming and species threatened with extinction. People affected by disasters are shown for information only: the number falls with warnings and civil defense, even as the climate gets worse.",
-        "es": "El jinete pálido viene \"para matar con espada, con hambre, con mortandad, y con las bestias de la tierra\". Tiene dos mitades de igual peso. Peste: muertes por enfermedades infecciosas, emergencias de salud pública internacionales y vacunación infantil. Ambiente: calentamiento global y especies amenazadas de extinción. Las personas afectadas por desastres se muestran solo como información: el número baja con alertas y defensa civil, aunque el clima empeore."
+        "pt": "O cavaleiro pálido vem \"para matar com a espada, e com a fome, e com a peste, e com as feras da terra\". Ele tem duas metades de peso igual. Peste: mortes por doenças infecciosas, emergências de saúde pública internacionais e cobertura vacinal infantil. Ambiente: aquecimento global, CO₂ na atmosfera, nível do mar e espécies ameaçadas de extinção. CO₂ e mar contam pela metade, porque andam junto com o aquecimento. Pessoas afetadas por desastres aparecem só como informação: o número cai com alertas e defesa civil, mesmo com o clima piorando.",
+        "en": "The pale rider comes \"to kill with sword, and with hunger, and with death, and with the beasts of the earth\". He has two halves of equal weight. Plague: deaths from infectious diseases, international public health emergencies and childhood vaccination. Environment: global warming, CO₂ in the atmosphere, sea level and species threatened with extinction. CO₂ and sea level count half, because they move together with warming. People affected by disasters are shown for information only: the number falls with warnings and civil defense, even as the climate gets worse.",
+        "es": "El jinete pálido viene \"para matar con espada, con hambre, con mortandad, y con las bestias de la tierra\". Tiene dos mitades de igual peso. Peste: muertes por enfermedades infecciosas, emergencias de salud pública internacionales y vacunación infantil. Ambiente: calentamiento global, CO₂ en la atmósfera, nivel del mar y especies amenazadas de extinción. El CO₂ y el mar cuentan la mitad, porque avanzan junto con el calentamiento. Las personas afectadas por desastres se muestran solo como información: el número baja con alertas y defensa civil, aunque el clima empeore."
       },
       "mais_pesa": {
         "indicador": "morte.ambiente.biodiversidade",
@@ -181,7 +183,9 @@
       },
       "indicadores": [
         "morte.ambiente.biodiversidade",
+        "morte.ambiente.co2",
         "morte.ambiente.desastres",
+        "morte.ambiente.mar",
         "morte.ambiente.temperatura",
         "morte.peste.emergencias",
         "morte.peste.mortes_infecciosas",
@@ -389,6 +393,66 @@
       }
     },
     {
+      "id": "conquista.kev",
+      "cavaleiro": "conquista",
+      "subindice": null,
+      "nome": "Vulnerabilidades com exploração confirmada em ataques reais, incluídas por mês no catálogo KEV",
+      "fonte": "CISA Known Exploited Vulnerabilities",
+      "fonte_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "licenca": "CC0 1.0",
+      "peso": 0.0,
+      "informativo": true,
+      "nota": 3.3,
+      "estimado": false,
+      "ultimo_dado": "2026-10-01",
+      "ultimo_dado_texto": {
+        "pt": "outubro de 2026",
+        "en": "October 2026",
+        "es": "octubre de 2026"
+      },
+      "valor": 338.4,
+      "valor_formatado": {
+        "pt": "338 falhas exploradas no ano",
+        "en": "338 exploited flaws in the year",
+        "es": "338 fallas explotadas en el año"
+      },
+      "valor_parcial": {
+        "pt": "projeção para o ano inteiro, com dados de jan a out",
+        "en": "full-year projection, with data from Jan to Oct",
+        "es": "proyección para el año completo, con datos de ene a oct"
+      },
+      "etiquetas": [
+        "informativo",
+        "historica"
+      ],
+      "peso_no_cavaleiro": 0.0,
+      "ancora": {
+        "tipo": "historica",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 186.0,
+        "teto": 647.2,
+        "unidade": {
+          "pt": "falhas exploradas no ano",
+          "en": "exploited flaws in the year",
+          "es": "fallas explotadas en el año"
+        },
+        "melhor": {
+          "ano": 2024,
+          "valor": 186.0
+        },
+        "pior": {
+          "ano": null,
+          "valor": 554.96
+        },
+        "explicacao": {
+          "pt": "0 = o melhor nível desde 2022: 186 falhas exploradas no ano (2024). Até 2025, o pior foi 555 falhas exploradas no ano; a nota 10 fica um pouco além dele. Nota baixa quer dizer o melhor que já estivemos, não problema resolvido.",
+          "en": "0 = the best level since 2022: 186 exploited flaws in the year (2024). Up to 2025, the worst was 555 exploited flaws in the year; a score of 10 sits a little beyond it. A low score means the best we have ever been, not a solved problem.",
+          "es": "0 = el mejor nivel desde 2022: 186 fallas explotadas en el año (2024). Hasta 2025, el peor fue 555 fallas explotadas en el año; la nota 10 queda un poco más allá. Una nota baja significa lo mejor que hemos estado, no un problema resuelto."
+        }
+      }
+    },
+    {
       "id": "fome.fpi",
       "cavaleiro": "fome",
       "subindice": null,
@@ -554,7 +618,7 @@
         "estimado",
         "meta"
       ],
-      "peso_no_cavaleiro": 0.25,
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -570,6 +634,52 @@
           "pt": "0 = nenhum conflito armado envolvendo Estados. 10 = um pouco além do maior número desde 1990.",
           "en": "0 = no armed conflict involving states. 10 = a little beyond the highest number since 1990.",
           "es": "0 = ningún conflicto armado con participación de Estados. 10 = un poco más allá del mayor número desde 1990."
+        }
+      }
+    },
+    {
+      "id": "guerra.deslocados",
+      "cavaleiro": "guerra",
+      "subindice": null,
+      "nome": "Pessoas deslocadas à força por guerras, violência e perseguição (refugiados, solicitantes de asilo, refugiados palestinos e deslocados internos)",
+      "fonte": "ACNUR Refugee Data Finder (com UNRWA e IDMC)",
+      "fonte_url": "https://www.unhcr.org/refugee-statistics/",
+      "licenca": "CC-BY 4.0 (ACNUR)",
+      "peso": 1.0,
+      "informativo": false,
+      "nota": 8.07,
+      "estimado": false,
+      "ultimo_dado": "2026-01-01",
+      "ultimo_dado_texto": {
+        "pt": "2026",
+        "en": "2026",
+        "es": "2026"
+      },
+      "valor": 118900779.0,
+      "valor_formatado": {
+        "pt": "119 milhões de pessoas",
+        "en": "119 million people",
+        "es": "119 millones de personas"
+      },
+      "etiquetas": [
+        "meta"
+      ],
+      "peso_no_cavaleiro": 0.2,
+      "ancora": {
+        "tipo": "meta",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 0.0,
+        "teto": 147400000.0,
+        "unidade": {
+          "pt": "pessoas",
+          "en": "people",
+          "es": "personas"
+        },
+        "explicacao": {
+          "pt": "0 = ninguém forçado a fugir de casa por guerra, violência ou perseguição. 10 = um pouco além do maior número desde 1990.",
+          "en": "0 = no one forced to flee their home by war, violence or persecution. 10 = a little beyond the highest number since 1990.",
+          "es": "0 = nadie obligado a huir de su hogar por guerra, violencia o persecución. 10 = un poco más allá del mayor número desde 1990."
         }
       }
     },
@@ -601,7 +711,7 @@
         "estimado",
         "historica"
       ],
-      "peso_no_cavaleiro": 0.25,
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "historica",
         "direcao": 1,
@@ -657,7 +767,7 @@
         "meta",
         "escala_log"
       ],
-      "peso_no_cavaleiro": 0.25,
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -703,7 +813,7 @@
       "etiquetas": [
         "meta"
       ],
-      "peso_no_cavaleiro": 0.25,
+      "peso_no_cavaleiro": 0.2,
       "ancora": {
         "tipo": "meta",
         "direcao": 1,
@@ -750,7 +860,7 @@
         "estimado",
         "meta"
       ],
-      "peso_no_cavaleiro": 0.25,
+      "peso_no_cavaleiro": 0.167,
       "ancora": {
         "tipo": "meta",
         "direcao": -1,
@@ -766,6 +876,58 @@
           "pt": "0 = nenhuma espécie ameaçada de extinção (Red List Index = 1). 10 = um pouco além do pior nível registrado.",
           "en": "0 = no species threatened with extinction (Red List Index = 1). 10 = a little beyond the worst level on record.",
           "es": "0 = ninguna especie amenazada de extinción (Red List Index = 1). 10 = un poco más allá del peor nivel registrado."
+        }
+      }
+    },
+    {
+      "id": "morte.ambiente.co2",
+      "cavaleiro": "morte",
+      "subindice": "ambiente",
+      "nome": "CO₂ na atmosfera, média mensal sem o ciclo das estações (ppm, Mauna Loa)",
+      "fonte": "NOAA Global Monitoring Laboratory e Scripps",
+      "fonte_url": "https://gml.noaa.gov/ccgg/trends/",
+      "licenca": "Domínio público (governo dos EUA)",
+      "peso": 0.5,
+      "informativo": false,
+      "nota": 8.76,
+      "estimado": false,
+      "ultimo_dado": "2026-10-01",
+      "ultimo_dado_texto": {
+        "pt": "outubro de 2026",
+        "en": "October 2026",
+        "es": "octubre de 2026"
+      },
+      "valor": 428.974,
+      "valor_formatado": {
+        "pt": "429,0 ppm de CO₂",
+        "en": "429.0 ppm of CO₂",
+        "es": "429,0 ppm de CO₂"
+      },
+      "valor_parcial": {
+        "pt": "média de jan a out",
+        "en": "average from Jan to Oct",
+        "es": "promedio de ene a oct"
+      },
+      "etiquetas": [
+        "meio_peso",
+        "limite"
+      ],
+      "peso_no_cavaleiro": 0.083,
+      "ancora": {
+        "tipo": "limite",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": 280.0,
+        "teto": 450.0,
+        "unidade": {
+          "pt": "ppm de CO₂",
+          "en": "ppm of CO₂",
+          "es": "ppm de CO₂"
+        },
+        "explicacao": {
+          "pt": "0 = 280 ppm, o CO₂ da atmosfera antes da era industrial. 10 = 450 ppm, nível associado a um aquecimento de cerca de 2 °C.",
+          "en": "0 = 280 ppm, the atmosphere's CO₂ before the industrial era. 10 = 450 ppm, a level associated with about 2 °C of warming.",
+          "es": "0 = 280 ppm, el CO₂ de la atmósfera antes de la era industrial. 10 = 450 ppm, nivel asociado a un calentamiento de cerca de 2 °C."
         }
       }
     },
@@ -811,6 +973,54 @@
       }
     },
     {
+      "id": "morte.ambiente.mar",
+      "cavaleiro": "morte",
+      "subindice": "ambiente",
+      "nome": "Nível médio global do mar medido por satélite, média mensal sem o ciclo das estações (mm, relativo à média 1993–2008)",
+      "fonte": "NOAA Laboratory for Satellite Altimetry (TOPEX/Poseidon, Jason-1/2/3, Sentinel-6MF)",
+      "fonte_url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+      "licenca": "Uso livre com crédito (\"Altimetry data are provided by NOAA Laboratory for Satellite Altimetry.\")",
+      "peso": 0.5,
+      "informativo": false,
+      "nota": 6.99,
+      "estimado": true,
+      "ultimo_dado": "2025-02-01",
+      "ultimo_dado_texto": {
+        "pt": "fevereiro de 2025",
+        "en": "February 2025",
+        "es": "febrero de 2025"
+      },
+      "valor": 79.566751,
+      "valor_formatado": {
+        "pt": "80 mm acima da média 1993–2008",
+        "en": "80 mm above the 1993–2008 average",
+        "es": "80 mm sobre el promedio 1993–2008"
+      },
+      "etiquetas": [
+        "meio_peso",
+        "estimado",
+        "regra"
+      ],
+      "peso_no_cavaleiro": 0.083,
+      "ancora": {
+        "tipo": "regra",
+        "direcao": 1,
+        "escala_log": false,
+        "piso": -200.0,
+        "teto": 200.0,
+        "unidade": {
+          "pt": "mm acima da média 1993–2008",
+          "en": "mm above the 1993–2008 average",
+          "es": "mm sobre el promedio 1993–2008"
+        },
+        "explicacao": {
+          "pt": "0 = o nível do mar de 1880, cerca de 20 cm abaixo do de 1993–2008. 10 = 20 cm acima de 1993–2008: o dobro de tudo o que o mar já subiu desde 1880.",
+          "en": "0 = the sea level of 1880, about 20 cm below that of 1993–2008. 10 = 20 cm above 1993–2008: twice everything the sea has risen since 1880.",
+          "es": "0 = el nivel del mar de 1880, cerca de 20 cm por debajo del de 1993–2008. 10 = 20 cm por encima de 1993–2008: el doble de todo lo que el mar ya subió desde 1880."
+        }
+      }
+    },
+    {
       "id": "morte.ambiente.temperatura",
       "cavaleiro": "morte",
       "subindice": "ambiente",
@@ -842,7 +1052,7 @@
       "etiquetas": [
         "limite"
       ],
-      "peso_no_cavaleiro": 0.25,
+      "peso_no_cavaleiro": 0.167,
       "ancora": {
         "tipo": "limite",
         "direcao": 1,

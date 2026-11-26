@@ -71,9 +71,9 @@
         {
           "tipo": "paragrafo",
           "texto": {
-            "pt": "Hoje são 3,9 de 7 selos rompidos e, no ritmo atual, o sétimo selo se rompe em 2063. Esse número não é uma opinião: é a soma de [16 indicadores oficiais](/calculo) (guerras, fome, doenças, clima, tecnologia e democracia), medidos todos os dias com dados abertos de organismos como a ONU, o Banco Mundial, a OMS e a NASA.",
-            "en": "Today 3.9 of 7 seals are broken; at the current pace, the seventh seal breaks in 2063. This number is not an opinion: it adds up [16 official indicators](/calculo) (wars, hunger, disease, climate, technology and democracy), checked every day with open data from bodies such as the UN, the World Bank, WHO and NASA.",
-            "es": "Hoy hay 3,9 de 7 sellos rotos y, al ritmo actual, el séptimo sello se rompe en 2063. Este número no es una opinión: suma [16 indicadores oficiales](/calculo) (guerras, hambre, enfermedades, clima, tecnología y democracia), revisados todos los días con datos abiertos de organismos como la ONU, el Banco Mundial, la OMS y la NASA."
+            "pt": "Hoje são 4,0 de 7 selos rompidos e, no ritmo atual, o sétimo selo se rompe em 2063. Esse número não é uma opinião: é a soma de [19 indicadores oficiais](/calculo) (guerras, fome, doenças, clima, tecnologia e democracia), medidos todos os dias com dados abertos de organismos como a ONU, o Banco Mundial, a OMS e a NASA.",
+            "en": "Today 4.0 of 7 seals are broken; at the current pace, the seventh seal breaks in 2063. This number is not an opinion: it adds up [19 official indicators](/calculo) (wars, hunger, disease, climate, technology and democracy), checked every day with open data from bodies such as the UN, the World Bank, WHO and NASA.",
+            "es": "Hoy hay 4,0 de 7 sellos rotos y, al ritmo actual, el séptimo sello se rompe en 2063. Este número no es una opinión: suma [19 indicadores oficiales](/calculo) (guerras, hambre, enfermedades, clima, tecnología y democracia), revisados todos los días con datos abiertos de organismos como la ONU, el Banco Mundial, la OMS y la NASA."
           }
         }
       ],
@@ -84,9 +84,9 @@
           "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia."
         },
         {
-          "pt": "Hoje são 3,9 de 7 selos rompidos e, no ritmo atual, o sétimo selo se rompe em 2063. Esse número não é uma opinião: é a soma de 16 indicadores oficiais (guerras, fome, doenças, clima, tecnologia e democracia), medidos todos os dias com dados abertos de organismos como a ONU, o Banco Mundial, a OMS e a NASA.",
-          "en": "Today 3.9 of 7 seals are broken; at the current pace, the seventh seal breaks in 2063. This number is not an opinion: it adds up 16 official indicators (wars, hunger, disease, climate, technology and democracy), checked every day with open data from bodies such as the UN, the World Bank, WHO and NASA.",
-          "es": "Hoy hay 3,9 de 7 sellos rotos y, al ritmo actual, el séptimo sello se rompe en 2063. Este número no es una opinión: suma 16 indicadores oficiales (guerras, hambre, enfermedades, clima, tecnología y democracia), revisados todos los días con datos abiertos de organismos como la ONU, el Banco Mundial, la OMS y la NASA."
+          "pt": "Hoje são 4,0 de 7 selos rompidos e, no ritmo atual, o sétimo selo se rompe em 2063. Esse número não é uma opinião: é a soma de 19 indicadores oficiais (guerras, fome, doenças, clima, tecnologia e democracia), medidos todos os dias com dados abertos de organismos como a ONU, o Banco Mundial, a OMS e a NASA.",
+          "en": "Today 4.0 of 7 seals are broken; at the current pace, the seventh seal breaks in 2063. This number is not an opinion: it adds up 19 official indicators (wars, hunger, disease, climate, technology and democracy), checked every day with open data from bodies such as the UN, the World Bank, WHO and NASA.",
+          "es": "Hoy hay 4,0 de 7 sellos rotos y, al ritmo actual, el séptimo sello se rompe en 2063. Este número no es una opinión: suma 19 indicadores oficiales (guerras, hambre, enfermedades, clima, tecnología y democracia), revisados todos los días con datos abiertos de organismos como la ONU, el Banco Mundial, la OMS y la NASA."
         }
       ]
     },
@@ -463,6 +463,41 @@
               }
             },
             {
+              "indicador": "conquista.kev",
+              "cavaleiro_id": "conquista",
+              "cavaleiro": {
+                "pt": "Conquista",
+                "en": "Conquest",
+                "es": "Conquista"
+              },
+              "nome": {
+                "pt": "Falhas de software exploradas em ataques reais",
+                "en": "Software flaws exploited in real attacks",
+                "es": "Fallas de software explotadas en ataques reales"
+              },
+              "nota": 3.3,
+              "nota_texto": {
+                "pt": "3,3",
+                "en": "3.3",
+                "es": "3,3"
+              },
+              "peso_texto": {
+                "pt": "informativo",
+                "en": "informational",
+                "es": "informativo"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 2022",
+                "en": "the best level since 2022",
+                "es": "el mejor nivel desde 2022"
+              },
+              "fonte": {
+                "pt": "CISA (catálogo KEV)",
+                "en": "CISA (KEV catalog)",
+                "es": "CISA (catálogo KEV)"
+              }
+            },
+            {
               "indicador": "guerra.conflitos",
               "cavaleiro_id": "guerra",
               "cavaleiro": {
@@ -482,9 +517,9 @@
                 "es": "8,8"
               },
               "peso_texto": {
-                "pt": "25%",
-                "en": "25%",
-                "es": "25%"
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
               },
               "zero": {
                 "pt": "nenhum conflito",
@@ -495,6 +530,41 @@
                 "pt": "UCDP/PRIO (via Our World in Data)",
                 "en": "UCDP/PRIO (via Our World in Data)",
                 "es": "UCDP/PRIO (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "guerra.deslocados",
+              "cavaleiro_id": "guerra",
+              "cavaleiro": {
+                "pt": "Guerra",
+                "en": "War",
+                "es": "Guerra"
+              },
+              "nome": {
+                "pt": "Pessoas deslocadas à força",
+                "en": "Forcibly displaced people",
+                "es": "Personas desplazadas por la fuerza"
+              },
+              "nota": 8.1,
+              "nota_texto": {
+                "pt": "8,1",
+                "en": "8.1",
+                "es": "8,1"
+              },
+              "peso_texto": {
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
+              },
+              "zero": {
+                "pt": "ninguém forçado a fugir",
+                "en": "no one forced to flee",
+                "es": "nadie obligado a huir"
+              },
+              "fonte": {
+                "pt": "ACNUR, UNRWA e IDMC",
+                "en": "UNHCR, UNRWA and IDMC",
+                "es": "ACNUR, UNRWA e IDMC"
               }
             },
             {
@@ -517,9 +587,9 @@
                 "es": "2,5"
               },
               "peso_texto": {
-                "pt": "25%",
-                "en": "25%",
-                "es": "25%"
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
               },
               "zero": {
                 "pt": "o melhor nível desde 1990",
@@ -552,9 +622,9 @@
                 "es": "5,7"
               },
               "peso_texto": {
-                "pt": "25%",
-                "en": "25%",
-                "es": "25%"
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
               },
               "zero": {
                 "pt": "praticamente nenhuma morte",
@@ -587,9 +657,9 @@
                 "es": "1,7"
               },
               "peso_texto": {
-                "pt": "25%",
-                "en": "25%",
-                "es": "25%"
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
               },
               "zero": {
                 "pt": "nenhuma ogiva",
@@ -832,9 +902,9 @@
                 "es": "9,4"
               },
               "peso_texto": {
-                "pt": "25%",
-                "en": "25%",
-                "es": "25%"
+                "pt": "17%",
+                "en": "17%",
+                "es": "17%"
               },
               "zero": {
                 "pt": "nenhuma espécie ameaçada",
@@ -867,9 +937,9 @@
                 "es": "7,8"
               },
               "peso_texto": {
-                "pt": "25%",
-                "en": "25%",
-                "es": "25%"
+                "pt": "17%",
+                "en": "17%",
+                "es": "17%"
               },
               "zero": {
                 "pt": "o clima pré-industrial (10 = +2 °C)",
@@ -880,6 +950,76 @@
                 "pt": "NASA",
                 "en": "NASA",
                 "es": "NASA"
+              }
+            },
+            {
+              "indicador": "morte.ambiente.co2",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Ambiente",
+                "en": "Death · Environment",
+                "es": "Muerte · Ambiente"
+              },
+              "nome": {
+                "pt": "CO₂ na atmosfera",
+                "en": "CO₂ in the atmosphere",
+                "es": "CO₂ en la atmósfera"
+              },
+              "nota": 8.8,
+              "nota_texto": {
+                "pt": "8,8",
+                "en": "8.8",
+                "es": "8,8"
+              },
+              "peso_texto": {
+                "pt": "8%",
+                "en": "8%",
+                "es": "8%"
+              },
+              "zero": {
+                "pt": "o nível pré-industrial (280 ppm; 10 = 450 ppm)",
+                "en": "the pre-industrial level (280 ppm; 10 = 450 ppm)",
+                "es": "el nivel preindustrial (280 ppm; 10 = 450 ppm)"
+              },
+              "fonte": {
+                "pt": "NOAA (Mauna Loa)",
+                "en": "NOAA (Mauna Loa)",
+                "es": "NOAA (Mauna Loa)"
+              }
+            },
+            {
+              "indicador": "morte.ambiente.mar",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Ambiente",
+                "en": "Death · Environment",
+                "es": "Muerte · Ambiente"
+              },
+              "nome": {
+                "pt": "Nível médio do mar",
+                "en": "Global mean sea level",
+                "es": "Nivel medio del mar"
+              },
+              "nota": 7.0,
+              "nota_texto": {
+                "pt": "7,0",
+                "en": "7.0",
+                "es": "7,0"
+              },
+              "peso_texto": {
+                "pt": "8%",
+                "en": "8%",
+                "es": "8%"
+              },
+              "zero": {
+                "pt": "o nível de 1880",
+                "en": "the 1880 level",
+                "es": "el nivel de 1880"
+              },
+              "fonte": {
+                "pt": "NOAA (satélites)",
+                "en": "NOAA (satellites)",
+                "es": "NOAA (satélites)"
               }
             },
             {
@@ -939,24 +1079,14 @@
           "tipo": "lista",
           "itens": [
             {
-              "pt": "**Guerra:** pessoas forçadas a deixar suas casas (ACNUR) e ataques a distância, como drones, mísseis e bombardeios (ACLED).",
-              "en": "**War:** people forced to leave their homes (UNHCR) and remote attacks such as drones, missiles and shelling (ACLED).",
-              "es": "**Guerra:** personas forzadas a dejar sus hogares (ACNUR) y ataques a distancia, como drones, misiles y bombardeos (ACLED)."
+              "pt": "**Guerra:** ataques a distância, como drones, mísseis e bombardeios (ACLED).",
+              "en": "**War:** remote attacks such as drones, missiles and shelling (ACLED).",
+              "es": "**Guerra:** ataques a distancia, como drones, misiles y bombardeos (ACLED)."
             },
             {
               "pt": "**Fome:** pessoas em crise alimentar aguda (Relatório Global sobre Crises Alimentares).",
               "en": "**Famine:** people in acute food crisis (Global Report on Food Crises).",
               "es": "**Hambre:** personas en crisis alimentaria aguda (Informe Mundial sobre las Crisis Alimentarias)."
-            },
-            {
-              "pt": "**Morte · Ambiente:** concentração de CO₂ na atmosfera (NOAA) e nível do mar (NASA), para medir o perigo climático, e não só os seus efeitos.",
-              "en": "**Death · Environment:** CO₂ concentration in the atmosphere (NOAA) and sea level (NASA), to measure climate danger and not only its effects.",
-              "es": "**Muerte · Ambiente:** concentración de CO₂ en la atmósfera (NOAA) y nivel del mar (NASA), para medir el peligro climático y no solo sus efectos."
-            },
-            {
-              "pt": "**Conquista:** vulnerabilidades de software exploradas de fato em ataques (catálogo KEV da CISA).",
-              "en": "**Conquest:** software vulnerabilities actually exploited in attacks (CISA KEV catalog).",
-              "es": "**Conquista:** vulnerabilidades de software explotadas de verdad en ataques (catálogo KEV de la CISA)."
             }
           ]
         }

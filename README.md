@@ -16,7 +16,7 @@ nos dados ou no cálculo, o que mantém o histórico público e auditável.
 | [`mudancas.json`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/mudancas.json) | Últimas mudanças: dados novos e quanto moveram os selos |
 | [`eventos.json`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/eventos.json) | Acontecimentos que ajudam a ler os gráficos (não entram no cálculo) |
 | [`leitura.json`](https://cdn.jsdelivr.net/gh/rodrigo13f/menetekel-data@main/leitura.json) | Texto da página "A leitura": o que os dados contam e como ler a projeção |
-| `metodologia/` | Metodologia vigente (versão 1.1.0): âncoras, pesos e regras |
+| `metodologia/` | Metodologia vigente (versão 1.2.0): âncoras, pesos e regras |
 
 Anos sem dado de um indicador são preenchidos (interpolação ou último valor) e
 marcados como `estimado`.

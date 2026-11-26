@@ -1,0 +1,134 @@
+# Mene Tekel · Metodologia v1.2.0
+#
+# Publicada em 26/11/2026. Âncoras congeladas a partir da versão provisória 1.2.0-rc2.
+#
+# O que mudou da 1.1.0 para a 1.2.0 (quatro indicadores novos):
+#   1. Guerra: pessoas deslocadas à força (ACNUR + UNRWA + IDMC). Mede o custo humano das
+#      guerras e da perseguição, que a contagem de ogivas não vê: desde 1990 as ogivas caíram
+#      ~80%, e o número de pessoas forçadas a fugir triplicou. [meta] 0 = ninguém forçado a fugir.
+#   2. Ambiente: CO₂ na atmosfera (NOAA, Mauna Loa), meio peso. [lim] 0 = 280 ppm, o nível
+#      pré-industrial; 10 = 450 ppm, o nível associado a um aquecimento de cerca de 2 °C.
+#   3. Ambiente: nível médio do mar por satélite (NOAA Laboratory for Satellite Altimetry),
+#      meio peso. [regra] 0 = o nível de 1880; 10 = o dobro da elevação já ocorrida desde 1880.
+#      CO₂ e mar são perigo climático físico: não caem com alertas e defesa civil, ao contrário
+#      dos afetados por desastres. Meio peso cada porque andam junto com a temperatura.
+#   4. Conquista: vulnerabilidades com exploração confirmada (CISA KEV), informativo (peso 0):
+#      a série começa em 2022, curta demais para entrar na conta.
+#   Efeito em 2026: 3,90 → 4,01 selos (Guerra 4,67 → 5,35; Morte 6,69 → 6,57).
+#   A série inteira desde 1990 é recalculada com a régua nova.
+#
+# Histórico das versões provisórias da 1.2:
+#   rc1  quatro indicadores novos; nível do mar pela série UHSLC via OWID
+#   rc2  nível do mar por satélite (NOAA LSA): a série UHSLC parava em 2020
+#
+# Limite conhecido: o arquivo de satélites da NOAA tem dados até fev/2025 (nov/2026). A
+# alternativa mais atual (NASA) exige login Earthdata; trocar a fonte não muda as âncoras.
+
+versao: 1.2.0
+ano_inicio: 1990
+margem_auto: 0.25        # só usada por indicadores ainda sem âncora congelada
+
+cavaleiros:
+  conquista: 0.25
+  guerra: 0.25
+  fome: 0.25
+  morte: 0.25
+
+subindices:              # dentro de Morte
+  peste: 0.5
+  ambiente: 0.5
+
+minimo_indicadores: 2    # um cavaleiro precisa de pelo menos 2 indicadores com dado
+
+interacoes:
+  - [guerra, fome, 0.05]       # bloqueios, destruição agrícola, choque de preços
+  - [guerra, conquista, 0.05]  # IA militar, armas autônomas, ciberguerra
+  - [fome, morte, 0.04]        # clima e seca na produção; desnutrição e doenças
+  - [guerra, morte, 0.03]      # colapso de saúde pública em guerra; escassez gerando conflito
+  - [conquista, morte, 0.03]   # biossegurança e desinformação em pandemias
+
+projecao:
+  janela_anos: 5            # tendência = Theil-Sen dos últimos 5 anos
+  limiar_estavel: 0.02      # |tendência| abaixo disso = estável (pontos/ano)
+  horizonte_max: 100        # além disso: "mais de um século"
+  momento_min_anos: 5       # "o nível mais alto desde X" só se X for ≥ 5 anos atrás;
+                            # senão: "o Nº ano mais crítico desde 1990"
+
+# anual:     valor (série anual) | media (dos meses) | soma (dos meses; ano corrente
+#            anualizado com ≥ 3 meses)
+# acumulado: max = recorde até o ano (fronteira)
+# direcao:   1 = valor maior é pior; -1 = valor maior é melhor (proteção)
+# piso:      valor com nota 0     teto: valor com nota 10   (na unidade original)
+# Origem das âncoras: [meta] o 0 é o mundo sem o problema (erradicação ou meta internacional);
+#                     [lim] limiar científico ou de política pública;
+#                     [hist] sem um "zero" que faça sentido: faixa histórica 1990–2025
+#                            (melhor → 0; pior + 25% → 10)
+# O teto (nota 10) continua sendo um pouco além do pior nível registrado desde 1990.
+# peso 0 = informativo: tem nota e aparece no site, mas não entra na conta.
+indicadores:
+
+  # ⚪ Conquista
+  conquista.compute:        # [regra] 0 = fronteira de 2010; 10 = recorde de 2025 × 100 (petaFLOP)
+    {anual: valor, acumulado: max, direcao: 1, escala_log: true, peso: 0.5,
+     piso: 1449.4465, teto: 5.0e13}
+  conquista.cves:           # [hist, log] CVEs publicadas por ano; meio peso (viés de reporte)
+    {anual: soma, direcao: 1, escala_log: true, peso: 0.5, piso: 894, teto: 130443.4447}
+  conquista.democracia:     # [meta] 0 = mundo todo com democracia liberal plena (0,8, nível nórdico)
+    {anual: valor, direcao: -1, piso: 0.8, teto: 0.29645199}
+  conquista.incidentes:     # [hist, log] incidentes com IA reportados no ano (AIID via AI Index);
+                            # meio peso pelo mesmo viés de reporte das CVEs; 6 em 2012 → 0
+    {anual: valor, direcao: 1, escala_log: true, peso: 0.5, piso: 6, teto: 1008.8994855}
+  conquista.kev:            # [hist] vulnerabilidades com exploração confirmada incluídas no ano (CISA KEV);
+                            # informativo: série desde 2022, curta para uma âncora histórica
+    {anual: soma, direcao: 1, peso: 0, piso: 186, teto: 647.2}
+
+  # 🔴 Guerra
+  guerra.ogivas:            # [meta] 0 = nenhuma ogiva (Tratado de Proibição de Armas Nucleares)
+    {anual: valor, direcao: 1, piso: 0, teto: 73506}
+  guerra.mortes_conflito:   # [meta, log] 0 = praticamente sem mortes em guerras (0,1 por 100 mil hab.)
+    {anual: valor, direcao: 1, escala_log: true, piso: 0.1, teto: 38.05052598}
+  guerra.conflitos:         # [meta] 0 = nenhum conflito armado envolvendo Estados
+    {anual: valor, direcao: 1, piso: 0, teto: 73.5}
+  guerra.gasto_militar:     # [hist] % do PIB mundial
+    {anual: valor, direcao: 1, piso: 2.10542540055738, teto: 3.62460952161719}
+  guerra.deslocados:        # [meta] 0 = ninguém deslocado à força; 10 = um pouco além do pior nível desde 1990
+    {anual: valor, direcao: 1, piso: 0, teto: 1.474e8}
+
+  # ⚫ Fome
+  fome.fpi:                 # [hist] índice real FAO (média anual)
+    {anual: media, direcao: 1, piso: 67.4772048496002, teto: 137.005597124127}
+  fome.subnutricao:         # [meta] 0 = fome erradicada (< 2,5%, limiar de prevalência desprezível da FAO)
+    {anual: valor, direcao: 1, piso: 2.5, teto: 14.475}
+  fome.pobreza:             # [meta] 0 = pobreza extrema erradicada (< 3%, meta do Banco Mundial)
+    {anual: valor, direcao: 1, piso: 3, teto: 51.725}
+
+  # 🟢 Morte · Peste
+  morte.peste.mortes_infecciosas:   # [hist] % do total de mortes
+    {anual: valor, direcao: 1, piso: 18.2908295889405, teto: 35.970171089774}
+  morte.peste.emergencias:  # [meta] 0 = nenhuma emergência PHEIC ativa (média de ativas por dia)
+    {anual: media, direcao: 1, piso: 0, teto: 3.0510753125}
+  morte.peste.vacinacao:    # [lim] 0 = meta de 95% da OMS; 10 = 70%
+    {anual: valor, direcao: -1, piso: 95, teto: 70}
+
+  # 🟢 Morte · Ambiente
+  morte.ambiente.temperatura:   # [lim] 0 = pré-industrial (−0,3 °C na base 1951–1980); 10 = +2 °C
+    {anual: media, direcao: 1, piso: -0.3, teto: 1.7}
+  morte.ambiente.desastres: # [hist] pessoas afetadas por desastres naturais, média móvel de 5 anos;
+                            # o ano em curso (parcial no EM-DAT) fica de fora
+    # informativo: o número de afetados cai com alertas e defesa civil, mesmo com o clima
+    # piorando; mede adaptação, não perigo. Aparece no site, fora da conta.
+    {anual: valor, ignorar_ano_corrente: true, media_movel: 5, direcao: 1, peso: 0,
+     piso: 9.933e7, teto: 3.664e8}
+  morte.ambiente.biodiversidade:  # [meta] 0 = nenhuma espécie ameaçada (Red List Index = 1)
+    {anual: valor, direcao: -1, piso: 1.0, teto: 0.7225}
+  morte.ambiente.co2:       # [lim] 0 = 280 ppm (pré-industrial); 10 = 450 ppm (~2 °C de aquecimento)
+    {anual: media, direcao: 1, peso: 0.5, piso: 280, teto: 450}
+  morte.ambiente.mar:       # [regra] mm sobre a média 1993–2008; 0 = nível de 1880 (≈ −200 mm);
+                            # 10 = +200 mm, o dobro da elevação desde 1880 (o IPCC projeta algo
+                            # assim para meados do século)
+    {anual: media, direcao: 1, peso: 0.5, piso: -200, teto: 200}
+
+# ── Pendente para depois da 1.2 ──────────────────────────────────────────
+# Guerra: ACLED "explosões/violência remota" (licença restringe redistribuição; cobertura
+# cresce com o tempo), SIPRI transferências de armas (TIV), FAS ogivas prontas para uso.
+# Fome: GRFC insegurança alimentar aguda (série desde 2016; cobertura de países muda a cada ano).

@@ -2,17 +2,86 @@
   "atualizado_em_ano": 2026,
   "secoes": [
     {
+      "id": "o_que_e",
+      "titulo": {
+        "pt": "O que é o Mene Tekel",
+        "en": "What Mene Tekel is",
+        "es": "Qué es Mene Tekel"
+      },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "O Mene Tekel é um índice público que mede, com dados oficiais, o risco de colapso da civilização como a conhecemos. O nome vem do livro de Daniel: numa festa no palácio da Babilônia, uma mão escreve na parede \"MENE, MENE, TEQUEL, UFARSIM\" (Dn 5:25). O profeta lê o aviso ao rei: \"Contou Deus o teu reino, e o acabou. (...) Pesado foste na balança, e foste achado em falta\" (Dn 5:26–27).",
+            "en": "Mene Tekel is a public index that uses official data to measure the risk of collapse of civilization as we know it. The name comes from the book of Daniel: at a feast in the palace of Babylon, a hand writes on the wall \"MENE, MENE, TEKEL, UPHARSIN\" (Dan 5:25). The prophet reads the warning to the king: \"God hath numbered thy kingdom, and finished it. (...) Thou art weighed in the balances, and art found wanting\" (Dan 5:26–27).",
+            "es": "Mene Tekel es un índice público que mide, con datos oficiales, el riesgo de colapso de la civilización tal como la conocemos. El nombre viene del libro de Daniel: en un banquete en el palacio de Babilonia, una mano escribe en la pared \"MENE, MENE, TEKEL, UPHARSIN\" (Dn 5:25). El profeta lee el aviso al rey: \"Contó Dios tu reino, y halo rematado. (...) Pesado has sido en balanza, y fuiste hallado falto\" (Dn 5:26–27)."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Desde então, a expressão virou sinônimo de aviso de desgraça iminente: um presságio de que algo grave está para acontecer. Em alemão, *Menetekel* é palavra do dia a dia com esse sentido; em inglês, diz-se *the writing on the wall*, \"a escrita na parede\". O Mene Tekel quer ser esse aviso, dado enquanto ainda há tempo.",
+            "en": "Ever since, the expression has meant a warning of impending disaster: an omen that something grave is about to happen. In German, *Menetekel* is an everyday word with that meaning; in English, people say *the writing on the wall*. Mene Tekel wants to be that warning, given while there is still time.",
+            "es": "Desde entonces, la expresión se volvió sinónimo de aviso de una desgracia inminente: un presagio de que algo grave está por ocurrir. En alemán, *Menetekel* es una palabra cotidiana con ese sentido; en inglés se dice *the writing on the wall*, \"la escritura en la pared\". Mene Tekel quiere ser ese aviso, dado mientras todavía hay tiempo."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Aqui, quem é pesado é o mundo. Guerras, fome, doenças, clima, tecnologia e democracia viram quatro cavaleiros e sete selos: a linguagem do Apocalipse, usada como metáfora e não como profecia. Quanto mais selos rompidos, mais perto estamos do limite.",
+            "en": "Here, it is the world that is weighed. Wars, hunger, disease, climate, technology and democracy become four horsemen and seven seals: the language of Revelation, used as a metaphor and not as prophecy. The more seals broken, the closer we are to the limit.",
+            "es": "Aquí, lo que se pesa es el mundo. Guerras, hambre, enfermedades, clima, tecnología y democracia se convierten en cuatro jinetes y siete sellos: el lenguaje del Apocalipsis, usado como metáfora y no como profecía. Cuantos más sellos rotos, más cerca estamos del límite."
+          }
+        }
+      ],
+      "paragrafos": [
+        {
+          "pt": "O Mene Tekel é um índice público que mede, com dados oficiais, o risco de colapso da civilização como a conhecemos. O nome vem do livro de Daniel: numa festa no palácio da Babilônia, uma mão escreve na parede \"MENE, MENE, TEQUEL, UFARSIM\" (Dn 5:25). O profeta lê o aviso ao rei: \"Contou Deus o teu reino, e o acabou. (...) Pesado foste na balança, e foste achado em falta\" (Dn 5:26–27).",
+          "en": "Mene Tekel is a public index that uses official data to measure the risk of collapse of civilization as we know it. The name comes from the book of Daniel: at a feast in the palace of Babylon, a hand writes on the wall \"MENE, MENE, TEKEL, UPHARSIN\" (Dan 5:25). The prophet reads the warning to the king: \"God hath numbered thy kingdom, and finished it. (...) Thou art weighed in the balances, and art found wanting\" (Dan 5:26–27).",
+          "es": "Mene Tekel es un índice público que mide, con datos oficiales, el riesgo de colapso de la civilización tal como la conocemos. El nombre viene del libro de Daniel: en un banquete en el palacio de Babilonia, una mano escribe en la pared \"MENE, MENE, TEKEL, UPHARSIN\" (Dn 5:25). El profeta lee el aviso al rey: \"Contó Dios tu reino, y halo rematado. (...) Pesado has sido en balanza, y fuiste hallado falto\" (Dn 5:26–27)."
+        },
+        {
+          "pt": "Desde então, a expressão virou sinônimo de aviso de desgraça iminente: um presságio de que algo grave está para acontecer. Em alemão, Menetekel é palavra do dia a dia com esse sentido; em inglês, diz-se the writing on the wall, \"a escrita na parede\". O Mene Tekel quer ser esse aviso, dado enquanto ainda há tempo.",
+          "en": "Ever since, the expression has meant a warning of impending disaster: an omen that something grave is about to happen. In German, Menetekel is an everyday word with that meaning; in English, people say the writing on the wall. Mene Tekel wants to be that warning, given while there is still time.",
+          "es": "Desde entonces, la expresión se volvió sinónimo de aviso de una desgracia inminente: un presagio de que algo grave está por ocurrir. En alemán, Menetekel es una palabra cotidiana con ese sentido; en inglés se dice the writing on the wall, \"la escritura en la pared\". Mene Tekel quiere ser ese aviso, dado mientras todavía hay tiempo."
+        },
+        {
+          "pt": "Aqui, quem é pesado é o mundo. Guerras, fome, doenças, clima, tecnologia e democracia viram quatro cavaleiros e sete selos: a linguagem do Apocalipse, usada como metáfora e não como profecia. Quanto mais selos rompidos, mais perto estamos do limite.",
+          "en": "Here, it is the world that is weighed. Wars, hunger, disease, climate, technology and democracy become four horsemen and seven seals: the language of Revelation, used as a metaphor and not as prophecy. The more seals broken, the closer we are to the limit.",
+          "es": "Aquí, lo que se pesa es el mundo. Guerras, hambre, enfermedades, clima, tecnología y democracia se convierten en cuatro jinetes y siete sellos: el lenguaje del Apocalipsis, usado como metáfora y no como profecía. Cuantos más sellos rotos, más cerca estamos del límite."
+        }
+      ]
+    },
+    {
       "id": "historia",
       "titulo": {
         "pt": "O que os dados contam",
         "en": "What the data tell us",
         "es": "Lo que cuentan los datos"
       },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia.",
+            "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding.",
+            "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Hoje são 3,9 de 7 selos rompidos e, no ritmo atual, o sétimo selo se rompe em 2066. Esse número não é uma opinião: é a soma de [16 indicadores oficiais](/calculo) (guerras, fome, doenças, clima, tecnologia e democracia), medidos todos os dias com dados abertos de organismos como a ONU, o Banco Mundial, a OMS e a NASA.",
+            "en": "Today 3.9 of 7 seals are broken; at the current pace, the seventh seal breaks in 2066. This number is not an opinion: it adds up [16 official indicators](/calculo) (wars, hunger, disease, climate, technology and democracy), checked every day with open data from bodies such as the UN, the World Bank, WHO and NASA.",
+            "es": "Hoy hay 3,9 de 7 sellos rotos y, al ritmo actual, el séptimo sello se rompe en 2066. Este número no es una opinión: suma [16 indicadores oficiales](/calculo) (guerras, hambre, enfermedades, clima, tecnología y democracia), revisados todos los días con datos abiertos de organismos como la ONU, el Banco Mundial, la OMS y la NASA."
+          }
+        }
+      ],
       "paragrafos": [
         {
-          "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia. Mas não está escrito: se o mundo voltasse ao ritmo de 1990–1999, os selos começariam a se fechar.",
-          "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding. But it is not written: if the world returned to the pace of 1990–1999, the seals would begin to close.",
-          "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia. Pero no está escrito: si el mundo volviera al ritmo de 1990–1999, los sellos empezarían a cerrarse."
+          "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia.",
+          "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding.",
+          "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia."
         },
         {
           "pt": "Hoje são 3,9 de 7 selos rompidos e, no ritmo atual, o sétimo selo se rompe em 2066. Esse número não é uma opinião: é a soma de 16 indicadores oficiais (guerras, fome, doenças, clima, tecnologia e democracia), medidos todos os dias com dados abertos de organismos como a ONU, o Banco Mundial, a OMS e a NASA.",
@@ -28,7 +97,46 @@
         "en": "How we read the future",
         "es": "Cómo leemos el futuro"
       },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Jesus cobrava de quem sabia prever a chuva pelas nuvens, mas não sabia ler o próprio tempo: \"sabeis discernir a face da terra e do céu; como não sabeis então discernir este tempo?\" (Lc 12:56). Ler os sinais do presente é o que tentamos fazer aqui.",
+            "en": "Jesus rebuked those who could foretell rain from the clouds but could not read their own times: \"ye can discern the face of the sky and of the earth; but how is it that ye do not discern this time?\" (Luke 12:56). Reading the signs of the present is what we try to do here.",
+            "es": "Jesús reprochaba a quienes sabían prever la lluvia por las nubes, pero no sabían leer su propio tiempo: \"Sabéis examinar la faz del cielo y de la tierra; ¿y cómo no reconocéis este tiempo?\" (Lc 12:56). Leer las señales del presente es lo que intentamos hacer aquí."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Olhamos para os últimos 5 anos e medimos o ritmo em que o índice está mudando. Usamos um método que não se deixa levar por um único ano fora da curva, como o de uma pandemia. O resultado de hoje: no ritmo atual, um novo selo se rompe a cada 13 anos.",
+            "en": "We look at the last 5 years and measure how fast the index is changing. We use a method that is not swayed by a single unusual year, such as a pandemic year. Today's result: at the current pace, a new seal breaks every 13 years.",
+            "es": "Miramos los últimos 5 años y medimos a qué ritmo cambia el índice. Usamos un método que no se deja llevar por un solo año fuera de lo común, como el de una pandemia. El resultado de hoy: al ritmo actual, un nuevo sello se rompe cada 13 años."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Depois, fazemos uma conta simples: se esse ritmo continuasse igual, ano após ano, quando o índice chegaria ao limite? É daí que vem a data. Ela responde a uma pergunta do tipo \"e se nada mudar?\", não à pergunta \"o que vai acontecer?\".",
+            "en": "Then we do a simple calculation: if this pace stayed the same, year after year, when would the index reach its limit? That is where the date comes from. It answers a \"what if nothing changes?\" question, not \"what will happen?\".",
+            "es": "Después hacemos una cuenta simple: si ese ritmo siguiera igual, año tras año, ¿cuándo llegaría el índice al límite? De ahí sale la fecha. Responde a una pregunta del tipo \"¿y si nada cambia?\", no a \"¿qué va a pasar?\"."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Os cenários fazem a mesma conta com o ritmo de outras épocas. Eles mostram que o ritmo atual não é o único possível: o mundo já acelerou e freou várias vezes.",
+            "en": "The scenarios do the same calculation with the pace of other periods. They show that the current pace is not the only one possible: the world has sped up and slowed down many times.",
+            "es": "Los escenarios hacen la misma cuenta con el ritmo de otras épocas. Muestran que el ritmo actual no es el único posible: el mundo ya aceleró y frenó varias veces."
+          }
+        }
+      ],
       "paragrafos": [
+        {
+          "pt": "Jesus cobrava de quem sabia prever a chuva pelas nuvens, mas não sabia ler o próprio tempo: \"sabeis discernir a face da terra e do céu; como não sabeis então discernir este tempo?\" (Lc 12:56). Ler os sinais do presente é o que tentamos fazer aqui.",
+          "en": "Jesus rebuked those who could foretell rain from the clouds but could not read their own times: \"ye can discern the face of the sky and of the earth; but how is it that ye do not discern this time?\" (Luke 12:56). Reading the signs of the present is what we try to do here.",
+          "es": "Jesús reprochaba a quienes sabían prever la lluvia por las nubes, pero no sabían leer su propio tiempo: \"Sabéis examinar la faz del cielo y de la tierra; ¿y cómo no reconocéis este tiempo?\" (Lc 12:56). Leer las señales del presente es lo que intentamos hacer aquí."
+        },
         {
           "pt": "Olhamos para os últimos 5 anos e medimos o ritmo em que o índice está mudando. Usamos um método que não se deixa levar por um único ano fora da curva, como o de uma pandemia. O resultado de hoje: no ritmo atual, um novo selo se rompe a cada 13 anos.",
           "en": "We look at the last 5 years and measure how fast the index is changing. We use a method that is not swayed by a single unusual year, such as a pandemic year. Today's result: at the current pace, a new seal breaks every 13 years.",
@@ -40,9 +148,9 @@
           "es": "Después hacemos una cuenta simple: si ese ritmo siguiera igual, año tras año, ¿cuándo llegaría el índice al límite? De ahí sale la fecha. Responde a una pregunta del tipo \"¿y si nada cambia?\", no a \"¿qué va a pasar?\"."
         },
         {
-          "pt": "Os cenários fazem a mesma conta com o ritmo de outras épocas. Eles mostram que o ritmo atual não é o único possível: o mundo já andou na direção contrária.",
-          "en": "The scenarios do the same calculation with the pace of other periods. They show that the current pace is not the only one possible: the world has moved the other way before.",
-          "es": "Los escenarios hacen la misma cuenta con el ritmo de otras épocas. Muestran que el ritmo actual no es el único posible: el mundo ya fue en la dirección contraria."
+          "pt": "Os cenários fazem a mesma conta com o ritmo de outras épocas. Eles mostram que o ritmo atual não é o único possível: o mundo já acelerou e freou várias vezes.",
+          "en": "The scenarios do the same calculation with the pace of other periods. They show that the current pace is not the only one possible: the world has sped up and slowed down many times.",
+          "es": "Los escenarios hacen la misma cuenta con el ritmo de otras épocas. Muestran que el ritmo actual no es el único posible: el mundo ya aceleró y frenó varias veces."
         }
       ]
     },
@@ -53,11 +161,21 @@
         "en": "What the date is not",
         "es": "Lo que la fecha no es"
       },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "A data não é uma profecia nem uma previsão. Até a Bíblia desconfia de quem marca datas: \"daquele dia e hora ninguém sabe\" (Mt 24:36). Nenhum ritmo dura décadas sem mudar. Uma guerra, uma pandemia, uma descoberta científica ou um acordo entre países pode acelerar ou frear tudo, e nenhum índice consegue prever esses choques. A data é um espelho do presente: mostra para onde o caminho de hoje leva, se ninguém mudar de caminho.",
+            "en": "The date is neither a prophecy nor a forecast. Even the Bible distrusts those who set dates: \"of that day and hour knoweth no man\" (Matt 24:36). No pace lasts for decades unchanged. A war, a pandemic, a scientific breakthrough or an agreement between countries can speed everything up or slow it down, and no index can foresee those shocks. The date is a mirror of the present: it shows where today's path leads if nobody changes course.",
+            "es": "La fecha no es una profecía ni un pronóstico. Hasta la Biblia desconfía de quien pone fechas: \"del día y hora nadie sabe\" (Mt 24:36). Ningún ritmo dura décadas sin cambiar. Una guerra, una pandemia, un descubrimiento científico o un acuerdo entre países puede acelerar o frenar todo, y ningún índice puede prever esos choques. La fecha es un espejo del presente: muestra adónde lleva el camino de hoy si nadie cambia de rumbo."
+          }
+        }
+      ],
       "paragrafos": [
         {
-          "pt": "A data não é uma profecia nem uma previsão. Nenhum ritmo dura décadas sem mudar. Uma guerra, uma pandemia, uma descoberta científica ou um acordo entre países pode acelerar ou frear tudo, e nenhum índice consegue prever esses choques. A data é um espelho do presente: mostra para onde o caminho de hoje leva, se ninguém mudar de caminho.",
-          "en": "The date is neither a prophecy nor a forecast. No pace lasts for decades unchanged. A war, a pandemic, a scientific breakthrough or an agreement between countries can speed everything up or slow it down, and no index can foresee those shocks. The date is a mirror of the present: it shows where today's path leads if nobody changes course.",
-          "es": "La fecha no es una profecía ni un pronóstico. Ningún ritmo dura décadas sin cambiar. Una guerra, una pandemia, un descubrimiento científico o un acuerdo entre países puede acelerar o frenar todo, y ningún índice puede prever esos choques. La fecha es un espejo del presente: muestra adónde lleva el camino de hoy si nadie cambia de rumbo."
+          "pt": "A data não é uma profecia nem uma previsão. Até a Bíblia desconfia de quem marca datas: \"daquele dia e hora ninguém sabe\" (Mt 24:36). Nenhum ritmo dura décadas sem mudar. Uma guerra, uma pandemia, uma descoberta científica ou um acordo entre países pode acelerar ou frear tudo, e nenhum índice consegue prever esses choques. A data é um espelho do presente: mostra para onde o caminho de hoje leva, se ninguém mudar de caminho.",
+          "en": "The date is neither a prophecy nor a forecast. Even the Bible distrusts those who set dates: \"of that day and hour knoweth no man\" (Matt 24:36). No pace lasts for decades unchanged. A war, a pandemic, a scientific breakthrough or an agreement between countries can speed everything up or slow it down, and no index can foresee those shocks. The date is a mirror of the present: it shows where today's path leads if nobody changes course.",
+          "es": "La fecha no es una profecía ni un pronóstico. Hasta la Biblia desconfía de quien pone fechas: \"del día y hora nadie sabe\" (Mt 24:36). Ningún ritmo dura décadas sin cambiar. Una guerra, una pandemia, un descubrimiento científico o un acuerdo entre países puede acelerar o frenar todo, y ningún índice puede prever esos choques. La fecha es un espejo del presente: muestra adónde lleva el camino de hoy si nadie cambia de rumbo."
         }
       ]
     },
@@ -68,11 +186,21 @@
         "en": "What would close the seals",
         "es": "Qué cerraría los sellos"
       },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Aqui os selos não são definitivos: quando o risco cai, eles voltam a se fechar. Com o ritmo de 1990–1999, eles já estariam se fechando. Cada indicador aponta um caminho: menos conflitos e menos armas nucleares, o fim da fome e da pobreza extrema, vacinação de volta à meta, o aquecimento contido, menos espécies ameaçadas, democracias mais fortes e uma tecnologia que cresça com controle. É a imagem de Isaías: \"converterão as suas espadas em enxadões, e as suas lanças em foices\" (Is 2:4).",
+            "en": "Here the seals are not final: when risk falls, they close again. At the pace of 1990–1999, they would already be closing. Each indicator points to a path: fewer conflicts and fewer nuclear weapons, the end of hunger and extreme poverty, vaccination back on target, warming contained, fewer threatened species, stronger democracies and technology that grows under control. It is Isaiah's image: \"they shall beat their swords into plowshares, and their spears into pruninghooks\" (Isa 2:4).",
+            "es": "Aquí los sellos no son definitivos: cuando el riesgo baja, vuelven a cerrarse. Con el ritmo de 1990–1999, ya se estarían cerrando. Cada indicador señala un camino: menos conflictos y menos armas nucleares, el fin del hambre y de la pobreza extrema, la vacunación de vuelta a la meta, el calentamiento contenido, menos especies amenazadas, democracias más fuertes y una tecnología que crezca con control. Es la imagen de Isaías: \"volverán sus espadas en rejas de arado, y sus lanzas en hoces\" (Is 2:4)."
+          }
+        }
+      ],
       "paragrafos": [
         {
-          "pt": "Aqui os selos não são definitivos: quando o risco cai, eles voltam a se fechar. Com o ritmo de 1990–1999, eles já estariam se fechando. Cada indicador aponta um caminho: menos conflitos e menos armas nucleares, o fim da fome e da pobreza extrema, vacinação de volta à meta, o aquecimento contido, menos espécies ameaçadas, democracias mais fortes e uma tecnologia que cresça com controle.",
-          "en": "Here the seals are not final: when risk falls, they close again. At the pace of 1990–1999, they would already be closing. Each indicator points to a path: fewer conflicts and fewer nuclear weapons, the end of hunger and extreme poverty, vaccination back on target, warming contained, fewer threatened species, stronger democracies and technology that grows under control.",
-          "es": "Aquí los sellos no son definitivos: cuando el riesgo baja, vuelven a cerrarse. Con el ritmo de 1990–1999, ya se estarían cerrando. Cada indicador señala un camino: menos conflictos y menos armas nucleares, el fin del hambre y de la pobreza extrema, la vacunación de vuelta a la meta, el calentamiento contenido, menos especies amenazadas, democracias más fuertes y una tecnología que crezca con control."
+          "pt": "Aqui os selos não são definitivos: quando o risco cai, eles voltam a se fechar. Com o ritmo de 1990–1999, eles já estariam se fechando. Cada indicador aponta um caminho: menos conflitos e menos armas nucleares, o fim da fome e da pobreza extrema, vacinação de volta à meta, o aquecimento contido, menos espécies ameaçadas, democracias mais fortes e uma tecnologia que cresça com controle. É a imagem de Isaías: \"converterão as suas espadas em enxadões, e as suas lanças em foices\" (Is 2:4).",
+          "en": "Here the seals are not final: when risk falls, they close again. At the pace of 1990–1999, they would already be closing. Each indicator points to a path: fewer conflicts and fewer nuclear weapons, the end of hunger and extreme poverty, vaccination back on target, warming contained, fewer threatened species, stronger democracies and technology that grows under control. It is Isaiah's image: \"they shall beat their swords into plowshares, and their spears into pruninghooks\" (Isa 2:4).",
+          "es": "Aquí los sellos no son definitivos: cuando el riesgo baja, vuelven a cerrarse. Con el ritmo de 1990–1999, ya se estarían cerrando. Cada indicador señala un camino: menos conflictos y menos armas nucleares, el fin del hambre y de la pobreza extrema, la vacunación de vuelta a la meta, el calentamiento contenido, menos especies amenazadas, democracias más fuertes y una tecnología que crezca con control. Es la imagen de Isaías: \"volverán sus espadas en rejas de arado, y sus lanzas en hoces\" (Is 2:4)."
         }
       ]
     },
@@ -83,21 +211,60 @@
         "en": "And if the seventh seal breaks?",
         "es": "¿Y si se rompe el séptimo sello?"
       },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "No Apocalipse, o sétimo selo não traz uma explosão, mas o oposto: \"fez-se silêncio no céu quase por meia hora\" (Ap 8:1). É uma pausa, o momento em que tudo para. E o livro não termina na destruição: termina com \"um novo céu e uma nova terra\" (Ap 21:1).",
+            "en": "In Revelation, the seventh seal brings not an explosion but the opposite: \"there was silence in heaven about the space of half an hour\" (Rev 8:1). It is a pause, the moment everything stops. And the book does not end in destruction: it ends with \"a new heaven and a new earth\" (Rev 21:1).",
+            "es": "En el Apocalipsis, el séptimo sello no trae una explosión, sino lo contrario: \"fué hecho silencio en el cielo casi por media hora\" (Ap 8:1). Es una pausa, el momento en que todo se detiene. Y el libro no termina en la destrucción: termina con \"un cielo nuevo, y una tierra nueva\" (Ap 21:1)."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "No Mene Tekel, o sétimo selo rompido quer dizer que o índice chegou a 10 de 10: guerra, fome, doenças, clima, tecnologia e democracia no limite crítico ao mesmo tempo. Não é o fim do mundo nem da humanidade. É a imagem de um colapso: o ponto em que a civilização como a conhecemos deixa de se sustentar.",
+            "en": "In Mene Tekel, a broken seventh seal means the index has reached 10 out of 10: war, hunger, disease, climate, technology and democracy all at the critical limit at the same time. It is not the end of the world or of humanity. It is the image of a collapse: the point at which civilization as we know it can no longer hold.",
+            "es": "En Mene Tekel, el séptimo sello roto significa que el índice llegó a 10 de 10: guerra, hambre, enfermedades, clima, tecnología y democracia en el límite crítico al mismo tiempo. No es el fin del mundo ni de la humanidad. Es la imagen de un colapso: el punto en que la civilización tal como la conocemos deja de sostenerse."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "No relato do Apocalipse, os selos só se abrem, um depois do outro, e nenhum volta a se fechar. Aqui, preferimos não tratar nenhum selo como definitivamente aberto: os dados mudam, e o mundo também. A própria Bíblia conhece avisos que não se cumpriram porque foram ouvidos: Nínive mudou de caminho, e a destruição anunciada não veio (Jn 3:10).",
+            "en": "In the account of Revelation, the seals only open, one after another, and none closes again. Here, we prefer not to treat any seal as permanently open: the data change, and so does the world. The Bible itself knows warnings that did not come true because they were heeded: Nineveh changed its ways, and the announced destruction never came (Jonah 3:10).",
+            "es": "En el relato del Apocalipsis, los sellos solo se abren, uno tras otro, y ninguno vuelve a cerrarse. Aquí preferimos no tratar ningún sello como definitivamente abierto: los datos cambian, y el mundo también. La propia Biblia conoce avisos que no se cumplieron porque fueron escuchados: Nínive cambió de camino, y la destrucción anunciada no llegó (Jon 3:10)."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Por isso, se o risco cair, o selo se fecha de novo, mas guarda a marca de que já se rompeu, como uma cicatriz. Os dias estão contados, mas a conta ainda está aberta.",
+            "en": "So if risk falls, the seal closes again, but it keeps the mark of having broken, like a scar. The days are numbered, but the count is still open.",
+            "es": "Por eso, si el riesgo baja, el sello se cierra de nuevo, pero guarda la marca de que ya se rompió, como una cicatriz. Los días están contados, pero la cuenta sigue abierta."
+          }
+        }
+      ],
       "paragrafos": [
         {
           "pt": "No Apocalipse, o sétimo selo não traz uma explosão, mas o oposto: \"fez-se silêncio no céu quase por meia hora\" (Ap 8:1). É uma pausa, o momento em que tudo para. E o livro não termina na destruição: termina com \"um novo céu e uma nova terra\" (Ap 21:1).",
           "en": "In Revelation, the seventh seal brings not an explosion but the opposite: \"there was silence in heaven about the space of half an hour\" (Rev 8:1). It is a pause, the moment everything stops. And the book does not end in destruction: it ends with \"a new heaven and a new earth\" (Rev 21:1).",
-          "es": "En el Apocalipsis, el séptimo sello no trae una explosión, sino lo contrario: \"fue hecho silencio en el cielo casi por media hora\" (Ap 8:1). Es una pausa, el momento en que todo se detiene. Y el libro no termina en la destrucción: termina con \"un cielo nuevo y una tierra nueva\" (Ap 21:1)."
+          "es": "En el Apocalipsis, el séptimo sello no trae una explosión, sino lo contrario: \"fué hecho silencio en el cielo casi por media hora\" (Ap 8:1). Es una pausa, el momento en que todo se detiene. Y el libro no termina en la destrucción: termina con \"un cielo nuevo, y una tierra nueva\" (Ap 21:1)."
         },
         {
-          "pt": "No Mene Tekel, o sétimo selo rompido quer dizer que o índice chegou a 10 de 10: guerra, fome, doenças, clima, tecnologia e democracia no limite crítico ao mesmo tempo. Não é o fim do mundo nem da humanidade. É a imagem de um colapso: o ponto em que a civilização como a conhecemos deixa de se sustentar. Se isso acontecer, o site fica em silêncio, só com o versículo e os dados.",
-          "en": "In Mene Tekel, a broken seventh seal means the index has reached 10 out of 10: war, hunger, disease, climate, technology and democracy all at the critical limit at the same time. It is not the end of the world or of humanity. It is the image of a collapse: the point at which civilization as we know it can no longer hold. If it happens, the site falls silent, with only the verse and the data.",
-          "es": "En Mene Tekel, el séptimo sello roto significa que el índice llegó a 10 de 10: guerra, hambre, enfermedades, clima, tecnología y democracia en el límite crítico al mismo tiempo. No es el fin del mundo ni de la humanidad. Es la imagen de un colapso: el punto en que la civilización tal como la conocemos deja de sostenerse. Si ocurre, el sitio queda en silencio, solo con el versículo y los datos."
+          "pt": "No Mene Tekel, o sétimo selo rompido quer dizer que o índice chegou a 10 de 10: guerra, fome, doenças, clima, tecnologia e democracia no limite crítico ao mesmo tempo. Não é o fim do mundo nem da humanidade. É a imagem de um colapso: o ponto em que a civilização como a conhecemos deixa de se sustentar.",
+          "en": "In Mene Tekel, a broken seventh seal means the index has reached 10 out of 10: war, hunger, disease, climate, technology and democracy all at the critical limit at the same time. It is not the end of the world or of humanity. It is the image of a collapse: the point at which civilization as we know it can no longer hold.",
+          "es": "En Mene Tekel, el séptimo sello roto significa que el índice llegó a 10 de 10: guerra, hambre, enfermedades, clima, tecnología y democracia en el límite crítico al mismo tiempo. No es el fin del mundo ni de la humanidad. Es la imagen de un colapso: el punto en que la civilización tal como la conocemos deja de sostenerse."
         },
         {
-          "pt": "E, diferente do texto bíblico, aqui nada é irreversível. Se o risco cair, o sétimo selo se fecha e o site volta. Os dias estão contados, mas a conta ainda está aberta.",
-          "en": "And unlike the biblical text, nothing here is irreversible. If risk falls, the seventh seal closes and the site comes back. The days are numbered, but the count is still open.",
-          "es": "Y, a diferencia del texto bíblico, aquí nada es irreversible. Si el riesgo baja, el séptimo sello se cierra y el sitio vuelve. Los días están contados, pero la cuenta sigue abierta."
+          "pt": "No relato do Apocalipse, os selos só se abrem, um depois do outro, e nenhum volta a se fechar. Aqui, preferimos não tratar nenhum selo como definitivamente aberto: os dados mudam, e o mundo também. A própria Bíblia conhece avisos que não se cumpriram porque foram ouvidos: Nínive mudou de caminho, e a destruição anunciada não veio (Jn 3:10).",
+          "en": "In the account of Revelation, the seals only open, one after another, and none closes again. Here, we prefer not to treat any seal as permanently open: the data change, and so does the world. The Bible itself knows warnings that did not come true because they were heeded: Nineveh changed its ways, and the announced destruction never came (Jonah 3:10).",
+          "es": "En el relato del Apocalipsis, los sellos solo se abren, uno tras otro, y ninguno vuelve a cerrarse. Aquí preferimos no tratar ningún sello como definitivamente abierto: los datos cambian, y el mundo también. La propia Biblia conoce avisos que no se cumplieron porque fueron escuchados: Nínive cambió de camino, y la destrucción anunciada no llegó (Jon 3:10)."
+        },
+        {
+          "pt": "Por isso, se o risco cair, o selo se fecha de novo, mas guarda a marca de que já se rompeu, como uma cicatriz. Os dias estão contados, mas a conta ainda está aberta.",
+          "en": "So if risk falls, the seal closes again, but it keeps the mark of having broken, like a scar. The days are numbered, but the count is still open.",
+          "es": "Por eso, si el riesgo baja, el sello se cierra de nuevo, pero guarda la marca de que ya se rompió, como una cicatriz. Los días están contados, pero la cuenta sigue abierta."
         }
       ]
     },
@@ -108,11 +275,707 @@
         "en": "The limits of this index",
         "es": "Los límites de este índice"
       },
+      "blocos": [
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Um índice simplifica o mundo, e toda escolha tem um custo. Escolhemos quais riscos medir, com quais dados e com quais réguas, e explicamos cada escolha na [metodologia](/metodologia). Alguns riscos ainda ficam de fora, como drones e ataques cibernéticos entre países. Alguns números crescem também porque se registra mais, e por isso pesam menos. Tudo é público: os dados, as contas e cada mudança de versão.",
+            "en": "An index simplifies the world, and every choice has a cost. We choose which risks to measure, with which data and which scales, and we explain each choice in the [methodology](/metodologia). Some risks are still left out, such as drones and cyberattacks between countries. Some numbers also grow because more gets recorded, so they weigh less. Everything is public: the data, the calculations and every version change.",
+            "es": "Un índice simplifica el mundo, y cada elección tiene un costo. Elegimos qué riesgos medir, con qué datos y con qué escalas, y explicamos cada elección en la [metodología](/metodologia). Algunos riesgos aún quedan fuera, como los drones y los ciberataques entre países. Algunos números crecen también porque se registra más, y por eso pesan menos. Todo es público: los datos, las cuentas y cada cambio de versión."
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Os quatro cavaleiros pesam igual no total, e os riscos que se reforçam (guerra e fome, guerra e tecnologia, fome e doença, guerra e doença, tecnologia e doença) somam um pequeno extra. Dentro de cada cavaleiro, estes são os indicadores de hoje (veja também o [mapa do cálculo](/calculo)):",
+            "en": "The four horsemen weigh the same in the total, and risks that reinforce each other (war and hunger, war and technology, hunger and disease, war and disease, technology and disease) add a small extra. Within each horseman, these are today's indicators (see also the [calculation map](/calculo)):",
+            "es": "Los cuatro jinetes pesan igual en el total, y los riesgos que se refuerzan (guerra y hambre, guerra y tecnología, hambre y enfermedad, guerra y enfermedad, tecnología y enfermedad) suman un pequeño extra. Dentro de cada jinete, estos son los indicadores de hoy (vea también el [mapa del cálculo](/calculo)):"
+          }
+        },
+        {
+          "tipo": "tabela",
+          "id": "indicadores",
+          "colunas": {
+            "pt": [
+              "Cavaleiro",
+              "Indicador",
+              "Nota hoje (0–10)",
+              "Peso no cavaleiro",
+              "O que é o 0",
+              "Fonte"
+            ],
+            "en": [
+              "Horseman",
+              "Indicator",
+              "Score today (0–10)",
+              "Weight in the horseman",
+              "What 0 means",
+              "Source"
+            ],
+            "es": [
+              "Jinete",
+              "Indicador",
+              "Nota hoy (0–10)",
+              "Peso en el jinete",
+              "Qué es el 0",
+              "Fuente"
+            ]
+          },
+          "linhas": [
+            {
+              "indicador": "conquista.democracia",
+              "cavaleiro_id": "conquista",
+              "cavaleiro": {
+                "pt": "Conquista",
+                "en": "Conquest",
+                "es": "Conquista"
+              },
+              "nome": {
+                "pt": "Democracia liberal no mundo",
+                "en": "Liberal democracy worldwide",
+                "es": "Democracia liberal en el mundo"
+              },
+              "nota": 8.5,
+              "nota_texto": {
+                "pt": "8,5",
+                "en": "8.5",
+                "es": "8,5"
+              },
+              "peso_texto": {
+                "pt": "40%",
+                "en": "40%",
+                "es": "40%"
+              },
+              "zero": {
+                "pt": "o mundo todo com democracia plena (nível nórdico)",
+                "en": "the whole world as a full democracy (Nordic level)",
+                "es": "todo el mundo con democracia plena (nivel nórdico)"
+              },
+              "fonte": {
+                "pt": "V-Dem (via Our World in Data)",
+                "en": "V-Dem (via Our World in Data)",
+                "es": "V-Dem (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "conquista.compute",
+              "cavaleiro_id": "conquista",
+              "cavaleiro": {
+                "pt": "Conquista",
+                "en": "Conquest",
+                "es": "Conquista"
+              },
+              "nome": {
+                "pt": "Fronteira da IA (computação de treino)",
+                "en": "AI frontier (training compute)",
+                "es": "Frontera de la IA (cómputo de entrenamiento)"
+              },
+              "nota": 8.1,
+              "nota_texto": {
+                "pt": "8,1",
+                "en": "8.1",
+                "es": "8,1"
+              },
+              "peso_texto": {
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
+              },
+              "zero": {
+                "pt": "o maior treino de IA de 2010",
+                "en": "the largest AI training run of 2010",
+                "es": "el mayor entrenamiento de IA de 2010"
+              },
+              "fonte": {
+                "pt": "Epoch AI (via Our World in Data)",
+                "en": "Epoch AI (via Our World in Data)",
+                "es": "Epoch AI (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "conquista.cves",
+              "cavaleiro_id": "conquista",
+              "cavaleiro": {
+                "pt": "Conquista",
+                "en": "Conquest",
+                "es": "Conquista"
+              },
+              "nome": {
+                "pt": "Vulnerabilidades de software registradas",
+                "en": "Recorded software vulnerabilities",
+                "es": "Vulnerabilidades de software registradas"
+              },
+              "nota": 9.6,
+              "nota_texto": {
+                "pt": "9,6",
+                "en": "9.6",
+                "es": "9,6"
+              },
+              "peso_texto": {
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 1999",
+                "en": "the best level since 1999",
+                "es": "el mejor nivel desde 1999"
+              },
+              "fonte": {
+                "pt": "NVD (NIST)",
+                "en": "NVD (NIST)",
+                "es": "NVD (NIST)"
+              }
+            },
+            {
+              "indicador": "conquista.incidentes",
+              "cavaleiro_id": "conquista",
+              "cavaleiro": {
+                "pt": "Conquista",
+                "en": "Conquest",
+                "es": "Conquista"
+              },
+              "nome": {
+                "pt": "Incidentes com IA",
+                "en": "AI incidents",
+                "es": "Incidentes con IA"
+              },
+              "nota": 8.0,
+              "nota_texto": {
+                "pt": "8,0",
+                "en": "8.0",
+                "es": "8,0"
+              },
+              "peso_texto": {
+                "pt": "20%",
+                "en": "20%",
+                "es": "20%"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 2012",
+                "en": "the best level since 2012",
+                "es": "el mejor nivel desde 2012"
+              },
+              "fonte": {
+                "pt": "AI Incident Database, via AI Index",
+                "en": "AI Incident Database, via AI Index",
+                "es": "AI Incident Database, vía AI Index"
+              }
+            },
+            {
+              "indicador": "guerra.conflitos",
+              "cavaleiro_id": "guerra",
+              "cavaleiro": {
+                "pt": "Guerra",
+                "en": "War",
+                "es": "Guerra"
+              },
+              "nome": {
+                "pt": "Conflitos armados ativos",
+                "en": "Active armed conflicts",
+                "es": "Conflictos armados activos"
+              },
+              "nota": 8.8,
+              "nota_texto": {
+                "pt": "8,8",
+                "en": "8.8",
+                "es": "8,8"
+              },
+              "peso_texto": {
+                "pt": "25%",
+                "en": "25%",
+                "es": "25%"
+              },
+              "zero": {
+                "pt": "nenhum conflito",
+                "en": "no conflicts",
+                "es": "ningún conflicto"
+              },
+              "fonte": {
+                "pt": "UCDP/PRIO (via Our World in Data)",
+                "en": "UCDP/PRIO (via Our World in Data)",
+                "es": "UCDP/PRIO (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "guerra.gasto_militar",
+              "cavaleiro_id": "guerra",
+              "cavaleiro": {
+                "pt": "Guerra",
+                "en": "War",
+                "es": "Guerra"
+              },
+              "nome": {
+                "pt": "Gasto militar mundial (% do PIB)",
+                "en": "Global military spending (% of GDP)",
+                "es": "Gasto militar mundial (% del PIB)"
+              },
+              "nota": 2.5,
+              "nota_texto": {
+                "pt": "2,5",
+                "en": "2.5",
+                "es": "2,5"
+              },
+              "peso_texto": {
+                "pt": "25%",
+                "en": "25%",
+                "es": "25%"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 1990",
+                "en": "the best level since 1990",
+                "es": "el mejor nivel desde 1990"
+              },
+              "fonte": {
+                "pt": "SIPRI (via Banco Mundial)",
+                "en": "SIPRI (via World Bank)",
+                "es": "SIPRI (vía Banco Mundial)"
+              }
+            },
+            {
+              "indicador": "guerra.mortes_conflito",
+              "cavaleiro_id": "guerra",
+              "cavaleiro": {
+                "pt": "Guerra",
+                "en": "War",
+                "es": "Guerra"
+              },
+              "nome": {
+                "pt": "Mortes em conflitos armados",
+                "en": "Deaths in armed conflicts",
+                "es": "Muertes en conflictos armados"
+              },
+              "nota": 5.7,
+              "nota_texto": {
+                "pt": "5,7",
+                "en": "5.7",
+                "es": "5,7"
+              },
+              "peso_texto": {
+                "pt": "25%",
+                "en": "25%",
+                "es": "25%"
+              },
+              "zero": {
+                "pt": "praticamente nenhuma morte",
+                "en": "virtually no deaths",
+                "es": "prácticamente ninguna muerte"
+              },
+              "fonte": {
+                "pt": "UCDP (via Our World in Data)",
+                "en": "UCDP (via Our World in Data)",
+                "es": "UCDP (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "guerra.ogivas",
+              "cavaleiro_id": "guerra",
+              "cavaleiro": {
+                "pt": "Guerra",
+                "en": "War",
+                "es": "Guerra"
+              },
+              "nome": {
+                "pt": "Ogivas nucleares",
+                "en": "Nuclear warheads",
+                "es": "Ojivas nucleares"
+              },
+              "nota": 1.7,
+              "nota_texto": {
+                "pt": "1,7",
+                "en": "1.7",
+                "es": "1,7"
+              },
+              "peso_texto": {
+                "pt": "25%",
+                "en": "25%",
+                "es": "25%"
+              },
+              "zero": {
+                "pt": "nenhuma ogiva",
+                "en": "no warheads",
+                "es": "ninguna ojiva"
+              },
+              "fonte": {
+                "pt": "Federation of American Scientists",
+                "en": "Federation of American Scientists",
+                "es": "Federation of American Scientists"
+              }
+            },
+            {
+              "indicador": "fome.fpi",
+              "cavaleiro_id": "fome",
+              "cavaleiro": {
+                "pt": "Fome",
+                "en": "Famine",
+                "es": "Hambre"
+              },
+              "nome": {
+                "pt": "Preço real dos alimentos",
+                "en": "Real food prices",
+                "es": "Precio real de los alimentos"
+              },
+              "nota": 6.5,
+              "nota_texto": {
+                "pt": "6,5",
+                "en": "6.5",
+                "es": "6,5"
+              },
+              "peso_texto": {
+                "pt": "33%",
+                "en": "33%",
+                "es": "33%"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 1990",
+                "en": "the best level since 1990",
+                "es": "el mejor nivel desde 1990"
+              },
+              "fonte": {
+                "pt": "FAO",
+                "en": "FAO",
+                "es": "FAO"
+              }
+            },
+            {
+              "indicador": "fome.pobreza",
+              "cavaleiro_id": "fome",
+              "cavaleiro": {
+                "pt": "Fome",
+                "en": "Famine",
+                "es": "Hambre"
+              },
+              "nome": {
+                "pt": "Pobreza extrema",
+                "en": "Extreme poverty",
+                "es": "Pobreza extrema"
+              },
+              "nota": 1.5,
+              "nota_texto": {
+                "pt": "1,5",
+                "en": "1.5",
+                "es": "1,5"
+              },
+              "peso_texto": {
+                "pt": "33%",
+                "en": "33%",
+                "es": "33%"
+              },
+              "zero": {
+                "pt": "pobreza erradicada (menos de 3%)",
+                "en": "poverty eradicated (under 3%)",
+                "es": "pobreza erradicada (menos del 3%)"
+              },
+              "fonte": {
+                "pt": "Banco Mundial",
+                "en": "World Bank",
+                "es": "Banco Mundial"
+              }
+            },
+            {
+              "indicador": "fome.subnutricao",
+              "cavaleiro_id": "fome",
+              "cavaleiro": {
+                "pt": "Fome",
+                "en": "Famine",
+                "es": "Hambre"
+              },
+              "nome": {
+                "pt": "Subnutrição",
+                "en": "Undernourishment",
+                "es": "Subalimentación"
+              },
+              "nota": 4.4,
+              "nota_texto": {
+                "pt": "4,4",
+                "en": "4.4",
+                "es": "4,4"
+              },
+              "peso_texto": {
+                "pt": "33%",
+                "en": "33%",
+                "es": "33%"
+              },
+              "zero": {
+                "pt": "fome erradicada (menos de 2,5%)",
+                "en": "hunger eradicated (under 2.5%)",
+                "es": "hambre erradicada (menos del 2,5%)"
+              },
+              "fonte": {
+                "pt": "FAO",
+                "en": "FAO",
+                "es": "FAO"
+              }
+            },
+            {
+              "indicador": "morte.peste.emergencias",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Peste",
+                "en": "Death · Plague",
+                "es": "Muerte · Peste"
+              },
+              "nome": {
+                "pt": "Emergências de saúde pública internacionais",
+                "en": "International public health emergencies",
+                "es": "Emergencias de salud pública internacionales"
+              },
+              "nota": 5.2,
+              "nota_texto": {
+                "pt": "5,2",
+                "en": "5.2",
+                "es": "5,2"
+              },
+              "peso_texto": {
+                "pt": "17%",
+                "en": "17%",
+                "es": "17%"
+              },
+              "zero": {
+                "pt": "nenhuma emergência ativa",
+                "en": "no emergency in force",
+                "es": "ninguna emergencia activa"
+              },
+              "fonte": {
+                "pt": "OMS",
+                "en": "WHO",
+                "es": "OMS"
+              }
+            },
+            {
+              "indicador": "morte.peste.mortes_infecciosas",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Peste",
+                "en": "Death · Plague",
+                "es": "Muerte · Peste"
+              },
+              "nome": {
+                "pt": "Mortes por doenças transmissíveis",
+                "en": "Deaths from communicable diseases",
+                "es": "Muertes por enfermedades transmisibles"
+              },
+              "nota": 5.1,
+              "nota_texto": {
+                "pt": "5,1",
+                "en": "5.1",
+                "es": "5,1"
+              },
+              "peso_texto": {
+                "pt": "17%",
+                "en": "17%",
+                "es": "17%"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 1990",
+                "en": "the best level since 1990",
+                "es": "el mejor nivel desde 1990"
+              },
+              "fonte": {
+                "pt": "OMS (via Banco Mundial)",
+                "en": "WHO (via World Bank)",
+                "es": "OMS (vía Banco Mundial)"
+              }
+            },
+            {
+              "indicador": "morte.peste.vacinacao",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Peste",
+                "en": "Death · Plague",
+                "es": "Muerte · Peste"
+              },
+              "nome": {
+                "pt": "Cobertura vacinal infantil",
+                "en": "Childhood vaccination coverage",
+                "es": "Cobertura de vacunación infantil"
+              },
+              "nota": 4.0,
+              "nota_texto": {
+                "pt": "4,0",
+                "en": "4.0",
+                "es": "4,0"
+              },
+              "peso_texto": {
+                "pt": "17%",
+                "en": "17%",
+                "es": "17%"
+              },
+              "zero": {
+                "pt": "a meta da OMS (95%)",
+                "en": "the WHO target (95%)",
+                "es": "la meta de la OMS (95%)"
+              },
+              "fonte": {
+                "pt": "OMS e UNICEF (via Our World in Data)",
+                "en": "WHO and UNICEF (via Our World in Data)",
+                "es": "OMS y UNICEF (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "morte.ambiente.biodiversidade",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Ambiente",
+                "en": "Death · Environment",
+                "es": "Muerte · Ambiente"
+              },
+              "nome": {
+                "pt": "Espécies ameaçadas (Red List Index)",
+                "en": "Threatened species (Red List Index)",
+                "es": "Especies amenazadas (Red List Index)"
+              },
+              "nota": 9.4,
+              "nota_texto": {
+                "pt": "9,4",
+                "en": "9.4",
+                "es": "9,4"
+              },
+              "peso_texto": {
+                "pt": "25%",
+                "en": "25%",
+                "es": "25%"
+              },
+              "zero": {
+                "pt": "nenhuma espécie ameaçada",
+                "en": "no threatened species",
+                "es": "ninguna especie amenazada"
+              },
+              "fonte": {
+                "pt": "IUCN (via Our World in Data)",
+                "en": "IUCN (via Our World in Data)",
+                "es": "UICN (vía Our World in Data)"
+              }
+            },
+            {
+              "indicador": "morte.ambiente.temperatura",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Ambiente",
+                "en": "Death · Environment",
+                "es": "Muerte · Ambiente"
+              },
+              "nome": {
+                "pt": "Aquecimento global",
+                "en": "Global warming",
+                "es": "Calentamiento global"
+              },
+              "nota": 7.8,
+              "nota_texto": {
+                "pt": "7,8",
+                "en": "7.8",
+                "es": "7,8"
+              },
+              "peso_texto": {
+                "pt": "25%",
+                "en": "25%",
+                "es": "25%"
+              },
+              "zero": {
+                "pt": "o clima pré-industrial (10 = +2 °C)",
+                "en": "the pre-industrial climate (10 = +2 °C)",
+                "es": "el clima preindustrial (10 = +2 °C)"
+              },
+              "fonte": {
+                "pt": "NASA",
+                "en": "NASA",
+                "es": "NASA"
+              }
+            },
+            {
+              "indicador": "morte.ambiente.desastres",
+              "cavaleiro_id": "morte",
+              "cavaleiro": {
+                "pt": "Morte · Ambiente",
+                "en": "Death · Environment",
+                "es": "Muerte · Ambiente"
+              },
+              "nome": {
+                "pt": "Pessoas afetadas por desastres",
+                "en": "People affected by disasters",
+                "es": "Personas afectadas por desastres"
+              },
+              "nota": 1.6,
+              "nota_texto": {
+                "pt": "1,6",
+                "en": "1.6",
+                "es": "1,6"
+              },
+              "peso_texto": {
+                "pt": "informativo",
+                "en": "informational",
+                "es": "informativo"
+              },
+              "zero": {
+                "pt": "o melhor nível desde 1990",
+                "en": "the best level since 1990",
+                "es": "el mejor nivel desde 1990"
+              },
+              "fonte": {
+                "pt": "EM-DAT (via Our World in Data)",
+                "en": "EM-DAT (via Our World in Data)",
+                "es": "EM-DAT (vía Our World in Data)"
+              }
+            }
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": {
+            "pt": "O que vem a seguir",
+            "en": "What comes next",
+            "es": "Lo que viene"
+          }
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": {
+            "pt": "Estas fontes estão em estudo para as próximas versões. Só entram na conta depois de testadas com os dados reais e explicadas na metodologia:",
+            "en": "These sources are being studied for the next versions. They only enter the calculation after being tested with real data and explained in the methodology:",
+            "es": "Estas fuentes están en estudio para las próximas versiones. Solo entran en el cálculo después de probarse con datos reales y explicarse en la metodología:"
+          }
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "pt": "**Guerra:** pessoas forçadas a deixar suas casas (ACNUR) e ataques a distância, como drones, mísseis e bombardeios (ACLED).",
+              "en": "**War:** people forced to leave their homes (UNHCR) and remote attacks such as drones, missiles and shelling (ACLED).",
+              "es": "**Guerra:** personas forzadas a dejar sus hogares (ACNUR) y ataques a distancia, como drones, misiles y bombardeos (ACLED)."
+            },
+            {
+              "pt": "**Fome:** pessoas em crise alimentar aguda (Relatório Global sobre Crises Alimentares).",
+              "en": "**Famine:** people in acute food crisis (Global Report on Food Crises).",
+              "es": "**Hambre:** personas en crisis alimentaria aguda (Informe Mundial sobre las Crisis Alimentarias)."
+            },
+            {
+              "pt": "**Morte · Ambiente:** concentração de CO₂ na atmosfera (NOAA) e nível do mar (NASA), para medir o perigo climático, e não só os seus efeitos.",
+              "en": "**Death · Environment:** CO₂ concentration in the atmosphere (NOAA) and sea level (NASA), to measure climate danger and not only its effects.",
+              "es": "**Muerte · Ambiente:** concentración de CO₂ en la atmósfera (NOAA) y nivel del mar (NASA), para medir el peligro climático y no solo sus efectos."
+            },
+            {
+              "pt": "**Conquista:** vulnerabilidades de software exploradas de fato em ataques (catálogo KEV da CISA).",
+              "en": "**Conquest:** software vulnerabilities actually exploited in attacks (CISA KEV catalog).",
+              "es": "**Conquista:** vulnerabilidades de software explotadas de verdad en ataques (catálogo KEV de la CISA)."
+            }
+          ]
+        }
+      ],
       "paragrafos": [
         {
           "pt": "Um índice simplifica o mundo, e toda escolha tem um custo. Escolhemos quais riscos medir, com quais dados e com quais réguas, e explicamos cada escolha na metodologia. Alguns riscos ainda ficam de fora, como drones e ataques cibernéticos entre países. Alguns números crescem também porque se registra mais, e por isso pesam menos. Tudo é público: os dados, as contas e cada mudança de versão.",
           "en": "An index simplifies the world, and every choice has a cost. We choose which risks to measure, with which data and which scales, and we explain each choice in the methodology. Some risks are still left out, such as drones and cyberattacks between countries. Some numbers also grow because more gets recorded, so they weigh less. Everything is public: the data, the calculations and every version change.",
           "es": "Un índice simplifica el mundo, y cada elección tiene un costo. Elegimos qué riesgos medir, con qué datos y con qué escalas, y explicamos cada elección en la metodología. Algunos riesgos aún quedan fuera, como los drones y los ciberataques entre países. Algunos números crecen también porque se registra más, y por eso pesan menos. Todo es público: los datos, las cuentas y cada cambio de versión."
+        },
+        {
+          "pt": "Os quatro cavaleiros pesam igual no total, e os riscos que se reforçam (guerra e fome, guerra e tecnologia, fome e doença, guerra e doença, tecnologia e doença) somam um pequeno extra. Dentro de cada cavaleiro, estes são os indicadores de hoje (veja também o mapa do cálculo):",
+          "en": "The four horsemen weigh the same in the total, and risks that reinforce each other (war and hunger, war and technology, hunger and disease, war and disease, technology and disease) add a small extra. Within each horseman, these are today's indicators (see also the calculation map):",
+          "es": "Los cuatro jinetes pesan igual en el total, y los riesgos que se refuerzan (guerra y hambre, guerra y tecnología, hambre y enfermedad, guerra y enfermedad, tecnología y enfermedad) suman un pequeño extra. Dentro de cada jinete, estos son los indicadores de hoy (vea también el mapa del cálculo):"
+        },
+        {
+          "pt": "Estas fontes estão em estudo para as próximas versões. Só entram na conta depois de testadas com os dados reais e explicadas na metodologia:",
+          "en": "These sources are being studied for the next versions. They only enter the calculation after being tested with real data and explained in the methodology:",
+          "es": "Estas fuentes están en estudio para las próximas versiones. Solo entran en el cálculo después de probarse con datos reales y explicarse en la metodología:"
         }
       ]
     }

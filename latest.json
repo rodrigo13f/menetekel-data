@@ -1,15 +1,15 @@
 {
   "projeto": "Mene Tekel",
   "versao_metodologia": "1.1.0",
-  "atualizado_em": "2026-11-24",
+  "atualizado_em": "2026-11-26",
   "ano": 2026,
-  "selos": 3.91,
+  "selos": 3.9,
   "selo_atual": 4,
-  "fracao_selo_atual": 0.91,
-  "total": 5.59,
-  "tendencia_pontos_ano": 0.116,
+  "fracao_selo_atual": 0.9,
+  "total": 5.56,
+  "tendencia_pontos_ano": 0.113,
   "situacao": "piora",
-  "ano_setimo_selo": 2065,
+  "ano_setimo_selo": 2066,
   "momento_historico": {
     "tipo": "desde_inicio",
     "ano": 1990
@@ -20,13 +20,13 @@
     "es": "El mundo mejoró de 1990 a 2013 y empeora desde entonces: hoy está en el peor nivel de la serie. Lo que más pesa es la Conquista: inteligencia artificial, ciberseguridad y el retroceso de la democracia. Pero no está escrito: si el mundo volviera al ritmo de 1990–1999, los sellos empezarían a cerrarse."
   },
   "ritmo": {
-    "tendencia_pontos_ano": 0.116,
-    "anos_por_selo": 12.4,
+    "tendencia_pontos_ano": 0.113,
+    "anos_por_selo": 12.6,
     "comparacao_desde": 2024,
     "frase": {
-      "pt": "No ritmo atual, um novo selo se rompe a cada 12 anos.",
-      "en": "At the current pace, a new seal breaks every 12 years.",
-      "es": "Al ritmo actual, un nuevo sello se rompe cada 12 años."
+      "pt": "No ritmo atual, um novo selo se rompe a cada 13 anos.",
+      "en": "At the current pace, a new seal breaks every 13 years.",
+      "es": "Al ritmo actual, un nuevo sello se rompe cada 13 años."
     }
   },
   "cenarios": [
@@ -34,26 +34,26 @@
       "id": "atual",
       "de": 2022,
       "ate": 2026,
-      "tendencia_pontos_ano": 0.116,
+      "tendencia_pontos_ano": 0.113,
       "situacao": "piora",
-      "ano_setimo_selo": 2065,
+      "ano_setimo_selo": 2066,
       "ritmo": {
-        "pt": "um novo selo se rompe a cada 12 anos",
-        "en": "a new seal breaks every 12 years",
-        "es": "un nuevo sello se rompe cada 12 años"
+        "pt": "um novo selo se rompe a cada 13 anos",
+        "en": "a new seal breaks every 13 years",
+        "es": "un nuevo sello se rompe cada 13 años"
       }
     },
     {
       "id": "decada_2010",
       "de": 2010,
       "ate": 2019,
-      "tendencia_pontos_ano": 0.036,
+      "tendencia_pontos_ano": 0.034,
       "situacao": "piora_lenta",
       "ano_setimo_selo": null,
       "ritmo": {
-        "pt": "um novo selo se rompe a cada 40 anos",
-        "en": "a new seal breaks every 40 years",
-        "es": "un nuevo sello se rompe cada 40 años"
+        "pt": "um novo selo se rompe a cada 42 anos",
+        "en": "a new seal breaks every 42 years",
+        "es": "un nuevo sello se rompe cada 42 años"
       }
     },
     {
@@ -130,7 +130,7 @@
       ]
     },
     "fome": {
-      "nota": 4.23,
+      "nota": 4.12,
       "cobertura": 0.33,
       "nome": {
         "pt": "Fome",
@@ -256,11 +256,11 @@
         "en": "October 2026",
         "es": "octubre de 2026"
       },
-      "valor": 107811.6,
+      "valor": 107809.2,
       "valor_formatado": {
-        "pt": "107.812 CVEs no ano",
-        "en": "107,812 CVEs in the year",
-        "es": "107.812 CVE en el año"
+        "pt": "107.809 CVEs no ano",
+        "en": "107,809 CVEs in the year",
+        "es": "107.809 CVE en el año"
       },
       "valor_parcial": {
         "pt": "projeção para o ano inteiro, com dados de jan a out",
@@ -489,19 +489,19 @@
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
-      "nota": 4.76,
+      "nota": 4.43,
       "estimado": true,
-      "ultimo_dado": "2024-01-01",
+      "ultimo_dado": "2025-01-01",
       "ultimo_dado_texto": {
-        "pt": "2024",
-        "en": "2024",
-        "es": "2024"
+        "pt": "2025",
+        "en": "2025",
+        "es": "2025"
       },
-      "valor": 8.2,
+      "valor": 7.8,
       "valor_formatado": {
-        "pt": "8,2% da população",
-        "en": "8.2% of population",
-        "es": "8,2% de la población"
+        "pt": "7,8% da população",
+        "en": "7.8% of population",
+        "es": "7,8% de la población"
       },
       "etiquetas": [
         "estimado",

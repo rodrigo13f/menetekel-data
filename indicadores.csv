@@ -5,7 +5,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1990,conquista.incidentes,conquista,,0.5613,1
 1990,fome.fpi,fome,,1.3159,0
 1990,fome.pobreza,fome,43.4,8.2914,0
-1990,fome.subnutricao,fome,12.7,8.5177,1
+1990,fome.subnutricao,fome,12.8,8.6013,1
 1990,guerra.conflitos,guerra,49.0,6.6667,0
 1990,guerra.gasto_militar,guerra,3.32077269740523,8.0000,0
 1990,guerra.mortes_conflito,guerra,1.7958236,4.8608,0
@@ -22,7 +22,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1991,conquista.incidentes,conquista,,0.5613,1
 1991,fome.fpi,fome,,1.2473,0
 1991,fome.pobreza,fome,43.1,8.2299,0
-1991,fome.subnutricao,fome,12.7,8.5177,1
+1991,fome.subnutricao,fome,12.8,8.6013,1
 1991,guerra.conflitos,guerra,53.0,7.2109,0
 1991,guerra.gasto_militar,guerra,3.02642669145756,6.0625,0
 1991,guerra.mortes_conflito,guerra,1.5538937,4.6173,0
@@ -39,7 +39,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1992,conquista.incidentes,conquista,,0.5613,1
 1992,fome.fpi,fome,,1.3706,0
 1992,fome.pobreza,fome,42.5,8.1067,0
-1992,fome.subnutricao,fome,12.7,8.5177,1
+1992,fome.subnutricao,fome,12.8,8.6013,1
 1992,guerra.conflitos,guerra,51.0,6.9388,0
 1992,guerra.gasto_militar,guerra,2.94491562378854,5.5259,0
 1992,guerra.mortes_conflito,guerra,1.3764756,4.4132,0
@@ -56,7 +56,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1993,conquista.incidentes,conquista,,0.5613,1
 1993,fome.fpi,fome,,0.6734,0
 1993,fome.pobreza,fome,42.1,8.0246,0
-1993,fome.subnutricao,fome,12.7,8.5177,1
+1993,fome.subnutricao,fome,12.8,8.6013,1
 1993,guerra.conflitos,guerra,44.0,5.9864,0
 1993,guerra.gasto_militar,guerra,2.77307267239152,4.3948,0
 1993,guerra.mortes_conflito,guerra,1.3234085,4.3470,0
@@ -73,7 +73,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1994,conquista.incidentes,conquista,,0.5613,1
 1994,fome.fpi,fome,,1.8543,0
 1994,fome.pobreza,fome,40.7,7.7373,0
-1994,fome.subnutricao,fome,12.7,8.5177,1
+1994,fome.subnutricao,fome,12.8,8.6013,1
 1994,guerra.conflitos,guerra,50.0,6.8027,0
 1994,guerra.gasto_militar,guerra,2.58636626211017,3.1658,0
 1994,guerra.mortes_conflito,guerra,14.552048,8.3823,0
@@ -90,7 +90,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1995,conquista.incidentes,conquista,,0.5613,1
 1995,fome.fpi,fome,,2.3222,0
 1995,fome.pobreza,fome,39.4,7.4705,0
-1995,fome.subnutricao,fome,12.7,8.5177,1
+1995,fome.subnutricao,fome,12.8,8.6013,1
 1995,guerra.conflitos,guerra,41.0,5.5782,0
 1995,guerra.gasto_militar,guerra,2.35264034210155,1.6273,0
 1995,guerra.mortes_conflito,guerra,1.0851344,4.0129,0
@@ -107,7 +107,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1996,conquista.incidentes,conquista,,0.5613,1
 1996,fome.fpi,fome,,2.7142,0
 1996,fome.pobreza,fome,38.1,7.2037,0
-1996,fome.subnutricao,fome,12.7,8.5177,1
+1996,fome.subnutricao,fome,12.8,8.6013,1
 1996,guerra.conflitos,guerra,41.0,5.5782,0
 1996,guerra.gasto_militar,guerra,2.27993463508625,1.1487,0
 1996,guerra.mortes_conflito,guerra,1.5002812,4.5582,0
@@ -124,7 +124,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1997,conquista.incidentes,conquista,,0.5613,1
 1997,fome.fpi,fome,,2.1449,0
 1997,fome.pobreza,fome,37.7,7.1216,0
-1997,fome.subnutricao,fome,12.7,8.5177,1
+1997,fome.subnutricao,fome,12.8,8.6013,1
 1997,guerra.conflitos,guerra,39.0,5.3061,0
 1997,guerra.gasto_militar,guerra,2.28400286287312,1.1755,0
 1997,guerra.mortes_conflito,guerra,1.1155497,4.0595,0
@@ -141,7 +141,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1998,conquista.incidentes,conquista,,0.5613,1
 1998,fome.fpi,fome,,1.6469,0
 1998,fome.pobreza,fome,37.9,7.1626,0
-1998,fome.subnutricao,fome,12.7,8.5177,1
+1998,fome.subnutricao,fome,12.8,8.6013,1
 1998,guerra.conflitos,guerra,40.0,5.4422,0
 1998,guerra.gasto_militar,guerra,2.2397453413009,0.8842,0
 1998,guerra.mortes_conflito,guerra,1.020059,3.9089,0
@@ -158,7 +158,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 1999,conquista.incidentes,conquista,,0.5613,1
 1999,fome.fpi,fome,,0.1841,0
 1999,fome.pobreza,fome,37.3,7.0395,0
-1999,fome.subnutricao,fome,12.7,8.5177,1
+1999,fome.subnutricao,fome,12.8,8.6013,1
 1999,guerra.conflitos,guerra,40.0,5.4422,0
 1999,guerra.gasto_militar,guerra,2.1967203990427,0.6009,0
 1999,guerra.mortes_conflito,guerra,1.6826177,4.7512,0
@@ -175,7 +175,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2000,conquista.incidentes,conquista,,0.5613,1
 2000,fome.fpi,fome,,0.0000,0
 2000,fome.pobreza,fome,36.2,6.8138,0
-2000,fome.subnutricao,fome,12.7,8.5177,0
+2000,fome.subnutricao,fome,12.8,8.6013,0
 2000,guerra.conflitos,guerra,40.0,5.4422,0
 2000,guerra.gasto_militar,guerra,2.18269972079895,0.5087,0
 2000,guerra.mortes_conflito,guerra,1.5376422,4.5996,0
@@ -192,7 +192,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2001,conquista.incidentes,conquista,,0.5613,1
 2001,fome.fpi,fome,,0.6966,0
 2001,fome.pobreza,fome,35.3,6.6290,0
-2001,fome.subnutricao,fome,12.8,8.6013,0
+2001,fome.subnutricao,fome,13.0,8.7683,0
 2001,guerra.conflitos,guerra,38.0,5.1701,0
 2001,guerra.gasto_militar,guerra,2.21820961623246,0.7424,0
 2001,guerra.mortes_conflito,guerra,0.6041388,3.0272,0
@@ -209,7 +209,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2002,conquista.incidentes,conquista,,0.5613,1
 2002,fome.fpi,fome,,0.4542,0
 2002,fome.pobreza,fome,33.7,6.3007,0
-2002,fome.subnutricao,fome,13.0,8.7683,0
+2002,fome.subnutricao,fome,13.2,8.9353,0
 2002,guerra.conflitos,guerra,33.0,4.4898,0
 2002,guerra.gasto_militar,guerra,2.32227381214415,1.4274,0
 2002,guerra.mortes_conflito,guerra,0.65511256,3.1636,0
@@ -226,7 +226,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2003,conquista.incidentes,conquista,,0.5613,1
 2003,fome.fpi,fome,,0.7985,0
 2003,fome.pobreza,fome,32.2,5.9928,0
-2003,fome.subnutricao,fome,12.7,8.5177,0
+2003,fome.subnutricao,fome,12.9,8.6848,0
 2003,guerra.conflitos,guerra,33.0,4.4898,0
 2003,guerra.gasto_militar,guerra,2.38428384995201,1.8356,0
 2003,guerra.mortes_conflito,guerra,0.6308186,3.1000,0
@@ -243,7 +243,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2004,conquista.incidentes,conquista,,0.5613,1
 2004,fome.fpi,fome,,1.4477,0
 2004,fome.pobreza,fome,30.3,5.6029,0
-2004,fome.subnutricao,fome,12.6,8.4342,0
+2004,fome.subnutricao,fome,12.7,8.5177,0
 2004,guerra.conflitos,guerra,33.0,4.4898,0
 2004,guerra.gasto_militar,guerra,2.38413123392937,1.8346,0
 2004,guerra.mortes_conflito,guerra,0.55770886,2.8926,0
@@ -260,7 +260,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2005,conquista.incidentes,conquista,,0.5613,1
 2005,fome.fpi,fome,,1.3938,0
 2005,fome.pobreza,fome,28.3,5.1924,0
-2005,fome.subnutricao,fome,12.0,7.9332,0
+2005,fome.subnutricao,fome,12.1,8.0167,0
 2005,guerra.conflitos,guerra,33.0,4.4898,0
 2005,guerra.gasto_militar,guerra,2.38654958497296,1.8505,0
 2005,guerra.mortes_conflito,guerra,0.31129915,1.9113,0
@@ -328,7 +328,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2009,conquista.incidentes,conquista,,0.5613,1
 2009,fome.fpi,fome,,3.9874,0
 2009,fome.pobreza,fome,23.1,4.1252,0
-2009,fome.subnutricao,fome,9.1,5.5115,0
+2009,fome.subnutricao,fome,9.0,5.4280,0
 2009,guerra.conflitos,guerra,37.0,5.0340,0
 2009,guerra.gasto_militar,guerra,2.5958335767501,3.2281,0
 2009,guerra.mortes_conflito,guerra,0.7457843,3.3817,0
@@ -379,7 +379,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2012,conquista.incidentes,conquista,,0.5613,0
 2012,fome.fpi,fome,,6.3194,0
 2012,fome.pobreza,fome,17.8,3.0375,0
-2012,fome.subnutricao,fome,8.1,4.6764,0
+2012,fome.subnutricao,fome,8.2,4.7599,0
 2012,guerra.conflitos,guerra,33.0,4.4898,0
 2012,guerra.gasto_militar,guerra,2.35277285987609,1.6282,0
 2012,guerra.mortes_conflito,guerra,1.2630086,4.2684,0
@@ -396,7 +396,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2013,conquista.incidentes,conquista,,0.0000,0
 2013,fome.fpi,fome,,6.0479,0
 2013,fome.pobreza,fome,15.5,2.5654,0
-2013,fome.subnutricao,fome,7.9,4.5094,0
+2013,fome.subnutricao,fome,7.7,4.3424,0
 2013,guerra.conflitos,guerra,39.0,5.3061,0
 2013,guerra.gasto_militar,guerra,2.28235689737619,1.1646,0
 2013,guerra.mortes_conflito,guerra,1.5785581,4.6438,0
@@ -413,7 +413,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2014,conquista.incidentes,conquista,,1.5087,0
 2014,fome.fpi,fome,,5.5801,0
 2014,fome.pobreza,fome,14.5,2.3602,0
-2014,fome.subnutricao,fome,7.5,4.1754,0
+2014,fome.subnutricao,fome,7.4,4.0919,0
 2014,guerra.conflitos,guerra,46.0,6.2585,0
 2014,guerra.gasto_militar,guerra,2.22756509453752,0.8040,0
 2014,guerra.mortes_conflito,guerra,2.0498736,5.0835,0
@@ -430,7 +430,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2015,conquista.incidentes,conquista,,2.7050,0
 2015,fome.fpi,fome,,3.9783,0
 2015,fome.pobreza,fome,13.4,2.1344,0
-2015,fome.subnutricao,fome,7.7,4.3424,0
+2015,fome.subnutricao,fome,8.0,4.5929,0
 2015,guerra.conflitos,guerra,54.0,7.3469,0
 2015,guerra.gasto_militar,guerra,2.22732850886029,0.8024,0
 2015,guerra.mortes_conflito,guerra,1.7608597,4.8277,0
@@ -464,7 +464,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2017,conquista.incidentes,conquista,,4.1372,0
 2017,fome.fpi,fome,,4.7805,0
 2017,fome.pobreza,fome,11.8,1.8061,0
-2017,fome.subnutricao,fome,7.1,3.8413,0
+2017,fome.subnutricao,fome,7.2,3.9248,0
 2017,guerra.conflitos,guerra,54.0,7.3469,0
 2017,guerra.gasto_militar,guerra,2.13097555086293,0.1682,0
 2017,guerra.mortes_conflito,guerra,1.4760852,4.5308,0
@@ -481,7 +481,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2018,conquista.incidentes,conquista,,3.9316,0
 2018,fome.fpi,fome,,3.8220,0
 2018,fome.pobreza,fome,11.1,1.6624,0
-2018,fome.subnutricao,fome,7.3,4.0084,0
+2018,fome.subnutricao,fome,7.4,4.0919,0
 2018,guerra.conflitos,guerra,52.0,7.0748,0
 2018,guerra.gasto_militar,guerra,2.10542540055738,0.0000,0
 2018,guerra.mortes_conflito,guerra,1.1445694,4.1027,0
@@ -515,7 +515,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2020,conquista.incidentes,conquista,,5.2841,0
 2020,fome.fpi,fome,,4.7071,0
 2020,fome.pobreza,fome,11.4,1.7240,0
-2020,fome.subnutricao,fome,8.5,5.0104,0
+2020,fome.subnutricao,fome,8.4,4.9269,0
 2020,guerra.conflitos,guerra,57.0,7.7551,0
 2020,guerra.gasto_militar,guerra,2.29282312177775,1.2335,0
 2020,guerra.mortes_conflito,guerra,1.3066086,4.3255,0
@@ -532,7 +532,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2021,conquista.incidentes,conquista,,4.9797,0
 2021,fome.fpi,fome,,6.8332,0
 2021,fome.pobreza,fome,11.3,1.7034,0
-2021,fome.subnutricao,fome,8.8,5.2610,0
+2021,fome.subnutricao,fome,8.6,5.0939,0
 2021,guerra.conflitos,guerra,54.0,7.3469,0
 2021,guerra.gasto_militar,guerra,2.14201747122269,0.2409,0
 2021,guerra.mortes_conflito,guerra,2.9469266,5.6944,0
@@ -549,7 +549,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2022,conquista.incidentes,conquista,,5.5663,0
 2022,fome.fpi,fome,,8.0000,0
 2022,fome.pobreza,fome,10.9,1.6213,0
-2022,fome.subnutricao,fome,8.7,5.1775,0
+2022,fome.subnutricao,fome,8.6,5.0939,0
 2022,guerra.conflitos,guerra,56.0,7.6190,0
 2022,guerra.gasto_militar,guerra,2.18738322356964,0.5395,0
 2022,guerra.mortes_conflito,guerra,3.9617364,6.1925,0
@@ -583,7 +583,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2024,conquista.incidentes,conquista,,7.5058,0
 2024,fome.fpi,fome,,5.5451,0
 2024,fome.pobreza,fome,10.1,1.4572,0
-2024,fome.subnutricao,fome,8.2,4.7599,0
+2024,fome.subnutricao,fome,8.1,4.6764,0
 2024,guerra.conflitos,guerra,59.0,8.0272,0
 2024,guerra.gasto_militar,guerra,2.43770797021285,2.1872,0
 2024,guerra.mortes_conflito,guerra,2.2978184,5.2757,0
@@ -600,7 +600,7 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2025,conquista.incidentes,conquista,,8.0000,0
 2025,fome.fpi,fome,,6.0594,0
 2025,fome.pobreza,fome,10.1,1.4572,1
-2025,fome.subnutricao,fome,8.2,4.7599,1
+2025,fome.subnutricao,fome,7.8,4.4259,0
 2025,guerra.conflitos,guerra,65.0,8.8435,0
 2025,guerra.gasto_militar,guerra,2.47893026852095,2.4586,0
 2025,guerra.mortes_conflito,guerra,2.9795194,5.7129,0
@@ -612,12 +612,12 @@ ano,indicador,cavaleiro,valor,nota,estimado
 2025,morte.peste.mortes_infecciosas,morte,27.3660870888546,5.1333,1
 2025,morte.peste.vacinacao,morte,85.0,4.0000,0
 2026,conquista.compute,conquista,500000000000.0,8.1021,0
-2026,conquista.cves,conquista,107811.59999999999,9.6176,0
+2026,conquista.cves,conquista,107809.20000000001,9.6175,0
 2026,conquista.democracia,conquista,0.3717542,8.5046,1
 2026,conquista.incidentes,conquista,,8.0000,1
 2026,fome.fpi,fome,,6.4745,0
 2026,fome.pobreza,fome,10.1,1.4572,1
-2026,fome.subnutricao,fome,8.2,4.7599,1
+2026,fome.subnutricao,fome,7.8,4.4259,1
 2026,guerra.conflitos,guerra,65.0,8.8435,1
 2026,guerra.gasto_militar,guerra,2.47893026852095,2.4586,1
 2026,guerra.mortes_conflito,guerra,2.9795194,5.7129,1

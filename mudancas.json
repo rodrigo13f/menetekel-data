@@ -1,6 +1,33 @@
 {
-  "atualizado_em": "2026-11-24",
+  "atualizado_em": "2026-11-26",
   "eventos": [
+    {
+      "tipo": "dados",
+      "data": "2026-11-26",
+      "selos_antes": 3.91,
+      "selos_depois": 3.9,
+      "ano_setimo_selo_antes": 2065,
+      "ano_setimo_selo_depois": 2066,
+      "tendencia_antes": 0.116,
+      "tendencia_depois": 0.113,
+      "itens": [
+        {
+          "indicador": "conquista.cves",
+          "novos_periodos": 0,
+          "ultimo_periodo": null,
+          "correcoes": 2,
+          "cavaleiro": "conquista"
+        },
+        {
+          "indicador": "fome.subnutricao",
+          "novos_periodos": 1,
+          "ultimo_periodo": "2025-01-01",
+          "correcoes": 17,
+          "cavaleiro": "fome"
+        }
+      ],
+      "delta_selos": -0.01
+    },
     {
       "tipo": "metodologia",
       "data": "2026-11-24",

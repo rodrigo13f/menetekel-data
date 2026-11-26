@@ -16,15 +16,19 @@ Fontes:
 - Vulnerabilidades (CVEs) publicadas por mês, sem as rejeitadas: NVD (NIST) (Domínio público (governo dos EUA))
 - Índice de democracia liberal, média global (média simples entre países): V-Dem (via Our World in Data) (CC-BY 4.0)
 - Incidentes com IA reportados por ano (danos ou quase-danos causados por sistemas de IA): AI Incident Database, via AI Index (Stanford HAI) e Our World in Data (CC BY-ND 4.0 (AI Index)) — só a nota é publicada
+- Vulnerabilidades com exploração confirmada em ataques reais, incluídas por mês no catálogo KEV: CISA Known Exploited Vulnerabilities (CC0 1.0)
 - FAO Food Price Index real, mensal (2014-2016 = 100): FAO (CC-BY-NC-SA 3.0 IGO) — só a nota é publicada
 - Pobreza extrema (% da população mundial): Banco Mundial PIP (via WDI) (CC-BY 4.0)
 - Prevalência de subnutrição (% da população): FAO SOFI (via Our World in Data) (CC-BY 4.0 (OWID))
 - Conflitos estatais ativos: UCDP/PRIO (via Our World in Data) (CC-BY 4.0 (OWID))
+- Pessoas deslocadas à força por guerras, violência e perseguição (refugiados, solicitantes de asilo, refugiados palestinos e deslocados internos): ACNUR Refugee Data Finder (com UNRWA e IDMC) (CC-BY 4.0 (ACNUR))
 - Gasto militar mundial (% do PIB): SIPRI (via Banco Mundial, WDI) (CC-BY 4.0)
 - Mortes em conflitos armados por 100 mil habitantes: UCDP (via Our World in Data); ACLED para o ano corrente (CC-BY 4.0 (OWID))
 - Estoque mundial de ogivas nucleares: Federation of American Scientists (via Our World in Data) (CC-BY 4.0 (OWID))
 - Red List Index (1 = nenhuma espécie ameaçada): IUCN (via Our World in Data / ODS 15.5.1) (CC-BY 4.0 (OWID))
+- CO₂ na atmosfera, média mensal sem o ciclo das estações (ppm, Mauna Loa): NOAA Global Monitoring Laboratory e Scripps (Domínio público (governo dos EUA))
 - Pessoas afetadas por desastres naturais por ano (média móvel de 5 anos): EM-DAT (CRED/UCLouvain), via Our World in Data (Uso não comercial; sem redistribuição (EM-DAT)) — só a nota é publicada
+- Nível médio global do mar (mm, relativo à média 1993–2008): University of Hawaii Sea Level Center, via NOAA Climate.gov e Our World in Data (CC-BY 4.0 (OWID))
 - Anomalia de temperatura global, mensal (°C, relativa a 1951–1980): NASA GISTEMP v4 (Domínio público (governo dos EUA))
 - Emergências de saúde pública internacionais (PHEIC) ativas por dia, média do mês: OMS (cronologia curada em app/data/pheic.yaml) (Fato público)
 - Mortes por doenças transmissíveis, maternas, perinatais e nutricionais (% do total de mortes): OMS Global Health Estimates (via Banco Mundial, WDI) (CC-BY 4.0)

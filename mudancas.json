@@ -2,6 +2,18 @@
   "atualizado_em": "2026-11-26",
   "eventos": [
     {
+      "tipo": "metodologia",
+      "data": "2026-11-27",
+      "versao_antes": "1.1.0",
+      "versao_depois": "1.2.0",
+      "selos_antes": 3.9,
+      "selos_depois": 4.01,
+      "delta_selos": 0.11,
+      "ano_setimo_selo_antes": 2063,
+      "ano_setimo_selo_depois": 2063,
+      "itens": []
+    },
+    {
       "tipo": "dados",
       "data": "2026-11-26",
       "selos_antes": 3.91,

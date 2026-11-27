@@ -14,6 +14,11 @@
     "tipo": "desde_inicio",
     "ano": 1990
   },
+  "apresentacao": {
+    "pt": "No livro do Apocalipse, um rolo está fechado com sete selos. Ao abrir os quatro primeiros, saem quatro cavaleiros: Conquista, Guerra, Fome e Morte (Ap 6). Aqui, essa imagem é uma metáfora: os selos medem, com dados oficiais, o quanto o mundo se aproxima do colapso. Não é profecia.",
+    "en": "In the Book of Revelation, a scroll is sealed with seven seals. When the first four are opened, four horsemen ride out: Conquest, War, Famine and Death (Rev 6). Here that image is a metaphor: the seals measure, with official data, how close the world is to collapse. It is not a prophecy.",
+    "es": "En el libro del Apocalipsis, un rollo está cerrado con siete sellos. Al abrir los cuatro primeros, salen cuatro jinetes: Conquista, Guerra, Hambre y Muerte (Ap 6). Aquí esa imagen es una metáfora: los sellos miden, con datos oficiales, cuánto se acerca el mundo al colapso. No es una profecía."
+  },
   "resumo": {
     "pt": "O mundo melhorou de 1990 a 2013 e piora desde então: hoje está no pior nível da série. Quem mais pesa é a Conquista: inteligência artificial, cibersegurança e o recuo da democracia. Mas não está escrito: se o mundo voltasse ao ritmo de 1990–1999, os selos começariam a se fechar.",
     "en": "The world improved from 1990 to 2013 and has been getting worse since: today it is at the worst level of the series. Conquest weighs the most: artificial intelligence, cybersecurity and democratic backsliding. But it is not written: if the world returned to the pace of 1990–1999, the seals would begin to close.",
@@ -41,6 +46,16 @@
         "pt": "um novo selo se rompe a cada 12 anos",
         "en": "a new seal breaks every 12 years",
         "es": "un nuevo sello se rompe cada 12 años"
+      },
+      "titulo": {
+        "pt": "Ritmo atual (2022–2026)",
+        "en": "Current pace (2022–2026)",
+        "es": "Ritmo actual (2022–2026)"
+      },
+      "contexto": {
+        "pt": "o mundo está piorando",
+        "en": "the world is getting worse",
+        "es": "el mundo está empeorando"
       }
     },
     {
@@ -54,6 +69,16 @@
         "pt": "um novo selo se rompe a cada 29 anos",
         "en": "a new seal breaks every 29 years",
         "es": "un nuevo sello se rompe cada 29 años"
+      },
+      "titulo": {
+        "pt": "Se voltarmos ao ritmo de 2010–2019",
+        "en": "If we return to the pace of 2010–2019",
+        "es": "Si volvemos al ritmo de 2010–2019"
+      },
+      "contexto": {
+        "pt": "nesse período o mundo já piorava, mas mais devagar que hoje",
+        "en": "in that period the world was already getting worse, but more slowly than today",
+        "es": "en ese período el mundo ya empeoraba, pero más despacio que hoy"
       }
     },
     {
@@ -67,6 +92,16 @@
         "pt": "um selo volta a se fechar a cada 15 anos",
         "en": "a seal closes again every 15 years",
         "es": "un sello vuelve a cerrarse cada 15 años"
+      },
+      "titulo": {
+        "pt": "Se voltarmos ao ritmo de 1990–1999",
+        "en": "If we return to the pace of 1990–1999",
+        "es": "Si volvemos al ritmo de 1990–1999"
+      },
+      "contexto": {
+        "pt": "nesse período o mundo melhorava",
+        "en": "in that period the world was improving",
+        "es": "en ese período el mundo mejoraba"
       }
     }
   ],

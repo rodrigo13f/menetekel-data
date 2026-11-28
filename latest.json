@@ -236,6 +236,11 @@
       "nome": "Fronteira da IA — maior computação de treino já usada até o ano (petaFLOP)",
       "fonte": "Epoch AI (via Our World in Data)",
       "fonte_url": "https://epoch.ai/data/notable-ai-models",
+      "nome_curto": {
+        "pt": "Fronteira da IA (computação de treino)",
+        "en": "AI frontier (training compute)",
+        "es": "Frontera de la IA (cómputo de entrenamiento)"
+      },
       "licenca": "CC-BY 4.0",
       "peso": 0.5,
       "informativo": false,
@@ -284,6 +289,11 @@
       "nome": "Vulnerabilidades (CVEs) publicadas por mês, sem as rejeitadas",
       "fonte": "NVD (NIST)",
       "fonte_url": "https://nvd.nist.gov",
+      "nome_curto": {
+        "pt": "Vulnerabilidades de software registradas",
+        "en": "Recorded software vulnerabilities",
+        "es": "Vulnerabilidades de software registradas"
+      },
       "licenca": "Domínio público (governo dos EUA)",
       "peso": 0.5,
       "informativo": false,
@@ -345,6 +355,11 @@
       "nome": "Índice de democracia liberal, média global (média simples entre países)",
       "fonte": "V-Dem (via Our World in Data)",
       "fonte_url": "https://v-dem.net",
+      "nome_curto": {
+        "pt": "Democracia liberal no mundo",
+        "en": "Liberal democracy worldwide",
+        "es": "Democracia liberal en el mundo"
+      },
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
       "informativo": false,
@@ -392,6 +407,11 @@
       "nome": "Incidentes com IA reportados por ano (danos ou quase-danos causados por sistemas de IA)",
       "fonte": "AI Incident Database, via AI Index (Stanford HAI) e Our World in Data",
       "fonte_url": "https://incidentdatabase.ai",
+      "nome_curto": {
+        "pt": "Incidentes com IA",
+        "en": "AI incidents",
+        "es": "Incidentes con IA"
+      },
       "licenca": "CC BY-ND 4.0 (AI Index)",
       "peso": 0.5,
       "informativo": false,
@@ -434,6 +454,11 @@
       "nome": "Vulnerabilidades com exploração confirmada em ataques reais, incluídas por mês no catálogo KEV",
       "fonte": "CISA Known Exploited Vulnerabilities",
       "fonte_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "nome_curto": {
+        "pt": "Falhas de software exploradas em ataques reais",
+        "en": "Software flaws exploited in real attacks",
+        "es": "Fallas de software explotadas en ataques reales"
+      },
       "licenca": "CC0 1.0",
       "peso": 0.0,
       "informativo": true,
@@ -494,6 +519,11 @@
       "nome": "FAO Food Price Index real, mensal (2014-2016 = 100)",
       "fonte": "FAO",
       "fonte_url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+      "nome_curto": {
+        "pt": "Preço real dos alimentos",
+        "en": "Real food prices",
+        "es": "Precio real de los alimentos"
+      },
       "licenca": "CC-BY-NC-SA 3.0 IGO",
       "peso": 1.0,
       "informativo": false,
@@ -538,6 +568,11 @@
       "nome": "Pobreza extrema (% da população mundial)",
       "fonte": "Banco Mundial PIP (via WDI)",
       "fonte_url": "https://data.worldbank.org/indicator/SI.POV.DDAY",
+      "nome_curto": {
+        "pt": "Pobreza extrema",
+        "en": "Extreme poverty",
+        "es": "Pobreza extrema"
+      },
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
       "informativo": false,
@@ -585,6 +620,11 @@
       "nome": "Prevalência de subnutrição (% da população)",
       "fonte": "FAO SOFI (via Our World in Data)",
       "fonte_url": "https://www.fao.org/publications/sofi",
+      "nome_curto": {
+        "pt": "Subnutrição",
+        "en": "Undernourishment",
+        "es": "Subalimentación"
+      },
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
@@ -632,6 +672,11 @@
       "nome": "Conflitos estatais ativos",
       "fonte": "UCDP/PRIO (via Our World in Data)",
       "fonte_url": "https://ucdp.uu.se",
+      "nome_curto": {
+        "pt": "Conflitos armados ativos",
+        "en": "Active armed conflicts",
+        "es": "Conflictos armados activos"
+      },
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
@@ -679,6 +724,11 @@
       "nome": "Pessoas deslocadas à força por guerras, violência e perseguição (refugiados, solicitantes de asilo, refugiados palestinos e deslocados internos)",
       "fonte": "ACNUR Refugee Data Finder (com UNRWA e IDMC)",
       "fonte_url": "https://www.unhcr.org/refugee-statistics/",
+      "nome_curto": {
+        "pt": "Pessoas deslocadas à força",
+        "en": "Forcibly displaced people",
+        "es": "Personas desplazadas por la fuerza"
+      },
       "licenca": "CC-BY 4.0 (ACNUR)",
       "peso": 1.0,
       "informativo": false,
@@ -725,6 +775,11 @@
       "nome": "Gasto militar mundial (% do PIB)",
       "fonte": "SIPRI (via Banco Mundial, WDI)",
       "fonte_url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS",
+      "nome_curto": {
+        "pt": "Gasto militar mundial (% do PIB)",
+        "en": "Global military spending (% of GDP)",
+        "es": "Gasto militar mundial (% del PIB)"
+      },
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
       "informativo": false,
@@ -780,6 +835,11 @@
       "nome": "Mortes em conflitos armados por 100 mil habitantes",
       "fonte": "UCDP (via Our World in Data); ACLED para o ano corrente",
       "fonte_url": "https://ucdp.uu.se",
+      "nome_curto": {
+        "pt": "Mortes em conflitos armados",
+        "en": "Deaths in armed conflicts",
+        "es": "Muertes en conflictos armados"
+      },
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
@@ -828,6 +888,11 @@
       "nome": "Estoque mundial de ogivas nucleares",
       "fonte": "Federation of American Scientists (via Our World in Data)",
       "fonte_url": "https://fas.org/initiative/status-world-nuclear-forces/",
+      "nome_curto": {
+        "pt": "Ogivas nucleares",
+        "en": "Nuclear warheads",
+        "es": "Ojivas nucleares"
+      },
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
@@ -874,6 +939,11 @@
       "nome": "Red List Index (1 = nenhuma espécie ameaçada)",
       "fonte": "IUCN (via Our World in Data / ODS 15.5.1)",
       "fonte_url": "https://www.iucnredlist.org",
+      "nome_curto": {
+        "pt": "Espécies ameaçadas (Red List Index)",
+        "en": "Threatened species (Red List Index)",
+        "es": "Especies amenazadas (Red List Index)"
+      },
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
@@ -921,6 +991,11 @@
       "nome": "CO₂ na atmosfera, média mensal sem o ciclo das estações (ppm, Mauna Loa)",
       "fonte": "NOAA Global Monitoring Laboratory e Scripps",
       "fonte_url": "https://gml.noaa.gov/ccgg/trends/",
+      "nome_curto": {
+        "pt": "CO₂ na atmosfera",
+        "en": "CO₂ in the atmosphere",
+        "es": "CO₂ en la atmósfera"
+      },
       "licenca": "Domínio público (governo dos EUA)",
       "peso": 0.5,
       "informativo": false,
@@ -973,6 +1048,11 @@
       "nome": "Pessoas afetadas por desastres naturais por ano (média móvel de 5 anos)",
       "fonte": "EM-DAT (CRED/UCLouvain), via Our World in Data",
       "fonte_url": "https://www.emdat.be",
+      "nome_curto": {
+        "pt": "Pessoas afetadas por desastres",
+        "en": "People affected by disasters",
+        "es": "Personas afectadas por desastres"
+      },
       "licenca": "Uso não comercial; sem redistribuição (EM-DAT)",
       "peso": 0.0,
       "informativo": true,
@@ -1014,6 +1094,11 @@
       "nome": "Nível médio global do mar medido por satélite, média mensal sem o ciclo das estações (mm, relativo à média 1993–2008)",
       "fonte": "NOAA Laboratory for Satellite Altimetry (TOPEX/Poseidon, Jason-1/2/3, Sentinel-6MF)",
       "fonte_url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+      "nome_curto": {
+        "pt": "Nível médio do mar",
+        "en": "Global mean sea level",
+        "es": "Nivel medio del mar"
+      },
       "licenca": "Uso livre com crédito (\"Altimetry data are provided by NOAA Laboratory for Satellite Altimetry.\")",
       "peso": 0.5,
       "informativo": false,
@@ -1062,6 +1147,11 @@
       "nome": "Anomalia de temperatura global, mensal (°C, relativa a 1951–1980)",
       "fonte": "NASA GISTEMP v4",
       "fonte_url": "https://data.giss.nasa.gov/gistemp/",
+      "nome_curto": {
+        "pt": "Aquecimento global",
+        "en": "Global warming",
+        "es": "Calentamiento global"
+      },
       "licenca": "Domínio público (governo dos EUA)",
       "peso": 1.0,
       "informativo": false,
@@ -1113,6 +1203,11 @@
       "nome": "Emergências de saúde pública internacionais (PHEIC) ativas por dia, média do mês",
       "fonte": "OMS (cronologia curada em app/data/pheic.yaml)",
       "fonte_url": "https://www.who.int/emergencies/ihr-emergency-committees",
+      "nome_curto": {
+        "pt": "Emergências de saúde pública internacionais",
+        "en": "International public health emergencies",
+        "es": "Emergencias de salud pública internacionales"
+      },
       "licenca": "Fato público",
       "peso": 1.0,
       "informativo": false,
@@ -1164,6 +1259,11 @@
       "nome": "Mortes por doenças transmissíveis, maternas, perinatais e nutricionais (% do total de mortes)",
       "fonte": "OMS Global Health Estimates (via Banco Mundial, WDI)",
       "fonte_url": "https://data.worldbank.org/indicator/SH.DTH.COMM.ZS",
+      "nome_curto": {
+        "pt": "Mortes por doenças transmissíveis",
+        "en": "Deaths from communicable diseases",
+        "es": "Muertes por enfermedades transmisibles"
+      },
       "licenca": "CC-BY 4.0",
       "peso": 1.0,
       "informativo": false,
@@ -1219,6 +1319,11 @@
       "nome": "Cobertura vacinal DTP3 global (%)",
       "fonte": "WHO/UNICEF WUENIC (via Our World in Data)",
       "fonte_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/immunization-coverage/who-unicef-estimates-of-national-immunization-coverage",
+      "nome_curto": {
+        "pt": "Cobertura vacinal infantil",
+        "en": "Childhood vaccination coverage",
+        "es": "Cobertura de vacunación infantil"
+      },
       "licenca": "CC-BY 4.0 (OWID)",
       "peso": 1.0,
       "informativo": false,
